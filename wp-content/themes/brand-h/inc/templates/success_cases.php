@@ -16,8 +16,8 @@
         </div>
 
         <div class="flex justify-center flex-wrap w-8/12 lg:w-5/12 lg:text-3xl">
-            <button id="choleithiasis_button" onclick="success_cases_popup()"
-                class="button-12 relative flex items-center justify-center content-center bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-3 lg:py-3 border border-blue-500 hover:border-transparent rounded-full m-2 min-w-full">
+        <button id="choleithiasis_button"
+                class="relative flex items-center justify-center content-center bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-3 lg:py-3 border border-blue-500 hover:border-transparent rounded-full m-2 min-w-full">
                 Choleithiasis
                 <svg class="w-10 lg:w-10 absolute right-0 mr-5 lg:mr-5" viewBox="0 0 640 512" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -67,11 +67,17 @@
     </div> -->
 
     <div id="successCase_popup_bg" class="fixed w-screen h-screen top-0 right-0 z-40 hidden" style="background-color: rgba(0, 0, 0, 0.6);"></div>
-    <div id="successCase_popup" class="hide_scrollBar w-full sm:w-1/2 md:w-2/5 fixed top-0 z-50 p-10 pt-20 bg-white overflow-auto hidden" style="max-width: 635px;height: 70vh; background-image: url(<?php bloginfo('template_directory') ?>/img/static/chart2.png);background-repeat: no-repeat;background-size:100% 100%;top:50%; left: 50%; transform: translate(-50%, -50%);">
+    <div id="successCase_popup" class=" w-full sm:w-1/2 md:w-2/3 fixed top-0 z-50 p-4 pt-16 bg-white overflow-hidden  hidden" style="max-width: 635px;height: 70vh;top:50%; left: 50%; transform: translate(-50%, -50%);">
             <!-- PopUp Content goes here. -->
-           <div class="m-10">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, nemo? Architecto beatae velit natus, molestias eius mollitia soluta a perspiciatis recusandae accusantium reiciendis temporibus culpa! Commodi similique natus consequuntur molestiae.
-               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque dolores illo architecto ullam unde molestias perspiciatis facilis molestiae labore, natus voluptate ratione iure corrupti blanditiis maiores earum! Magnam dolores earum accusamus ex ut reiciendis, similique impedit atque perspiciatis deserunt temporibus. Enim autem, sunt ullam voluptate adipisci tempora laboriosam architecto optio suscipit necessitatibus hic nam distinctio ipsam quam eligendi exercitationem pariatur debitis quia rem incidunt ad unde molestiae eius. Fuga rerum id quo porro alias? Dolorem voluptatibus debitis, accusamus, cum ipsam doloribus at eum itaque alias ipsum quos possimus illum officiis quam? Quidem aut, dolorum labore tenetur quaerat eaque nobis at ab quae eius. Tenetur vitae nostrum perspiciatis consequatur cupiditate recusandae neque fugit beatae odio laudantium esse eum incidunt facere, accusamus delectus alias ipsam maiores dolorum minima quae itaque error dicta. Eligendi quod earum porro nihil quos laboriosam sint ipsum expedita quam odit esse voluptates tempore et consectetur laudantium, molestias facilis quas voluptatem deleniti! Neque asperiores ab porro suscipit cupiditate maxime earum voluptatibus laudantium eveniet. Vel, corporis! Sed nemo provident magnam quo id vitae quae error minus velit, at culpa pariatur numquam perferendis, eveniet est temporibus architecto facilis optio hic suscipit accusamus cumque sint? Nesciunt consectetur excepturi laboriosam magni modi ad impedit temporibus ut accusantium aspernatur esse maiores corrupti perferendis, explicabo dolorem totam blanditiis sunt, quam dicta sint. Error, minima. Nulla eos ipsum ea officia explicabo distinctio facilis illo error? Ad provident aspernatur corrupti magni, nihil perferendis fuga cupiditate doloremque aperiam reiciendis, sapiente accusantium eveniet rem? Quam sequi eveniet maxime blanditiis dolorem quidem quia, impedit, enim neque possimus suscipit saepe veniam labore delectus debitis illo aspernatur beatae excepturi iusto? Esse beatae officiis sed quod nam. Consectetur ipsam incidunt est nobis autem maxime natus fugit ipsum optio alias hic dolore quidem velit delectus, omnis dolor commodi, architecto distinctio! Laborum, quam facere blanditiis eaque amet eos, enim mollitia dicta veniam, veritatis a dignissimos velit. Nobis, magnam a. Voluptatem nam error, placeat est tempora quos saepe deleniti mollitia quo, id, ut nisi? Possimus sint explicabo enim facere tempore expedita voluptatum, harum, aperiam provident dolor amet error repudiandae ipsam magnam officia pariatur sunt beatae, fugit molestiae ducimus optio magni. Eveniet, voluptates similique. Veniam possimus corporis iste? Rerum veniam sunt soluta laborum esse similique corporis ex debitis fugit nemo aspernatur odit architecto assumenda amet numquam et libero modi voluptatibus sed quae voluptates laudantium, earum ut vero? Quasi, quidem harum expedita libero unde exercitationem nostrum explicabo est.
+            <img class="absolute top-0 left-0 w-full h-full z-40" src="<?php bloginfo('template_directory') ?>/img/static/chart2.png" alt="" style="pointer-events:none">
+           <div class="w-full h-full overflow-auto hide_scrollBar" style="height:95%"> 
+               <img src="<?php bloginfo('template_directory') ?>/img/case/case-01.jpg" alt="">
+               <img src="<?php bloginfo('template_directory') ?>/img/case/case-02.jpg" alt="">
+               <img src="<?php bloginfo('template_directory') ?>/img/case/case-03.jpg" alt="">
+               <img src="<?php bloginfo('template_directory') ?>/img/case/case-04.jpg" alt="">
+               <img src="<?php bloginfo('template_directory') ?>/img/case/case-05.jpg" alt="">
+               <img src="<?php bloginfo('template_directory') ?>/img/case/case-06.jpg" alt="">
+               <img src="<?php bloginfo('template_directory') ?>/img/case/case-07.jpg" alt="">
            </div>
     </div>
     <script>

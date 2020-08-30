@@ -1394,6 +1394,8 @@ transform: translateY(-8px);
 }
 
 
+
+
 @media only screen and (max-width:500px) {
   .chartTrigCont button {width: 14em!important;
   height: 14em!important;
@@ -1427,6 +1429,13 @@ transform: translateY(-8px);
   .content-check-hospital{
     left:8%!important;
   }
+  .content-affiliate{
+    height: 45%;
+    flex:40%;
+  }
+  .content-affiliate-avatar{
+    top:40%;
+  }
 }
   
   @media only screen and (min-width: 635px) { /* desktop */
@@ -1450,6 +1459,13 @@ transform: translateY(-8px);
     }
     .content-check-hospital{
       left:23%!important;
+    }
+    .content-affiliate{
+      height: 45%;
+      flex:80%;
+    }
+    .content-affiliate-avatar{
+      top:52%;
     }
   }
   

@@ -26,6 +26,7 @@
 	<!-- Divider (end) -->
 
 	<!-- Form (start) -->
+	
 	<?php echo do_shortcode("[brand-h-form]"); ?>
 	<!-- Form (end) -->
 </section>

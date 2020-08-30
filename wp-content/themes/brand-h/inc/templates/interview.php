@@ -13,24 +13,28 @@
       </div>
     
   </div>
-  <div class="w-full mb-32 ">
+  <div class="w-full mb-0 ">
     <h2 class="font-bold text-center px-6 font-size-24 leading-relaxed " style="font-size:22px">
 	Please listen to patients who have been cared for by Himedi.
     </h2>
   </div>
   
 	<!-- Main slider (start) -->
-	<div class="swiper-container" style="height:10vh">
+	<div class="swiper-container" style="height:70vh">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper mt-1 h-full">
                 <!-- Slides -->
-                <div class="swiper-slide h-full w-full flex justify-center content-end  flex-row flex-wrap pb-12">
+
+
+                <div class="swiper-slide h-full w-full flex justify-center content-end  flex-row flex-wrap pb-12" style="top:0px!important;">
 					<div class="px-3 overflow-auto hide_scrollBar" style="max-height:49%; margin-bottom:1%;">
-						<img width="25" height="25" src="<?php bloginfo('template_directory') ?>/img/main-review.png" alt="" />
-						<div class="italic text-3xl text-gray-700 pt-4 px-8 text-gray-700 text-left font-size-24 leading-none" style="font-size:20px; line-height:1.4;">
+						<svg class="mb-12 h-8 text-gray-500" viewBox="0 0 512 448" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M464 224H384V160C384 124.7 412.7 96 448 96H456C469.3 96 480 85.3 480 72V24C480 10.7 469.3 0 456 0H448C359.6 0 288 71.6 288 160V400C288 426.5 309.5 448 336 448H464C490.5 448 512 426.5 512 400V272C512 245.5 490.5 224 464 224ZM176 224H96V160C96 124.7 124.7 96 160 96H168C181.3 96 192 85.3 192 72V24C192 10.7 181.3 0 168 0H160C71.6 0 0 71.6 0 160V400C0 426.5 21.5 448 48 448H176C202.5 448 224 426.5 224 400V272C224 245.5 202.5 224 176 224Z" fill="currentcolor"/>
+						</svg>						
+						<div class="italic text-3xl text-gray-700 pt-4 px-8 text-gray-700 text-left font-size-24 font-roboto leading-none" style="font-size:20px">
 							Regarding Himedi, to be honest, they did all their best for us, starting from the airport where they greeted us in a friendly manner to recommending the best hotels in Seoul for us. They took care of everything, especially hospital recommendations, recommending one of the best hospitals in Seoul that is specialized in cancer treatments.
 						</div>	
-						<div class="mt-10 text-gray-500 mb-32 italic font-size-24 leading-none" style="font-size:20px">
+						<div class="mt-10 text-gray-500 mb-4 italic font-size-24 font-roboto leading-none" style="font-size:20px">
 							Yousif
 						</div>
 					</div>
@@ -43,13 +47,13 @@
 								frameborder="0" allowfullscreen> -->
 					</a>
                 </div>
-                <div class="swiper-slide h-full w-full flex justify-center content-end  flex-row flex-wrap pb-12">
+                <div class="swiper-slide h-full w-full flex justify-center content-end  flex-row flex-wrap pb-12" style="top:0px!important;">
 							<div class="px-3 overflow-auto hide_scrollBar" style="max-height:49%; margin-bottom:1%;">
 								<svg class="mb-12 h-8 text-gray-500" viewBox="0 0 512 448" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M464 224H384V160C384 124.7 412.7 96 448 96H456C469.3 96 480 85.3 480 72V24C480 10.7 469.3 0 456 0H448C359.6 0 288 71.6 288 160V400C288 426.5 309.5 448 336 448H464C490.5 448 512 426.5 512 400V272C512 245.5 490.5 224 464 224ZM176 224H96V160C96 124.7 124.7 96 160 96H168C181.3 96 192 85.3 192 72V24C192 10.7 181.3 0 168 0H160C71.6 0 0 71.6 0 160V400C0 426.5 21.5 448 48 448H176C202.5 448 224 426.5 224 400V272C224 245.5 202.5 224 176 224Z" fill="currentcolor"/>
 								</svg>
 
-								<div class="italic text-3xl text-gray-700 pt-4 px-8 text-gray-700 text-left font-size-24 leading-none" style="font-size:20px; line-height:1.4;">
+								<div class="italic text-3xl text-gray-700 pt-4 px-8 text-gray-700 text-left font-size-24 font-roboto leading-none" style="font-size:20px">
 									Frankly, Everything they provide is good, including organizing and all what they do is just well provided.
 								</div>	
 								<div class="mt-10 text-gray-500 mb-4 italic text-3xl">
@@ -58,7 +62,7 @@
 							</div>
 				          <a class="self-end overflow-hidden" style="max-height:50%;" href="https://youtu.be/DXg_vmpIlmE"><img src="<?php bloginfo('template_directory') ?>/img/interview2.jpg" width="632px" height="348px" alt=""></a>
                 </div>
-                <div class="swiper-slide h-full w-full flex justify-center content-end  flex-row flex-wrap pb-12">
+                <div class="swiper-slide h-full w-full flex justify-center content-end  flex-row flex-wrap pb-12" style="top:0px!important;">
 							<div class="px-3 overflow-auto hide_scrollBar" style="max-height:49%; margin-bottom:1%;">
 								<svg class="mb-12 h-8 text-gray-500" viewBox="0 0 512 448" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M464 224H384V160C384 124.7 412.7 96 448 96H456C469.3 96 480 85.3 480 72V24C480 10.7 469.3 0 456 0H448C359.6 0 288 71.6 288 160V400C288 426.5 309.5 448 336 448H464C490.5 448 512 426.5 512 400V272C512 245.5 490.5 224 464 224ZM176 224H96V160C96 124.7 124.7 96 160 96H168C181.3 96 192 85.3 192 72V24C192 10.7 181.3 0 168 0H160C71.6 0 0 71.6 0 160V400C0 426.5 21.5 448 48 448H176C202.5 448 224 426.5 224 400V272C224 245.5 202.5 224 176 224Z" fill="currentcolor"/>
@@ -73,13 +77,13 @@
 							</div>
 				          <a class="self-end overflow-hidden" style="max-height:50%;" href="https://youtu.be/IaoksqOG9eo?t=44"><img src="<?php bloginfo('template_directory') ?>/img/interview3.jpg" width="632px" height="348px" alt=""></a>
                 </div>
-				<div class="swiper-slide h-full w-full flex justify-center content-end flex-row flex-wrap pb-12">
+				<div class="swiper-slide h-full w-full flex justify-center content-end  flex-row flex-wrap pb-12" style="top:0px!important;">
 							<div class="px-3 overflow-auto hide_scrollBar" style="max-height:49%; margin-bottom:1%;">
 								<svg class="mb-12 h-8 text-gray-500" viewBox="0 0 512 448" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M464 224H384V160C384 124.7 412.7 96 448 96H456C469.3 96 480 85.3 480 72V24C480 10.7 469.3 0 456 0H448C359.6 0 288 71.6 288 160V400C288 426.5 309.5 448 336 448H464C490.5 448 512 426.5 512 400V272C512 245.5 490.5 224 464 224ZM176 224H96V160C96 124.7 124.7 96 160 96H168C181.3 96 192 85.3 192 72V24C192 10.7 181.3 0 168 0H160C71.6 0 0 71.6 0 160V400C0 426.5 21.5 448 48 448H176C202.5 448 224 426.5 224 400V272C224 245.5 202.5 224 176 224Z" fill="currentcolor"/>
 								</svg>
 
-								<div class="italic text-3xl text-gray-700 pt-4 px-8 text-gray-700 text-left font-size-24 leading-none" style="font-size:20px; line-height:1.4;">
+								<div class="italic text-3xl text-gray-700 pt-4 px-8 text-gray-700 text-left font-size-24 font-roboto leading-none" style="font-size:20px">
 									Himedi is a specialized company, I am glad that I had the opportunity of getting to know it. When we came in Seoul we were able to experience its services all. Those who work there, they can speak Arabic and English very well, and I just felt as if I am in my homeland.
 								</div>	
 								<div class="mt-10 text-gray-500 mb-4 italic font-size-24 font-roboto leading-none" style="font-size:20px">
