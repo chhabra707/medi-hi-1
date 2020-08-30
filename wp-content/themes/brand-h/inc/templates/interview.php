@@ -105,9 +105,58 @@
             <div class="swiper-scrollbar"></div>
         </div>
         <!-- Main slider (end) -->
-    
-		
-	
 
   </div>
+
+
+  <!-- <div class="flex flex-wrap w-screen h-screen justify-center relative"> -->
+  <!-- <div id="successCase_popup_bg" class="flex flex-col items-center p-4 m-4 sm:p-10 fixed hidden z-40 " style="max-width: 635px; height: 60vh; background-color: white; top: 50%;transform: translateY(-50%); max-height:100vh"></div>	  
+        <div class="w-full flex flex-row flex-wrap"  style="max-width: 635px;">
+            <p class="italic text-3xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit praesentium, maiores neque, quisquam nisi tenetur distinctio recusandae modi perferendis accusantium cupiditate aliquid cumque aut omnis repellat, commodi esse porro quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi itaque quae reprehenderit harum.</p>
+            <img id="yt_thumbnail" class="self-end w-full cursor-pointer" alt="" >
+            
+        </div>
+        <iframe id="yt_video_popup" class="absolute w-full h-1/2 hidden z-40" height="500" style="max-width: 635px;top:50%; transform: translateY(-50%);"  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <div id="yt_video_popup_bg" class="absolute w-screen h-screen top-0 right-0 z-20 hidden" style="background-color: rgba(0, 0, 0, 0.3);"></div>
+    </div> -->
+
+
+
 <!-- Section 3-4 (end) -->
+<script>
+	const popUpBgElement = document.getElementById("yt_video_popup_bg");
+	const popUpElement = document.getElementById("yt_video_popup");
+	const ytThumbnail = document.getElementById("yt_thumbnail");
+	const videoID = 'rIoi3lsV34M'
+	const videoUrl = `https://www.youtube.com/embed/${videoID}?enablejsapi=1`;
+	const videoThumbnailUrl = `https://img.youtube.com/vi/${videoID}/hqdefault.jpg`;
+
+
+	let isPopUpShowing = false;
+	popUpElement.src = videoUrl;
+	ytThumbnail.src = videoThumbnailUrl;
+
+	const toggleVideo = (state) => {
+		let func = state == 'hide' ? 'pauseVideo' : 'playVideo';
+		console.log(func);
+		popUpElement.contentWindow.postMessage('{"event":"command","func":"' + func + '","args":""}', '*');
+	}
+
+	const popUpHandeler = ()=>{
+		isPopUpShowing = !isPopUpShowing;
+		if(isPopUpShowing){
+			popUpBgElement.classList.remove("hidden");
+			popUpElement.classList.remove("hidden");
+			toggleVideo('play')
+		}else{
+			popUpBgElement.classList.add("hidden");
+			popUpElement.classList.add("hidden");
+			toggleVideo('hide')
+		}
+	}
+
+	//** Events */
+	ytThumbnail.addEventListener('click', popUpHandeler);
+	popUpBgElement.addEventListener('click', popUpHandeler);	
+</script>

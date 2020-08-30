@@ -365,6 +365,9 @@
 			</div>
 		</div>
 	</form>
-	<!-- Form (end) -->
+  <!-- Form (end) -->
+  
+  <?php echo do_shortcode("[brand-h-form]"); ?>
+
 </section>
 <!-- Section 4 (end) -->
