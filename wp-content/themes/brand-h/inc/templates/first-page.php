@@ -114,7 +114,7 @@
 		</div>
 		<div class="medi_graph flex flex-col justify-center  flex-wrap hidden" style="max-height: 450px;">
 			<p class="pt-4 px-2  text-gray-700 text-center font-noto-regular leading-none" style="font-size:20px;">
-				Medical expenses for serious illnesses in <br class="lg:hidden"><b>Germany VS Korea</b>
+				Medical expenses for serious illnesses in<br> <b>Germany VS Korea</b>
 			</p>
 
       <div id="chart_3_cont" class="flex-auto flex flex-wrap mx-10 w-full" style="max-width: 635px;">
@@ -191,13 +191,15 @@
 	<!-- Sponsor (end) -->
 
 	<!-- Button (start) -->
-	<a href="/interview/">
-    <button class="hover:bg-blue-500 bg-brand text-white lg:w-1/2 w-12/12 mx-auto px-5 py-5 lg:px-0 mt-10 text-xs hover:bg-blue-500" style="border-radius:5px; background-color:#2681f3; border-color: #2681f3; font-size:16px; padding:10px 40px;">
-		Check Success Story
-	  </button>
-  </a>
-	<!-- Button (end) -->
+  <div class="flex justify-center">
+    <button class="bg-brand text-white lg:w-1/2 w-12/12 mx-auto px-5 py-5 lg:px-0 mt-10 text-xs hover:bg-blue-500" style="border-radius:5px; border-color: #2681f3; font-size:16px; padding:10px 40px;">
+      <a href="/interview" style="color:white!important;" class="">Check Success Story</a>
+    </button>
+  </div>
 
+  
+
+	<!-- Button (end) -->
 </section>
 <!-- Section 3 (end) -->
 
