@@ -413,7 +413,7 @@ body.home.page-template-default.page.page-id-5.logged-in.admin-bar.customize-sup
 							<div style="position:relative">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/sidebar-1.jpg" style="position:absolute;top:0px">
 								<div style="position:absolute;top:10px">
-									<div class="mt-3 ml-5">HIMEDE STROY</div>
+									<div class="mt-3 ml-5">HIMEDI STORY</div>
 									<div class="ml-5 text-sm">As a complex medical service platform</div>								
 									<div class="ml-10 mt-2 text-sm text-gray-500">More > </div>
 								</div>	

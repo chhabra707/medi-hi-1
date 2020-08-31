@@ -170,7 +170,7 @@
 		</p>
 	</div>
 	<p class="lg:pt-24 pt-10 px-5 sub-title-1-c">
-		You can reserve six world-class hospitals and other great hospitals.<br>(World\'s best 100 hospitals, April 2020 Newsweek)
+		You can reserve six world-class hospitals and other great hospitals.<br>(World's best 100 hospitals, April 2020 Newsweek)
 	</p>
 	<!-- Content (end) -->
 
@@ -305,7 +305,7 @@
   <!-- Button (start) -->
   <div class="flex justify-center">
     <button class="bg-brand px-5 py-5 text-white w-7/12 lg:w-4/12 mx-auto mt-10 mb-20 font-size-24 hover:bg-blue-500" style="border-radius:10px; font-size:16px; padding:10px 40px;">
-      <a href style="color:white!important;" class="">Check hospitals</a>
+      <a href="/affiliate" style="color:white!important;" class="">Check hospitals</a>
     </button>
   </div>
 	<!-- Button (end) -->
