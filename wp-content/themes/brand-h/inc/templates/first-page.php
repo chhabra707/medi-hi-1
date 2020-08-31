@@ -9,6 +9,9 @@
 
 ?>
 <article id="post-<?php the_ID();?>" <?php post_class();?>>
+<style type="text/css" scoped>
+    html { scroll-behavior: smooth; } 
+</style>
  <!-- Section 1 (start) -->
  <section class="text-justify">
         <!-- Main slider (start) -->
@@ -73,8 +76,8 @@
         </div>
 		<!-- Content (end) -->
 		
-		<!-- Arrow icon (start) -->
-        <a href="#section3">
+		<!-- Arrow icon (start) section3 -->
+        <a href="#graphs">
           <img class="mx-auto lg:pt-0 pt-40 pb-40 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
         </a>
 		<!-- Arrow icon (end) -->

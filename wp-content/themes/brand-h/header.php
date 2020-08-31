@@ -27,9 +27,10 @@
 	<style>
 	
 	@font-face {
-    font-family: 'noto_sanslight';
+		
+    /* font-family: 'noto_sanslight'; # no have any more 
     src: url('<?php bloginfo('template_directory') ?>/fonts/notosans-light.woff2') format('woff2'),
-         url('<?php bloginfo('template_directory') ?>/fonts/notosans-light.woff') format('woff');
+         url('<?php bloginfo('template_directory') ?>/fonts/notosans-light.woff') format('woff'); */
     font-weight: normal;
     font-style: normal;
 
