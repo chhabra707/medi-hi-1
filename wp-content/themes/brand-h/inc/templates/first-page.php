@@ -42,7 +42,22 @@
         <!-- Content (start) -->
         <div class="lg:mt-10 mt-10 lg:mb-24 mb-0 lg:p-10 p-2">
             <h2 class="px-8 text-left font-size-24 leading-relaxed " style="font-size:25px; color:rgba(0,0,0,.8); line-height: 1.3em;">
-				Himedi meets doctors of <strong>first-class</strong> hospitals in Korea on behalf of you.
+              <?php 
+                if(ICL_LANGUAGE_CODE == 'en'){ 
+                    echo 'Himedi meets doctors of ';
+                } 
+                elseif(ICL_LANGUAGE_CODE == 'ru') { 
+                    echo 'Himedi (Хаймеди) встретится от';
+                }
+                elseif(ICL_LANGUAGE_CODE == 'mo') { 
+                  echo 'Himedi таны өмнөөс';
+                }
+                elseif(ICL_LANGUAGE_CODE == 'ar') { 
+                  echo 'هاي ميدي';
+                }
+                ?>
+                
+                <strong>first-class</strong> hospitals in Korea on behalf of you.
             </h2>
             <p class="pt-4 px-8 text-gray-700 text-left font-size-24 leading-none" style="font-size:20px; font-weight:400; line-height:1.2;color:rgba(0,0,0,.5)!important">
 				We lead you to world-best medical staff<br class="br-hidden"> and best remedies.
@@ -167,7 +182,7 @@
 		</p>
 	</div>
 	<p class="lg:pt-24 pt-10 px-5 sub-title-1-c">
-		You can reserve six world-class hospitals and other great hospitals.<br>(World\'s best 100 hospitals, April 2020 Newsweek)
+		You can reserve six world-class hospitals and other great hospitals.<br>(World's best 100 hospitals, April 2020 Newsweek)
 	</p>
 	<!-- Content (end) -->
 
@@ -302,7 +317,7 @@
   <!-- Button (start) -->
   <div class="flex justify-center">
     <button class="bg-brand px-5 py-5 text-white w-7/12 lg:w-4/12 mx-auto mt-10 mb-20 font-size-24 hover:bg-blue-500" style="border-radius:10px; font-size:16px; padding:10px 40px;">
-      <a href style="color:white!important;" class="">Check hospitals</a>
+      <a href="/affiliate" style="color:white!important;" class="">Check hospitals</a>
     </button>
   </div>
 	<!-- Button (end) -->

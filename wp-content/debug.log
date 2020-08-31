@@ -1,0 +1,5 @@
+[31-Aug-2020 03:15:15 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/ryancho/work/medi-hi-master/wp-content/themes/brand-h/inc/templates/first-page.php on line 48
+[31-Aug-2020 03:15:16 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/ryancho/work/medi-hi-master/wp-content/themes/brand-h/inc/templates/first-page.php on line 48
+[31-Aug-2020 03:24:36 UTC] PHP Warning:  Error while sending QUERY packet. PID=34241 in /Users/ryancho/work/medi-hi-master/wp-includes/wp-db.php on line 792
+[31-Aug-2020 03:24:36 UTC] PHP Warning:  mysqli_set_charset(): Error executing query in /Users/ryancho/work/medi-hi-master/wp-includes/wp-db.php on line 792
+[31-Aug-2020 03:26:37 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/ryancho/work/medi-hi-master/wp-includes/wp-db.php on line 1626
