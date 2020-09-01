@@ -11,19 +11,19 @@
 <footer class="text-center mt-20 font-noto-regular">
 
 
-<div class="text-2xl mb-5  ">
+<!-- <div class="text-2xl mb-5  ">
 <a href="https://himedi.com/en?terms=true" class="text-gray-600 font-bold "style="font-size:14px;">Terms of Use</a> .
 <a href="https://himedi.com/en?privacy=true" class="text-gray-600 font-bold" style="font-size:14px;">Privacy Policy</a>
-</div>
+</div> -->
 
 
 <p class="text-gray-500 px-20 " style="font-size:13px">
-10, Anson Road, #34-10, International Plaza, Singapore 079903
+	10, Anson Road, #34-10, International Plaza, Singapore 079903
 </p>
 
 
 <p class="text-gray-500 mt-8 mb-16">
-&copy; HIMEDI SEA PTE. LTD.
+&copy; HIMEDI PTE. LTD.
 </p>
 
 </footer>
