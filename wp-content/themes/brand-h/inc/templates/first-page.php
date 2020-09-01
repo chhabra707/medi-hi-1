@@ -45,10 +45,40 @@
         <!-- Content (start) -->
         <div class="lg:mt-10 mt-10 lg:mb-24 mb-0 lg:p-10 p-2">
             <h2 class="px-8 text-left font-size-24 leading-relaxed " style="font-size:25px; color:rgba(0,0,0,.8); line-height: 1.3em;">
-				Himedi meets doctors of <strong>first-class</strong> hospitals in Korea on behalf of you.
+				
+            <?php 
+                if(ICL_LANGUAGE_CODE == 'en'){ 
+                    echo 'Himedi meets doctors of <strong>first-class</strong> hospitals in Korea on behalf of you';
+                } 
+                elseif(ICL_LANGUAGE_CODE == 'ru') { 
+                    echo 'Himedi (Хаймеди) встретится от <strong>вашего имени</strong> с врачами первоклассных больниц Кореи';
+                } 
+                elseif(ICL_LANGUAGE_CODE == 'mn') { 
+                    echo 'Himedi таны өмнөөс Солонгосын нэгдүгээр зэрэглэлийн эмнэлэгүүдийн эмч нартай уулзах болно';
+                } 
+                elseif(ICL_LANGUAGE_CODE == 'ar') { 
+                    echo ' ستلتقي بأطباء مستشفيات من الدرجة الأولى في كوريا نيابة عنك';
+                }
+            ?>
+
             </h2>
             <p class="pt-4 px-8 text-gray-700 text-left font-size-24 leading-none" style="font-size:20px; font-weight:400; line-height:1.2;color:rgba(0,0,0,.5)!important">
-				We lead you to world-best medical staff<br class="br-hidden"> and best remedies.
+              <?php 
+                  if(ICL_LANGUAGE_CODE == 'en'){ 
+                      echo 'We lead you to world-best medical staff<br class="br-hidden"> and best remedies';
+                  } 
+                  elseif(ICL_LANGUAGE_CODE == 'ru') { 
+                      echo 'Вы найдете лучший медицинский персонал и лучшие методы лечения в мире';
+                  } 
+                  elseif(ICL_LANGUAGE_CODE == 'mn') { 
+                      echo 'Бид таныг дэлхийн шилдэг эмнэлэгийн ажилчид болон хамгийн сайн эмчлэх арга замруу чиглүүлнэ';
+                  } 
+                  elseif(ICL_LANGUAGE_CODE == 'ar') { 
+                      echo 'سنقودك إلى أفضل طاقم طبي على مستوى العالم وأفضل العلاجات';
+                  }
+              ?>
+
+              
             </p>
         </div>
         <!-- Content (end) -->
@@ -68,10 +98,38 @@
 	  </div>
 	  <div class="lg:mt-10 mt-10 lg:mb-24 mb-0 lg:p-10 p-2">
 	  	<h2 class="px-8 font-size-24 text-left leading-relaxed " style="font-size:25px; font-weight:400; color:#000; line-height: 1.3em; font-family:arial;">
-				Just send us your medical records. You do not need to come to Korea.
-            </h2>
+        <?php 
+          if(ICL_LANGUAGE_CODE == 'en'){ 
+              echo 'Just send us your medical records. You do not need to come to Korea';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ru') { 
+              echo 'Просто отправьте нам свою медицинскую карту. Вам не обязательно ехать в Корею';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'mn') { 
+              echo 'Бидэнд зөвхөн өвчтөний түүх, эмнэлгийн бичгүүдээ л явуулна уу. Та Солонгост ирэх шаардлагагүй';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ar') { 
+              echo 'فقط أرسل لنا سجلاتك الطبية. لست بحاجة للمجيء إلى كوريا';
+          }
+        ?>
+				
+        </h2>
             <p class="pt-4 px-8 text-gray-700 text-left font-size-24 leading-none" style="font-size: 20px; text-align: left!important;    font-family: Noto Sans Light, sans-serif!important; line-height: 1.2; color: rgba(0,0,0,.5)!important; word-break: break-all;">
-				Send your relevant medical records such as treatment history, image, etc.
+            <?php 
+              if(ICL_LANGUAGE_CODE == 'en'){ 
+                  echo 'Send your relevant medical records such as treatment history, image, etc';
+              } 
+              elseif(ICL_LANGUAGE_CODE == 'ru') { 
+                  echo 'Отправьте соответствующие медицинские записи, такие как история лечения, изображение, видео и т.д';
+              } 
+              elseif(ICL_LANGUAGE_CODE == 'mn') { 
+                  echo 'Хийлгэсэн эмчилгээний түүх, карт зураг гэх мэт мэдээлэлээ явуулна уу';
+              } 
+              elseif(ICL_LANGUAGE_CODE == 'ar') { 
+                  echo 'أرسل سجلاتك الطبية ذات الصلة مثل تاريخ العلاج والأشعة وما إلى ذلك';
+              }
+            ?>
+              
             </p>
         </div>
 		<!-- Content (end) -->
@@ -90,7 +148,21 @@
   <div class="w-full bg-gray-100 text-justify">
 		<div class="medi_graph flex flex-col justify-center flex-wrap" style="max-height: 450px;">
 			<p class="pt-4 px-8 text-gray-700 text-center font-noto-regular leading-none" style="font-size:20px">
-				The survival rate of patients with one of the 5 major cancers compared <br class="lg:hidden block">to that in the U.S.
+        <?php 
+              if(ICL_LANGUAGE_CODE == 'en'){ 
+                  echo 'The survival rate of patients with one of the 5 major cancers compared <br class="lg:hidden block">to that in the U.S';
+              } 
+              elseif(ICL_LANGUAGE_CODE == 'ru') { 
+                  echo 'Сравнение показателей выживаемости пяти основных типов рака по сравнению с США';
+              } 
+              elseif(ICL_LANGUAGE_CODE == 'mn') { 
+                  echo 'Хамгийн түгээмэл тохиолдох 5-н төрлийн хавдрын үед амьд үлдэх төвшиний АНУ-тай харьцуулсан харьцуулалт';
+              } 
+              elseif(ICL_LANGUAGE_CODE == 'ar') { 
+                  echo 'معدل البقاء على قيد الحياة للمرضى الذين يعانون من أحد أنواع السرطان الخمسة الرئيسية مقارنةً بمثيله في الولايات المتحدة';
+              }
+          ?>
+
 			</p>
       
       <div class="flex-1 flex justify-center flex-wrap" style="max-width: 635px;">
@@ -102,7 +174,21 @@
 		</div>
 		<div class="medi_graph flex flex-col justify-center  flex-wrap hidden" style="max-height: 450px;">
 			<p class="pt-4 px-8 text-gray-700 text-center font-noto-regular leading-none" style="font-size:20px;">
-				No. of hospitals per a thousand people among OECD countries
+        <?php 
+              if(ICL_LANGUAGE_CODE == 'en'){ 
+                  echo 'No. of hospitals per a thousand people among OECD countries';
+              } 
+              elseif(ICL_LANGUAGE_CODE == 'ru') { 
+                  echo 'Количество больниц на тысячу человек среди стран ОЭСР';
+              } 
+              elseif(ICL_LANGUAGE_CODE == 'mn') { 
+                  echo 'OECD орнуудын 1000 хүн амд ноогдох эмнэлэгүүдийн тоо';
+              } 
+              elseif(ICL_LANGUAGE_CODE == 'ar') { 
+                  echo 'عدد المستشفيات لكل ألف شخص بين دول منظمة التعاون الاقتصادي والتنمية';
+              }
+        ?>
+				
 			</p>
       
       <div class="flex-1 flex justify-center flex-wrap" style="max-width: 635px;">
@@ -114,7 +200,21 @@
 		</div>
 		<div class="medi_graph flex flex-col justify-center  flex-wrap hidden" style="max-height: 450px;">
 			<p class="pt-4 px-2  text-gray-700 text-center font-noto-regular leading-none" style="font-size:20px;">
-				Medical expenses for serious illnesses in<br> <b>Germany VS Korea</b>
+        <?php 
+              if(ICL_LANGUAGE_CODE == 'en'){ 
+                  echo 'Medical expenses for serious illnesses in<br> <b>Germany VS Korea</b>';
+              } 
+              elseif(ICL_LANGUAGE_CODE == 'ru') { 
+                  echo 'Сравнение цен на лечение тяжелых заболеваний в Кореи и Германии';
+              } 
+              elseif(ICL_LANGUAGE_CODE == 'mn') { 
+                  echo 'Герман болон Солонгосийн хүнд өвчиний эмчилгээний зардалын харьцуулалт';
+              } 
+              elseif(ICL_LANGUAGE_CODE == 'ar') { 
+                  echo 'النفقات الطبية للأمراض الخطيرة في ألمانيا مقارنة بكوريا';
+              }
+        ?>
+
 			</p>
 
       <div id="chart_3_cont" class="flex-auto flex flex-wrap mx-10 w-full" style="max-width: 635px;">
@@ -142,10 +242,38 @@
   <!-- Chart Text (start) -->
   <div class="lg:mt-10 mt-10 lg:mb-24 mb-0 lg:p-10 p-2 px-12">
         <h2 class="title-1" >
-        Korea’s medical service boasts a world-class level.
+          <?php 
+                if(ICL_LANGUAGE_CODE == 'en'){ 
+                    echo 'Korea’s medical service boasts a world-class level';
+                } 
+                elseif(ICL_LANGUAGE_CODE == 'ru') { 
+                    echo 'Уровень медицинского обслуживания в Корее самый высокий в мире';
+                } 
+                elseif(ICL_LANGUAGE_CODE == 'mn') { 
+                    echo 'Солонгосын эмнэлэгийн үйлчилгээ нь дэлхийн түвшинд хүрсэн';
+                } 
+                elseif(ICL_LANGUAGE_CODE == 'ar') { 
+                    echo 'تتميز الخدمة الطبية في كوريا بمستوى عالمي.';
+                }
+          ?>
+        
         </h2>
         <p class="pt-4 sub-title-1" >
-        Every aspect of it—including technology, skills, infrastructures, <br class="lg:hidden block">and prices—is all highly credible.
+          <?php 
+                if(ICL_LANGUAGE_CODE == 'en'){ 
+                    echo 'Every aspect of it—including technology, skills, infrastructures, <br class="lg:hidden block">and prices—is all highly credible.';
+                } 
+                elseif(ICL_LANGUAGE_CODE == 'ru') { 
+                    echo 'Уровень медицинского обслуживания в Корее самый высокий в мире.';
+                } 
+                elseif(ICL_LANGUAGE_CODE == 'mn') { 
+                    echo 'Солонгосын эмнэлэгийн үйлчилгээ нь дэлхийн түвшинд хүрсэн';
+                } 
+                elseif(ICL_LANGUAGE_CODE == 'ar') { 
+                    echo 'تتميز الخدمة الطبية في كوريا بمستوى عالمي.';
+                }
+          ?>
+        
         </p>
     </div>
 
