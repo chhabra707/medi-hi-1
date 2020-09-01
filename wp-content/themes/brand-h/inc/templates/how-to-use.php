@@ -57,7 +57,7 @@ body{
   <!-- Button (start) -->
   <div class="flex justify-center">
     <button class="bg-brand px-5 py-5 text-white w-7/12 lg:w-4/12 mx-auto mt-10 mb-20" style="border-radius:10px; font-size:16px; padding:10px 40px;">
-      <a href style="color:white!important;">Check hospitals</a>
+      <a href="/affiliate" style="color:white!important;">Check hospitals</a>
     </button>
   </div>
 	<!-- Button (end) -->
