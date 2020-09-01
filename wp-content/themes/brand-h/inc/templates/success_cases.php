@@ -18,7 +18,7 @@
         <div class="flex justify-center flex-wrap w-8/12 lg:w-5/12 lg:text-3xl">
         <button id="choleithiasis_button"
                 class="relative flex items-center justify-center content-center bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-3 lg:py-3 border border-blue-500 hover:border-transparent rounded-full m-2 min-w-full">
-                Choleithiasis
+                Cholelithiasis
                 <svg class="w-10 lg:w-10 absolute right-0 mr-5 lg:mr-5" viewBox="0 0 640 512" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
