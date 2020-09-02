@@ -233,7 +233,7 @@
 		</div>
 	</div>
 
-  <div class="lg:pt-32 pt-10 flex justify-between px-10 py-10">
+  <div class="lg:pt-32 pt-10 flex justify-between px-10 lg:px-24 py-10">
 		<button onclick="showGraph(1)"  class="grph_btn border-2 border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 mr-3 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">5 major cancers compared to that in the U.S.</button>
 		<button onclick="showGraph(2)"  class="grph_btn border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg mr-3 leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">No. of hospitals per a thousand people among OECD countries</button>
 		<button onclick="showGraph(3)"  class="grph_btn border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">Korea’s medical service boasts a world-class level.</button>
@@ -298,7 +298,7 @@
 		</p>
 	</div>
 	<p class="lg:pt-24 pt-10 px-5 sub-title-1-c">
-		You can reserve six world-class hospitals and other great hospitals.<br>(World's best 100 hospitals, April 2020 Newsweek)
+		You can reserve six world-class hospitals <br class="desktop_br"> and other great hospitals.<br>(World's best 100 hospitals, April 2020 Newsweek)
 	</p>
 	<!-- Content (end) -->
 

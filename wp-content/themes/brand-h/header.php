@@ -35,11 +35,14 @@
     font-style: normal;
 
 }
-
-
-body.home.page-template-default.page.page-id-5.logged-in.admin-bar.customize-support.no-scroll header.header-container{
-    z-index:2!important;
+body > div.container-fluid.mb-1 > div > header{
+	z-index:2!important;
 }
+
+/* body.page-template-default.page.customize-support.no-scroll header.header-container{
+    z-index:2!important;
+} */
+
 
 
 .font-roboto{

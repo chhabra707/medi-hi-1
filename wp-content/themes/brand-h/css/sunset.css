@@ -1393,6 +1393,9 @@ transform: translateY(-8px);
 /* box-shadow: 6px 6px 7px 0px rgba(0,0,0,0.3); */
 }
 
+.wpml-ls-statics-post_translations {
+  display:none;
+}
 
 
 
@@ -1436,6 +1439,9 @@ transform: translateY(-8px);
   .content-affiliate-avatar{
     top:40%;
   }
+  .desktop_br{
+    display:none;
+  }
 }
   
   @media only screen and (min-width: 635px) { /* desktop */
@@ -1466,6 +1472,9 @@ transform: translateY(-8px);
     }
     .content-affiliate-avatar{
       top:52%;
+    }
+    .desktop_br{
+      display:block;
     }
   }
   
