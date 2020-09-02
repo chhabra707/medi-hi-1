@@ -11,10 +11,15 @@ document.addEventListener('DOMContentLoaded', function(e) {
 		let data = {
 			name: testimonialForm.querySelector('[name="name"]').value,
 			email: testimonialForm.querySelector('[name="email"]').value,
+			phone_code: testimonialForm.querySelector('[name="phone_code"]').value,
 			phone: testimonialForm.querySelector('[name="phone"]').value,
 			care: testimonialForm.querySelector('[name="care"]').value,
-			message: testimonialForm.querySelector('[name="message"]').value,
+			medical_report: testimonialForm.querySelector('[name="medical_report"]').value,
+			message: "message temp",
+			message1: testimonialForm.querySelector('[name="message1"]').value,
+			message2: testimonialForm.querySelector('[name="message2"]').value,
 			nonce: testimonialForm.querySelector('[name="nonce"]').value
+			
 		} 
 		
 		// validate everything
@@ -32,6 +37,20 @@ document.addEventListener('DOMContentLoaded', function(e) {
 			testimonialForm.querySelector('[data-error="invalidMessage"]').classList.add('show');
 			return;
 		}
+		if (!data.message1) {
+			testimonialForm.querySelector('[data-error="invalidMessage1"]').classList.add('show');
+			return;
+		}
+		if (!data.message2) {
+			testimonialForm.querySelector('[data-error="invalidMessage2"]').classList.add('show');
+			return;
+		}
+
+
+		if (!data.phone_code) {
+			testimonialForm.querySelector('[data-error="invalidPhoneCode"]').classList.add('show');
+			return;
+		}
 
 		if (!data.phone) {
 			testimonialForm.querySelector('[data-error="invalidPhone"]').classList.add('show');
@@ -40,6 +59,11 @@ document.addEventListener('DOMContentLoaded', function(e) {
 
 		if (!data.care) {
 			testimonialForm.querySelector('[data-error="invalidCare"]').classList.add('show');
+			return;
+		}
+
+		if (!data.medical_report) {
+			testimonialForm.querySelector('[data-error="invalidMedicalReport"]').classList.add('show');
 			return;
 		}
 

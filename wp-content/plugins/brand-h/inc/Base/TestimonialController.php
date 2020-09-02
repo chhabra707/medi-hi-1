@@ -50,14 +50,23 @@ class TestimonialController extends BaseController
 		$email = sanitize_email($_POST['email']);
 		
 		$message = sanitize_textarea_field($_POST['message']);
+		$message1 = sanitize_textarea_field($_POST['message1']);
+		$message2 = sanitize_textarea_field($_POST['message2']);
+		$phone_code = sanitize_textarea_field($_POST['phone_code']);
 		$phone = sanitize_textarea_field($_POST['phone']);
 		$care = sanitize_textarea_field($_POST['care']);
+		$medical_report = sanitize_textarea_field($_POST['medical_report']);
 
 		$data = array(
 			'name' => $name,
 			'email' => $email,
+			'phone_code' => $phone_code,
 			'phone' => $phone,
 			'care' => $care,
+			'medical_report' => $medical_report,
+			'message' => $message,
+			'message1' => $message1,
+			'message2' => $message2,
 			'approved' => 0,
 			'featured' => 0,
 		);
@@ -167,28 +176,49 @@ class TestimonialController extends BaseController
 		$data = get_post_meta( $post->ID, '_brandh_form_key', true );
 		$name = isset($data['name']) ? $data['name'] : '';
 		$email = isset($data['email']) ? $data['email'] : '';
+		$phone_code = isset($data['phone_code']) ? $data['phone_code'] : '';
         $phone = isset($data['phone']) ? $data['phone'] : '';
-        $care = isset($data['care']) ? $data['care'] : '';
+		$care = isset($data['care']) ? $data['care'] : '';
+		$medical_report = isset($data['medical_report']) ? $data['medical_report'] : '';
+		$message = isset($data['message']) ? $data['message'] : '';
+		$message1 = isset($data['message1']) ? $data['message1'] : '';
+		$message2 = isset($data['message2']) ? $data['message2'] : '';
 		$approved = isset($data['approved']) ? $data['approved'] : false;
 		$featured = isset($data['featured']) ? $data['featured'] : false;
 		?>
 		<p>
-			<label class="meta-label" for="brandh_form_author">Author Name</label>
+			<label class="meta-label" for="brandh_form_author">Name</label>
 			<input type="text" id="brandh_form_author" name="brandh_form_author" class="widefat" value="<?php echo esc_attr( $name ); ?>">
 		</p>
 		<p>
-			<label class="meta-label" for="brandh_form_email">Author Email</label>
+			<label class="meta-label" for="brandh_form_email">Email</label>
 			<input type="email" id="brandh_form_email" name="brandh_form_email" class="widefat" value="<?php echo esc_attr( $email ); ?>">
 		</p>
+		<p>
+            <label class="meta-label" for="brandh_form_phone_code">Nation Code</label>
+            <input type="text" id="brandh_form_phone_code" name="brandh_form_phone_code" class="widefat" value="<?php echo esc_attr( $phone_code ); ?>">
+        </p>
         <p>
-            <label class="meta-label" for="brandh_form_phone">Author Phone</label>
+            <label class="meta-label" for="brandh_form_phone">Phone</label>
             <input type="text" id="brandh_form_phone" name="brandh_form_phone" class="widefat" value="<?php echo esc_attr( $phone ); ?>">
         </p>
         <p>
-            <label class="meta-label" for="brandh_form_care">Author Care</label>
+            <label class="meta-label" for="brandh_form_care">Disease</label>
             <input type="text" id="brandh_form_care" name="brandh_form_care" class="widefat" value="<?php echo esc_attr( $care ); ?>">
         </p>
-		
+		<p>
+            <label class="meta-label" for="brandh_form_medical_report">Medical Report</label>
+            <input type="text" id="brandh_form_medical_report" name="brandh_form_medical_report" class="widefat" value="<?php echo esc_attr( $medical_report ); ?>">
+        </p>
+		<p>
+            <label class="meta-label" for="brandh_form_message1">Question1</label>
+            <textarea type="text" id="brandh_form_message1" name="brandh_form_message1" class="widefat"><?php echo esc_attr( $message1 ); ?></textarea>
+        </p>
+		<p>
+            <label class="meta-label" for="brandh_form_message2">Question1</label>
+            <textarea type="text" id="brandh_form_message2" name="brandh_form_message2" class="widefat"><?php echo esc_attr( $message2 ); ?></textarea>
+        </p>
+
 		<div class="meta-container">
 			<label class="meta-label w-50 text-left" for="brandh_form_approved">Is Contaced</label>
 			<div class="text-right w-50 inline">
@@ -230,8 +260,13 @@ class TestimonialController extends BaseController
 		$data = array(
 			'name' => sanitize_text_field( $_POST['brandh_form_author'] ),
 			'email' => sanitize_email( $_POST['brandh_form_email'] ),
+			'phone_code' => sanitize_text_field( $_POST['brandh_form_phone_code'] ),
             'phone' => sanitize_text_field( $_POST['brandh_form_phone'] ),
-            'care' => sanitize_text_field( $_POST['brandh_form_care'] ),
+			'care' => sanitize_text_field( $_POST['brandh_form_care'] ),
+			'medical_report' => sanitize_text_field( $_POST['brandh_form_medical_report'] ),
+			'message' => sanitize_text_field( $_POST['brandh_form_message'] ),
+			'message1' => sanitize_text_field( $_POST['brandh_form_message1'] ),
+			'message2' => sanitize_text_field( $_POST['brandh_form_message2'] ),
 			'approved' => isset($_POST['brandh_form_approved']) ? 1 : 0,
 			'featured' => isset($_POST['brandh_form_featured']) ? 1 : 0,
 		);
@@ -259,8 +294,13 @@ class TestimonialController extends BaseController
 		$data = get_post_meta( $post_id, '_brandh_form_key', true );
 		$name = isset($data['name']) ? $data['name'] : '';
 		$email = isset($data['email']) ? $data['email'] : '';
+		$phone_code = isset($data['phone_code']) ? $data['phone_code'] : '';
         $phone = isset($data['phone']) ? $data['phone'] : '';
-        $care = isset($data['care']) ? $data['care'] : '';
+		$care = isset($data['care']) ? $data['care'] : '';
+		$medical_report = isset($data['medical_report']) ? $data['medical_report'] : '';
+		$message = isset($data['message']) ? $data['message'] : '';
+		$message1 = isset($data['message1']) ? $data['message1'] : '';
+		$message2 = isset($data['message2']) ? $data['message2'] : '';
 		$approved = isset($data['approved']) && $data['approved'] === 1 ? '<strong>YES</strong>' : 'NO';
 		$featured = isset($data['featured']) && $data['featured'] === 1 ? '<strong>YES</strong>' : 'NO';
 
