@@ -350,12 +350,40 @@ body > div.container-fluid.mb-1 > div > header{
 				
 				<div class="">
 					<div class="py-10 px-10 mt-10">
-						We give sincere answers to any question for patients’ recovery.
+						
+						<?php 
+							if(ICL_LANGUAGE_CODE == 'en'){ 
+								echo 'We give sincere answers to any question for patients’ recovery';
+							} 
+							elseif(ICL_LANGUAGE_CODE == 'ru') { 
+								echo 'Мы искренне отвечаем на любые вопросы для вашего полного выздоровления';
+							} 
+							elseif(ICL_LANGUAGE_CODE == 'mn') { 
+								echo 'Өвчтөнг эдгэрэхтэй тулгарсан бүхий л асуутанд бид танд хариулах болно';
+							} 
+							elseif(ICL_LANGUAGE_CODE == 'ar') { 
+								echo 'نعطي إجابات صادقة على أي سؤال من أجل تعافي المرضى.';
+							}
+							?>
 					</div>
 					<div class="flex justify-center">
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>/inquiry" class="">
 							<button class="text-white py-4 px-20 mx-auto rounded-lg mb-20 hover:bg-blue-500" style="background-color:#2681F3">
-								Inquiry
+								<?php 
+									if(ICL_LANGUAGE_CODE == 'en'){ 
+										echo 'Inquiry';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'ru') { 
+										echo 'запрос';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'mn') { 
+										echo 'Зөвлөгөө авах';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'ar') { 
+										echo 'تساؤلات';
+									}
+								?>
+									
 							</button>	
 						</a>
 					</div>
@@ -365,7 +393,20 @@ body > div.container-fluid.mb-1 > div > header{
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>/how-to-use" class="text-black"> 
 							<div class="text-black ml-1">
-								How to utilize Himedi with Doctors
+								<?php 
+									if(ICL_LANGUAGE_CODE == 'en'){ 
+										echo 'How to utilize Himedi with Doctors';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'ru') { 
+										echo 'Как использовать Himedi (Хаймеди) с врачами';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'mn') { 
+										echo 'Himedi эмч нартай хэрхэн үйлчилгээ авах вэ';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'ar') { 
+										echo 'كيفية الاستفادة من هاي ميدي مع الأطباء';
+									}
+								?>
 							</div>
 						</a>
 					</div>
@@ -375,7 +416,20 @@ body > div.container-fluid.mb-1 > div > header{
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>/affiliate" class="text-black"> 
 							<div class="text-black ml-1">
-								Check partner hospitals
+								<?php 
+									if(ICL_LANGUAGE_CODE == 'en'){ 
+										echo 'Check partner hospitals';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'ru') { 
+										echo 'Проверьте партнерские больницы';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'mn') { 
+										echo 'Хамтран ажилладаг эмнэлгүүд хайх.';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'ar') { 
+										echo 'تحقق من المستشفيات الشريكة';
+									}
+								?>
 							</div>
 						</a>
 					</div>
@@ -385,7 +439,20 @@ body > div.container-fluid.mb-1 > div > header{
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>/interview" class="text-black"> 
 							<div class="text-black">
-								Interviews with successful cases
+								<?php 
+									if(ICL_LANGUAGE_CODE == 'en'){ 
+										echo 'Interviews with successful cases';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'ru') { 
+										echo 'Интервью с успешно выздоровавшими пациентами';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'mn') { 
+										echo 'Амжилттай тохиолдлуудын ярилцлага';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'ar') { 
+										echo 'مقابلات مع حالات ناجحة';
+									}
+								?>
 							</div>
 						</a>
 					</div>
@@ -395,7 +462,20 @@ body > div.container-fluid.mb-1 > div > header{
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>/success-cases" class="text-black"> 
 							<div class="text-black ml-2">
-								Examples of 2nd diagnoses
+								<?php 
+									if(ICL_LANGUAGE_CODE == 'en'){ 
+										echo 'Examples of 2nd diagnoses';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'ru') { 
+										echo 'Примеры 2-го диагноза';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'mn') { 
+										echo 'Хоердогч оношлогоонуудын жишээнүүд';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'ar') { 
+										echo 'أمثلة على التشخيص الثاني';
+									}
+								?>
 							</div>
 						</a>
 						
@@ -406,7 +486,20 @@ body > div.container-fluid.mb-1 > div > header{
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>/inquiry" class="text-black"> 
 							<div class="text-black ml-2">
-								Inquiry
+								<?php 
+									if(ICL_LANGUAGE_CODE == 'en'){ 
+										echo 'Inquiry';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'ru') { 
+										echo 'Запрос';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'mn') { 
+										echo 'Зөвлөгөө авах';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'ar') { 
+										echo 'تساؤلات';
+									}
+								?>
 							</div>
 						</a>
 					</div>
@@ -414,11 +507,12 @@ body > div.container-fluid.mb-1 > div > header{
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>/about-us" class="text-black" style="color:black!important"> 
 						<div class="mt-12" >
 							<div style="position:relative">
-								<img src="<?php echo get_template_directory_uri(); ?>/img/sidebar-1.jpg" style="position:absolute;top:0px">
+								<!-- <img src="<?php echo get_template_directory_uri(); ?>/img/sidebar-1.png" style="position:absolute;top:0px"> -->
 								<div style="position:absolute;top:10px">
-									<div class="mt-3 ml-5">HIMEDI STORY</div>
+									<img src="<?php echo get_template_directory_uri(); ?>/img/himedi-story-sidebar.png">
+									<!-- <div class="mt-3 ml-5">HIMEDI STORY</div>
 									<div class="ml-5 text-sm">As a complex medical service platform</div>								
-									<div class="ml-10 mt-2 text-sm text-gray-500">More > </div>
+									<div class="ml-10 mt-2 text-sm text-gray-500">More > </div> -->
 								</div>	
 							</div>
 						</div>

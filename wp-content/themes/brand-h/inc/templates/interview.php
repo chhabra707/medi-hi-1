@@ -15,17 +15,29 @@
   </div>
   <div class="w-full mb-0 ">
     <h2 class="font-bold text-center px-6 font-size-24 leading-relaxed " style="font-size:22px">
-	Please listen to patients who have been cared for by Himedi.
+		<?php 
+				if(ICL_LANGUAGE_CODE == 'en'){ 
+					echo 'Please listen to patients who have been cared for by Himedi';
+				} 
+				elseif(ICL_LANGUAGE_CODE == 'ru') { 
+					echo 'Ознакомьтесь с историями пациентов лечившихся с Himedi (Хаймеди)';
+				} 
+				elseif(ICL_LANGUAGE_CODE == 'mn') { 
+					echo 'Himedi-гээр үйлчлүүлсэн өвчтөнүүдийн яриатай танилцана уу';
+				} 
+				elseif(ICL_LANGUAGE_CODE == 'ar') { 
+					echo 'يرجى الاستماع إلى المرضى الذين اعتنت بهم هاي ميدي.';
+				}
+			?>
+	
     </h2>
   </div>
-  
+
 	<!-- Main slider (start) -->
 	<div class="swiper-container" style="height:70vh">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper mt-1 h-full">
                 <!-- Slides -->
-
-
                 <div class="swiper-slide h-full w-full flex justify-center content-end  flex-row flex-wrap pb-12" style="top:0px!important;">
 					<div class="px-3 overflow-auto hide_scrollBar pt-20" style="max-height:49%; margin-bottom:1%;">
 						<img width="25" height="25" src="<?php bloginfo('template_directory') ?>/img/interview/main-review.png" alt="" />

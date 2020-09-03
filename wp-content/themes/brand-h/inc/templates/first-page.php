@@ -234,9 +234,56 @@
 	</div>
 
   <div class="lg:pt-32 pt-10 flex justify-between px-10 lg:px-24 py-10">
-		<button onclick="showGraph(1)"  class="grph_btn border-2 border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 mr-3 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">5 major cancers compared to that in the U.S.</button>
-		<button onclick="showGraph(2)"  class="grph_btn border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg mr-3 leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">No. of hospitals per a thousand people among OECD countries</button>
-		<button onclick="showGraph(3)"  class="grph_btn border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">Korea’s medical service boasts a world-class level.</button>
+		<button onclick="showGraph(1)"  class="grph_btn border-2 border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 mr-3 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">
+            <?php 
+                    if(ICL_LANGUAGE_CODE == 'en'){ 
+                        echo '5 major cancers compared to that in the U.S.';
+                    } 
+                    elseif(ICL_LANGUAGE_CODE == 'ru') { 
+                        echo 'пяти основных типах рака по сравнению с США.';
+                    } 
+                    elseif(ICL_LANGUAGE_CODE == 'mn') { 
+                        echo '5-н төрлийн хавдрын үед амьд үлдэх төвшиний АНУ-тай харьцуулсан харьцуулалт';
+                    } 
+                    elseif(ICL_LANGUAGE_CODE == 'ar') { 
+                        echo 'معدل البقاء على قيد الحياة للمرضى الذين يعانون من أحد أنواع السرطان الخمسة الرئيسية مقارنةً بمثيله في الولايات المتحدة';
+                    }
+            ?>
+            
+        </button>
+		<button onclick="showGraph(2)"  class="grph_btn border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg mr-3 leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">
+            <?php 
+                    if(ICL_LANGUAGE_CODE == 'en'){ 
+                        echo 'No. of hospitals per a thousand people among OECD countries';
+                    } 
+                    elseif(ICL_LANGUAGE_CODE == 'ru') { 
+                        echo 'Количество больниц на тысячу человек среди стран ОЭСР';
+                    } 
+                    elseif(ICL_LANGUAGE_CODE == 'mn') { 
+                        echo 'OECD орнуудын 1000 хүн амд ноогдох эмнэлэгүүдийн тоо';
+                    } 
+                    elseif(ICL_LANGUAGE_CODE == 'ar') { 
+                        echo 'عدد المستشفيات لكل ألف شخص بين دول منظمة التعاون الاقتصادي والتنمية';
+                    }
+            ?>
+            
+        </button>
+		<button onclick="showGraph(3)"  class="grph_btn border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">
+         <?php 
+            if(ICL_LANGUAGE_CODE == 'en'){ 
+                echo 'Korea’s medical service boasts a world-class level.';
+            } 
+            elseif(ICL_LANGUAGE_CODE == 'ru') { 
+                echo 'Уровень медицинского обслуживания в Корее самый высокий в мире.';
+            } 
+            elseif(ICL_LANGUAGE_CODE == 'mn') { 
+                echo 'Солонгосын эмнэлэгийн үйлчилгээ нь дэлхийн түвшинд хүрсэн';
+            } 
+            elseif(ICL_LANGUAGE_CODE == 'ar') { 
+                echo 'تتميز الخدمة الطبية في كوريا بمستوى عالمي.';
+            }
+            ?>
+        </button>
 	</div>
    
   <!-- Chart Text (start) -->

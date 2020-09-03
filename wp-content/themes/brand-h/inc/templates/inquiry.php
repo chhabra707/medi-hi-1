@@ -13,11 +13,38 @@
 
 	<!-- Content (start) -->
 	<h2 class="text-center px-4 font-size-24 leading-none text-gray-700" style="font-size:24px; line-height:1.2">
-    Please leave your contact information and inquiry. An answer will be given <br class="lg:hidden"><b>within 24 hours.</b>
+		<?php 
+			if(ICL_LANGUAGE_CODE == 'en'){ 
+				echo 'Please leave your contact information and inquiry. An answer will be given <br class="lg:hidden"><b>within 24 hours</b>';
+			} 
+			elseif(ICL_LANGUAGE_CODE == 'ru') { 
+				echo 'Пожалуйста, оставьте свою контактную информацию и запрос. Ответ будет дан в течение 24 часов';
+			} 
+			elseif(ICL_LANGUAGE_CODE == 'mn') { 
+				echo 'Холбоо барих мээдэлэл болон асуулгаа үлдээвэл бид танд 24 цагийн дотор хариу өгөх болно';
+			} 
+			elseif(ICL_LANGUAGE_CODE == 'ar') { 
+				echo 'يرجى ترك معلومات الاتصال الخاصة بك والاستفسار. سيتم الرد في غضون 24 ساعة';
+			}
+		?>
+    
   </h3>
   <p class="mt-5 text-center px-6 leading-none" style="color:#2681F3;font-size:16px">
-	
-		* If you have an urget inquiry <br class="lg:hidden"> please leave it via WhatsApp.
+  		<?php 
+			if(ICL_LANGUAGE_CODE == 'en'){ 
+				echo '* If you have an urget inquiry <br class="lg:hidden"> please leave it via WhatsApp.';
+			} 
+			elseif(ICL_LANGUAGE_CODE == 'ru') { 
+				echo 'Если у вас есть срочный запрос, оставьте его через WhatsApp.';
+			} 
+			elseif(ICL_LANGUAGE_CODE == 'mn') { 
+				echo 'Хэрэв танд яаралтай асуулт байвал WhatsApp-аар бидэнтэй холбогдоно уу.';
+			} 
+			elseif(ICL_LANGUAGE_CODE == 'ar') { 
+				echo 'إذا كان لديك استفسار عاجل ، يرجى تركه عبر WhatsApp.';
+			}
+		?>
+		
 	</p>
 	<!-- Content (end) -->
 

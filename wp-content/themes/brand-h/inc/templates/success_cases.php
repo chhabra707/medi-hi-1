@@ -11,7 +11,21 @@
     
         <div class="w-full mb-32 ">
             <h2 class="font-bold text-center px-6 font-size-24 leading-relaxed " style="font-size:22px">
-                Check out these diagnosis examples and methods bestsuitable for you.
+             <?php 
+                if(ICL_LANGUAGE_CODE == 'en'){ 
+                    echo 'Check out these diagnosis examples and methods bestsuitable for you.';
+                } 
+                elseif(ICL_LANGUAGE_CODE == 'ru') { 
+                    echo 'Ознакомьтесь с примерами диагностики и методами, которые лучше всего подходят для вас.';
+                } 
+                elseif(ICL_LANGUAGE_CODE == 'mn') { 
+                    echo 'Оношлогооны жишээнүүд болон танд тохирсон эмчилгээний аргуудтай танилцана уу';
+                } 
+                elseif(ICL_LANGUAGE_CODE == 'ar') { 
+                    echo 'تعرف على هذه الأمثلة التشخيصية والطرق الأنسب لك.';
+                }
+            ?>
+
             </h2>
         </div>
 
