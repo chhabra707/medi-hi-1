@@ -253,7 +253,7 @@
                     echo 'Солонгосын эмнэлэгийн үйлчилгээ нь дэлхийн түвшинд хүрсэн';
                 } 
                 elseif(ICL_LANGUAGE_CODE == 'ar') { 
-                    echo 'تتميز الخدمة الطبية في كوريا بمستوى عالمي.';
+                    echo 'تتميز الخدمة الطبية في كوريا بمستوى عالمي';
                 }
           ?>
         
@@ -318,7 +318,7 @@
               echo 'You can reserve six world-class hospitals <br class="desktop_br"> and other great hospitals.<br>(World\'s best 100 hospitals, April 2020 Newsweek)';
           } 
           elseif(ICL_LANGUAGE_CODE == 'ru') { 
-              echo 'Вы можете записаться на прием в шесть больниц мирового класса и другие крупные больницы. (100 лучших больниц мира, Newsweek (Нюс Вик) за апрель 2020 г.)';
+              echo 'Вы можете записаться на прием в шесть больниц мирового класса и другие крупные больницы. (100 лучших больниц мира, Newsweek (Нюс Вик) за апрель 2020 г)';
           } 
           elseif(ICL_LANGUAGE_CODE == 'mn') { 
               echo 'Олон улсын хэмжээнд хүлээн зөвшөөрөгддөг зургаан том эмнэлэг болон бусад томоохон эмнэлгүүдэд цаг авах боломжтой ( Дэлхийн шилдэг 100 эмнэлэг, 2020 оны 4-р сарын Newsweek сэтгүүл)';
@@ -551,13 +551,13 @@
   <h2 class="text-center px-6 font-size-24 leading-relaxed " style="font-size: 22px; color: rgba(0,0,0,.8)!important; font-family: Noto Sans Regular, sans-serif!important; text-align: center!important; line-height: 1.5em;">
     <?php 
             if(ICL_LANGUAGE_CODE == 'en'){ 
-                echo 'Himedi recommends remedies and best doctors for you.';
+                echo 'Himedi recommends remedies and best doctors for you';
             } 
             elseif(ICL_LANGUAGE_CODE == 'ru') { 
-                echo 'Himedi (Хаймеди) предложит  вам лучшие методы лечения и лучших врачей.';
+                echo 'Himedi (Хаймеди) предложит  вам лучшие методы лечения и лучших врачей';
             } 
             elseif(ICL_LANGUAGE_CODE == 'mn') { 
-                echo 'Himedi танд хамгийн сайн эмчилгээ болон эмч нарыг санал болгож байна.';
+                echo 'Himedi танд хамгийн сайн эмчилгээ болон эмч нарыг санал болгож байна';
             } 
             elseif(ICL_LANGUAGE_CODE == 'ar') { 
                 echo 'هاي ميدي توصي بأفضل العلاجات وأفضل الأطباء لك.';
@@ -571,23 +571,37 @@
   <div class="text-left px-6 font-size-24 leading-none" style="line-height:30px; font-size:24px; font-family: 'noto_sanslight'!important;">
     <?php 
             if(ICL_LANGUAGE_CODE == 'en'){ 
-                echo 'Let <strong style="font-family: 'Noto Sans', sans-serif!important;">Himedi</strong> know your disease name and questions you want to ask doctors. '
+                echo 'Let <strong style="font-family: \'Noto Sans\', sans-serif!important;">Himedi</strong> know your disease name and questions you want to ask doctors';
             } 
             elseif(ICL_LANGUAGE_CODE == 'ru') { 
-                echo 'Himedi (Хаймеди) предложит  вам лучшие методы лечения и лучших врачей.';
+                echo 'Сообщите Himedi (Хаймеди) название вашей болезни и вопросы, которые вы хотите задать врачам';
             } 
             elseif(ICL_LANGUAGE_CODE == 'mn') { 
-                echo 'Himedi танд хамгийн сайн эмчилгээ болон эмч нарыг санал болгож байна.';
+                echo 'Сообщите Himedi (Хаймеди) название вашей болезни и вопросы, которые вы хотите задать врачам';
             } 
             elseif(ICL_LANGUAGE_CODE == 'ar') { 
-                echo 'هاي ميدي توصي بأفضل العلاجات وأفضل الأطباء لك.';
+                echo 'دع هاي ميدي تعرف اسم مرضك والأسئلة التي تريد طرحها على الأطباء.';
             }
       ?>
     
   </div>
   <p class="px-6 pt-0 leading-none mt-3" style="font-size: 14px;
     text-align: left!important; font-family: Noto Sans Light, sans-serif!important; line-height: 1.2; color: rgba(0,0,0,.5)!important;">
-    Based on the information you share and consultations, Himedi will recommend best-suitable remedies and doctors for you.
+      <?php 
+        if(ICL_LANGUAGE_CODE == 'en'){ 
+            echo 'Based on the information you share and consultations, Himedi will recommend best-suitable remedies and doctors for you';
+        } 
+        elseif(ICL_LANGUAGE_CODE == 'ru') { 
+            echo 'На основе предоставленной вами информации и консультаций, Himedi (Хаймеди) порекомендует вам наиболее подходящие методы лечения и врачей';
+        } 
+        elseif(ICL_LANGUAGE_CODE == 'mn') { 
+            echo 'Таны өгсөн мэдээлэл болон зөвлөгөөн дээр үндэслэн ,Himedi танд тохирсон эмчилгээ болон эмч нарыг санал болгоно';
+        } 
+        elseif(ICL_LANGUAGE_CODE == 'ar') { 
+            echo 'بناءً على المعلومات التي تشاركها والاستشارات ، هاي ميدي تقوم بالتوصية بأفضل العلاجات والأطباء المناسبين لك';
+        }
+      ?>
+    
   </div>
   <!-- <div style="height:500px"> #safari issue
     <div class="relative content-check-hospital">
@@ -604,7 +618,22 @@
   <!-- Button (start) -->
   <div class="flex justify-center">
     <button class="bg-brand px-5 py-5 text-white w-7/12 lg:w-4/12 mx-auto mt-10 mb-20 font-size-24 hover:bg-blue-500" style="border-radius:10px; font-size:16px; padding:10px 40px;">
-      <a href="/affiliate" style="color:white!important;" class="">Check hospitals</a>
+      <a href="/affiliate" style="color:white!important;" class="">
+        <?php 
+          if(ICL_LANGUAGE_CODE == 'en'){ 
+              echo 'Check hospitals';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ru') { 
+              echo 'Поиск больниц';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'mn') { 
+              echo 'Эмнэлэгүүд хайх';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ar') { 
+              echo 'تحقق من المستشفيات';
+          }
+        ?>
+      </a>
     </button>
   </div>
 	<!-- Button (end) -->
@@ -612,7 +641,21 @@
     <h2>STEP 02</h2>
   </div>
   <div class="text-left px-6 font-size-24 leading-none" style="line-height:30px; font-size:24px; font-family: 'noto_sanslight'!important;">
-  If you would like to receive the <strong style="font-family: 'Noto Sans', sans-serif!important;">second opinion</strong> or deputy consultation from the recommended doctors, please share more detailed <strong style="font-family: 'Noto Sans', sans-serif!important;">medical records</strong>.
+    <?php 
+          if(ICL_LANGUAGE_CODE == 'en'){ 
+              echo 'If you would like to receive the <strong style="font-family: \'Noto Sans\', sans-serif!important;">second opinion</strong> or deputy consultation from the recommended doctors, please share more detailed <strong style="font-family: \'Noto Sans\', sans-serif!important;">medical records</strong>';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ru') { 
+              echo 'Если вы хотите получить второе мнение или консультацию заместителя от рекомендованных врачей, поделитесь более подробными медицинскими записями';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'mn') { 
+              echo 'Хэрэв та санал болгосон эмч нараас төлөөлүүлэн зөвлөгөө авах эсвэл 2-догч санал авахыг хүсвэл бидэнд өөрийн дэлгэрэнгүй эмнэлэгийн түүхээ явуулна уу';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ar') { 
+              echo 'إذا كنت ترغب في الحصول على رأي ثان أو استشارة نائب من الأطباء الموصى بهم ، فيرجى مشاركة سجلات طبية أكثر تفصيلاً.';
+          }
+      ?>
+  
   </div>
   <!-- Main slider (start) -->
   <div class="swiper-container content-step2" style="">
@@ -645,7 +688,21 @@
     <h2>STEP 03</h2>
   </div>
   <div class="text-left px-6 font-size-24 leading-none" style="line-height:30px; font-size:24px;">
-    Based on the shared materials, Himedi proposes a plan for treatment available in Korea.
+      <?php 
+          if(ICL_LANGUAGE_CODE == 'en'){ 
+              echo 'Based on the shared materials, Himedi proposes a plan for treatment available in Korea';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ru') { 
+              echo 'На основании предоставленных материалов Himedi (Хаймеди) предлагает план лечения, доступный в Корее';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'mn') { 
+              echo 'Таны өгсөн мэдээлэл дээр үндэслэн Himedi танд Солонгосд хийгдэх эмчилгээний төлөвлөгөөг хүргэх болно';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ar') { 
+              echo 'بناءً على المواد التي تقوم بمشاركتها، هاي ميدي تقوم بوضع خطة العلاج المتاح في كوريا';
+          }
+      ?>
+    
   </div>
   <div class="mt-12">
     <img src="<?php bloginfo('template_directory') ?>/img/section3-3-1.jpg" width="632px" height="348px" alt="">
@@ -654,53 +711,118 @@
   <div class="flex justify-center mt-24">
 	<!-- <button class="bg-brand px-5 py-5 text-white mx-auto mt-10" style="border-radius:10px; font-size:18px"> -->
 	<button class="bg-brand px-5 py-5 text-white w-9/12 lg:w-6/12 mx-auto mt-10 mb-20 font-size-24 hover:bg-blue-500" style="border-radius:10px; font-size:16px; padding:13px 40px;">
-      <a href="/success-cases" style="color:white">Check medical diagnoses</a>
+      <a href="/success-cases" style="color:white">
+        <?php 
+          if(ICL_LANGUAGE_CODE == 'en'){ 
+              echo 'Check medical diagnoses';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ru') { 
+              echo 'Проверить диагноз';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'mn') { 
+              echo 'Оношоо шалгана уу';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ar') { 
+              echo 'تحقق من التشخيصات الطبية';
+          }
+         ?>
+      </a>
     </button>
   </div>
 	  <!-- Button (end) -->
   </div>
   <div class="mt-20">
     <h2 class="px-8 text-left font-size-24 leading-relaxed " style="font-size:24px; color:rgba(0,0,0,.8); line-height: 1.5em;">
-      Feel free to ask us anything. <br><strong>We will reply</strong><br> kindly and promptly.
+      <?php 
+          if(ICL_LANGUAGE_CODE == 'en'){ 
+              echo 'Feel free to ask us anything. <br><strong>We will reply</strong><br> kindly and promptly.';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ru') { 
+              echo 'Не стесняйтесь спрашивать нас о чем угодно. Мы ответим быстро и точно .';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'mn') { 
+              echo 'Асуух асуулт байвал бидэнтэй холбогдоно уу. Бид таны асуултанд хариулахдаа таатай байх болно';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ar') { 
+              echo 'لا تتردد في أن تطلب منا أي شيء. نقوم بالرد بسرعة.';
+          }
+         ?>
+      
     </div>
     <p class="pt-4 px-8 text-gray-700 text-left font-size-24 leading-none" style="font-size:16px; line-height:26px; font-weight:400;">
-      Do you have difficulty in inquiring? <br>We give sincere answers to any question for patients’ recovery.
+      <?php 
+          if(ICL_LANGUAGE_CODE == 'en'){ 
+              echo 'Do you have difficulty in inquiring? <br>We give sincere answers to any question for patients’ recovery';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ru') { 
+              echo 'Трудно с нами связаться? Искренне ответим на любые вопросы о выздоровлении пациента';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'mn') { 
+              echo 'Асуулт асуухад хүндрэлтэй байдаг уу? Бид өвчтөнийг түргэн эдгээхийн тулд  асуултад чин сэтгэлээсээ хариулах болно';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ar') { 
+              echo 'هل تجد صعوبة في الاستفسار؟ لدينا إجابات صادقة و دقيقة على أي سؤال من أجل تعافي المرضى';
+          }
+         ?>
+     
     </div>
     <div class="text-bold mt-20 font-bold text-left px-6 font-size-24 leading-relaxed" style="color:#2681F3">
-      Start consultation &#62;
+      <a href='/inquiry'>
+        <?php 
+          if(ICL_LANGUAGE_CODE == 'en'){ 
+              echo 'Start consultation &#62;';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ru') { 
+              echo 'Начать консультацию &#62;';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'mn') { 
+              echo 'Зөвлөгөө авч эхлэх &#62;';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ar') { 
+              echo 'ابدأ الاستشارة &#62;';
+          }
+         ?>
+      </a>
     </div>
     <div>
-      <!-- <img class="mx-auto mb-24 mt-10" src="<?php bloginfo('template_directory') ?>/img/section3-2-phone.png" width="346px" height="346px" alt=""> -->
       <img class="mx-auto mb-24 mt-10" src="<?php bloginfo('template_directory') ?>/img/himedi-whatsapp1.png" width="346px" height="346px" alt="himedi-whatsapp">
     </div>
   </div>
-  <!-- <div class="px-10"> 
-    <div class="font-bold text-blue-500 text-4xl">
-      * Period required: about 10 days
-    </div>
-    <div class="px-8">
-      Examination results are made available within 10 days from the time when records are received and delivered.
-    </div>
-    <div class="font-bold text-blue-500 text-4xl mt-20">
-      * Estimated cost: Please inquire.
-    </div>
-    <div class="px-8">
-      Examination results are made available within 10 days from the time when records are received and delivered.
-    </div> -->
-    <!-- Button (start) -->
-    <!-- <div class="flex justify-center mt-24">
-      <button class="bg-brand px-5 py-5 w-56 text-white mx-auto mt-10" style="border-radius:10px; font-size:18px">
-        Inquiry
-      </button>
-    </div> -->
-	  <!-- Button (end) -->
   </div>
   <div class="mt-20">
   <h2 class="px-8 font-bold text-left font-size-24 leading-relaxed " style="font-size:24px; color:rgba(0,0,0,.8); line-height: 1.5em;">
-      Himedi solves problems that patients and their caregivers face.
+    <?php 
+          if(ICL_LANGUAGE_CODE == 'en'){ 
+              echo 'Himedi solves problems that patients and their caregivers face';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ru') { 
+              echo 'Мы решим проблемы пациента и смотряших за пациентом ';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'mn') { 
+              echo 'Himedi өвчтөн болон асран хамгаалагчдын асуудлыг шийдвэрлэнэ.';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ar') { 
+              echo 'هاي ميدي تحل المشاكل التي يواجهها المرضى ومقدمو الرعاية لهم.';
+          }
+      ?>
+  
     </div>
     <p class="pt-4 px-8 text-gray-700 text-left font-size-24 leading-none" style="font-size:16px; line-height:26px; font-weight:400;">
-      Himedi dreams of a heartwarming world where everyone enjoys a healthy life. Going beyond the step of medical tourism, Himedi, as a complex medical service platform, presents a new direction for medical service.
+      <?php 
+          if(ICL_LANGUAGE_CODE == 'en'){ 
+              echo 'Himedi dreams of a heartwarming world where everyone enjoys a healthy life. Going beyond the step of medical tourism, Himedi, as a complex medical service platform, presents a new direction for medical service.';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ru') { 
+              echo 'Химеди мечтает о душевном мире, в котором каждый живет здоровой жизнью. Выходя за рамки медицинского туризма, Himedi (Хаймеди), как комплексная платформа медицинских услуг, представляет новое направление для медицинских услуг';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'mn') { 
+              echo 'Himedi нь бүгд эрүүл энх амьдрах боломжтой сайхан дэлхийг хүсэж байна. Эмнэлэгийн аялал жуучлалын салбарт алхам урд гишгэж буй Himedi нь цогц эмнэлэгийн үйлчилгээний платформ болох эмнэлэгийн үйлчилгээний шинэ чиглэл санал болгож байна';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ar') { 
+              echo 'تتطلع هاي ميدي إلى عالم صحي حيث يتمتع الجميع بحياة صحية. ليس فقط السياحة العلاجية ، بل تقدم هاي ميدي، كمنصة خدمات طبية ليست بسيطة ، اتجاهًا جديدًا للخدمات الطبية.';
+          }
+      ?>
+      
     </div>
     <!-- Button (start) -->
     <div class="flex justify-center my-24 mb-32">
