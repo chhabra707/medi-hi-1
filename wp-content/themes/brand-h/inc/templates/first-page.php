@@ -261,10 +261,10 @@
         <p class="pt-4 sub-title-1" >
           <?php 
                 if(ICL_LANGUAGE_CODE == 'en'){ 
-                    echo 'Every aspect of it—including technology, skills, infrastructures, <br class="lg:hidden block">and prices—is all highly credible.';
+                    echo 'Every aspect of it—including technology, skills, infrastructures, <br class="lg:hidden block">and prices—is all highly credible';
                 } 
                 elseif(ICL_LANGUAGE_CODE == 'ru') { 
-                    echo 'Уровень медицинского обслуживания в Корее самый высокий в мире.';
+                    echo 'Уровень медицинского обслуживания в Корее самый высокий в мире';
                 } 
                 elseif(ICL_LANGUAGE_CODE == 'mn') { 
                     echo 'Солонгосын эмнэлэгийн үйлчилгээ нь дэлхийн түвшинд хүрсэн';
@@ -294,7 +294,22 @@
 		<div class="bg-black w-full h-full absolute inset-0 opacity-50"></div>
 		<img src="<?php bloginfo('template_directory') ?>/img/endCont.jpg">
 		<p class="absolute inset-0 h-full text-white text-5xl px-5 contnet-addtional" style="font-size:24px; line-height:40px; font-family: Arial, Verdana, sans-serif!important; font-weight:400;">
-			In addition, <b class="font-extrabold">Himedi</b> has cared for <b class="font-extrabold">4,239</b> patients while addressing <b class="font-extrabold">10,290</b> inquiries in consultation with Korea’s best medical staff.
+      <?php 
+          if(ICL_LANGUAGE_CODE == 'en'){ 
+              echo 'In addition, <b class="font-extrabold">Himedi</b> has cared for <b class="font-extrabold">4,239</b> patients while addressing <b class="font-extrabold">10,290</b> inquiries in consultation with Korea’s best medical staff';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ru') { 
+              echo 'Кроме того, Himedi (Хаймеди) оказала помощь 4239 пациентам, рассмотрев 10 290 запросов проконсультировавшись с лучшими профессионалами Кореи';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'mn') { 
+              echo 'Нэмж хэлэхэд, Himedi нь Солонгосын шилдэг эмнэлэгийн ажилтануудтай хамтран 10290 хүсэлт хүлээн авч 4239 өвчтөнд үйлчилгээ үзүүлсэн';
+          } 
+          elseif(ICL_LANGUAGE_CODE == 'ar') { 
+              echo 'بالإضافة إلى ذلك ، قام هاي ميدي برعاية 4239 مريضًا أثناء الرد على 10290 استفسارًا بالتعاون مع أفضل الطواقم الطبية الكورية.';
+          }
+          ?>
+
+			
 		</p>
 	</div>
 	<p class="lg:pt-24 pt-10 px-5 sub-title-1-c">

@@ -1,4 +1,3 @@
-<!-- <a href="/wp-admin/edit.php?post_type=testimonial"><?php _e('Goto Result through Admin page', 'brand-h-form'); ?> </a> -->
 <form class="w-full mt-20 px-5 sm:text-2xl text-lg sm:p-16" id="brandh-form-form" action="#" method="post" data-url="<?php echo admin_url('admin-ajax.php'); ?>">
 
 	<!-- Name (start) -->
@@ -292,7 +291,7 @@
 				Medical Report <span class="text-red-500">*</span>
 			</label>
 		</div>
-		<div class="sm:w-2/3 w-full flex justify-between">
+		<div class="sm:w-2/3 w-full flex justify-between lg:px-12">
 			<label class="inline font-bold px-5">
 				<input class="mr-2" name="medical_report" type="radio" required value="yes">
 				<span>
@@ -330,7 +329,7 @@
 		<div class="w-full">
 			<label class="block font-bold mb-1 mb-0 pr-4" for="message2">
 				<img class="inline pr-2" src="<?php bloginfo('template_url') ?>/img/check.svg" alt="">
-				Is there any aspect regarding the patient that <span class="pl-10">Doctors need to take note of? </span><span class="text-red-500">*</span>
+				Is there any aspect regarding the patient that <span class="pl-10 lg:pl-0">Doctors need to take note of? </span><span class="text-red-500">*</span>
 			</label>
 		</div>
 		<div class="w-full p-10">
@@ -341,10 +340,10 @@
 	<!-- Question 2 (end) -->
 
 	<!-- Consent (start) -->
-	<div class="text-right p-10 flex items-center justify-end">
+	<!-- <div class="text-right p-10 flex items-center justify-end">
 		<span class="pr-2">Consent to collect personal data</span>
 		<input type="checkbox" class="">
-	</div>
+	</div> -->
 	<!-- Consent (end) -->
 
 	<!-- Submit (start) -->

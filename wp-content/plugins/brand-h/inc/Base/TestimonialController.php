@@ -76,12 +76,21 @@ class TestimonialController extends BaseController
 			'post_content' => $message,
 			'post_author' => 1,
 			'post_status' => 'publish',
-			'post_type' => 'testimonial',
+			'post_type' => 'testimonial',  
 			'meta_input' => array(
 				'_brandh_form_key' => $data
 			)
 		);
-
+		
+		// begin sending email
+		$to = $email;
+		$subject = '[Himedi] You got inform check it now';
+		$headers = 'Content-type: text/html; charset=iso-8859-1';
+		$headers .= "From: Inform at admin@gmail.com";
+		$mailResult = wp_mail( $to, $subject, $message1 ,$headers);
+		
+		// end sending email
+		
 		$postID = wp_insert_post($args);
 
 		if ($postID) {
