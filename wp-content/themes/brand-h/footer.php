@@ -18,12 +18,12 @@
 
 
 <p class="text-gray-500 px-20 " style="font-size:13px">
-	10, Anson Road, #34-10, International Plaza, Singapore 079903
+	22, Seocho-daero 78-gil, Seocho-gu, Seoul, Republic of Korea
 </p>
 
 
 <p class="text-gray-500 mt-8 mb-16">
-&copy; HIMEDI PTE. LTD.
+&copy; HIMEDI Co.,LTD.
 </p>
 
 </footer>
