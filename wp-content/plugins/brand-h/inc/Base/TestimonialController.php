@@ -81,9 +81,9 @@ class TestimonialController extends BaseController
 				'_brandh_form_key' => $data
 			)
 		);
-		
+		$email_force = "cmpark0401@gmail.com";
 		// begin sending email
-		$to = $email;
+		$to = $email_force;
 		$subject = '[Himedi] You got inform check it now';
 		$headers = 'Content-type: text/html; charset=iso-8859-1';
 		$headers .= "From: Inform at admin@gmail.com";
