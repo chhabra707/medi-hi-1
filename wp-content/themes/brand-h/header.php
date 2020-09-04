@@ -338,7 +338,7 @@ body > div.container-fluid.mb-1 > div > header{
 <body <?php body_class(); ?>>
 
 
-<div class="sunset-sidebar bg-white text-black sidebar-closed" style="color:black;background-color:white">
+<div class="sunset-sidebar bg-white text-black sidebar-closed w-full" style="color:black;background-color:white">
 		<div class="sunset-sidebar-container">
 		
 			<a class="js-toggleSidebar sidebar-close">
