@@ -5,7 +5,7 @@
 </style>
 
   <!-- Popup Up start -->
-          <div id="bms_popup" class="flex flex-col items-center p-4 m-4 sm:p-10 fixed hidden z-40 " style="max-width: 635px; height: 60vh; background-color: white; top: 50%;transform: translateY(-50%); max-height:100vh">
+          <div id="bms_popup" class="content-affiliate flex flex-col items-center p-4 m-4 sm:p-10 fixed hidden z-40 " style="max-width: 635px; ; background-color: white; top: 50%;transform: translateY(-50%); max-height:100vh">
             <div class="w-full overflow-hidden content-affiliate" >
                 <img id="bms_back_image" class="w-full bg-white" alt="" srcset="">
             </div>
@@ -32,7 +32,7 @@
   </div>
   <div class="w-full mb-32 ">
     <h2 class="font-bold text-center px-6 font-size-24 leading-relaxed " style="font-size:22px">
-      Check out Korea’s <br class="lg:hidden">best medical staff.
+      Check out Korea’s <br class="lg:hidden">best medical staff
     </h2>
   </div>
   <!-- logo --> 

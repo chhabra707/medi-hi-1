@@ -430,46 +430,44 @@
 	<button class="bg-brand px-3 py-3 text-white w-48 mx-auto mt-10 mb-10" style="border-radius: 50%; width: 47px; font-size: 18px;">
 		01
 	</button>
-	<div class="flex px-8">
+	<div class="flex px-8 text-center">
 		<div class="h-32 w-32 flex itmes-center remove_icon justify-center items-start mt-3" style="color:blue; margin-right:10px;">
-		<img src="<?php bloginfo('template_directory') ?>/img/hospital-user-light.svg" >
+        <img src="<?php bloginfo('template_directory') ?>/img/hospital-user-light.svg" >
 		</div>
-    <div class="mb-5">
-      <?php 
-          if(ICL_LANGUAGE_CODE == 'en'){ 
-              echo 'Consulting directly with a doctor on behalf of you';
-          } 
-          elseif(ICL_LANGUAGE_CODE == 'ru') { 
-              echo 'Консультация напрямую с врачом от вашего имени';
-          } 
-          elseif(ICL_LANGUAGE_CODE == 'mn') { 
-              echo 'Таны өмнөөс эмчтэй шууд холбогдох болно';
-          } 
-          elseif(ICL_LANGUAGE_CODE == 'ar') { 
-              echo 'استشارة مباشرة مع طبيب نيابة عنك';
-          }
-      ?>
-      <div class="text-black mb-5 mt-4 font-bold text-center px-3 font-size-24 leading-none">
-		  
-		</div>
-      <div class="text-xl leading-none text-center" style="">
-        <?php 
-            if(ICL_LANGUAGE_CODE == 'en'){ 
-                echo '*Available only for patients already with medical records';
-            } 
-            elseif(ICL_LANGUAGE_CODE == 'ru') { 
-                echo 'Доступно только для пациентов, которые повторно записаны на прием';
-            } 
-            elseif(ICL_LANGUAGE_CODE == 'mn') { 
-                echo 'Зөвхөн давтан үзүүлэх гэж байгаа өвчтөнд хамрагдана';
-            } 
-            elseif(ICL_LANGUAGE_CODE == 'ar') { 
-                echo 'متاح فقط للمرضى الذين لديهم بالفعل سجلات طبية';
-            }
-        ?>
-		  
-		</div>
-    </div>
+        <div class="mb-5 w-full text-center">
+            <div class="text-black mb-5 mt-4 font-bold text-center px-3 font-size-24 leading-none">
+                <?php 
+                    if(ICL_LANGUAGE_CODE == 'en'){ 
+                        echo 'Consulting directly with a doctor on behalf of you';
+                    } 
+                    elseif(ICL_LANGUAGE_CODE == 'ru') { 
+                        echo 'Консультация напрямую с врачом от вашего имени';
+                    } 
+                    elseif(ICL_LANGUAGE_CODE == 'mn') { 
+                        echo 'Таны өмнөөс эмчтэй шууд холбогдох болно';
+                    } 
+                    elseif(ICL_LANGUAGE_CODE == 'ar') { 
+                        echo 'استشارة مباشرة مع طبيب نيابة عنك';
+                    }
+                ?>
+		    </div>
+            <div class="text-xl leading-none text-center" style="">
+                <?php 
+                    if(ICL_LANGUAGE_CODE == 'en'){ 
+                        echo '*Available only for patients already with medical records';
+                    } 
+                    elseif(ICL_LANGUAGE_CODE == 'ru') { 
+                        echo 'Доступно только для пациентов, которые повторно записаны на прием';
+                    } 
+                    elseif(ICL_LANGUAGE_CODE == 'mn') { 
+                        echo 'Зөвхөн давтан үзүүлэх гэж байгаа өвчтөнд хамрагдана';
+                    } 
+                    elseif(ICL_LANGUAGE_CODE == 'ar') { 
+                        echo 'متاح فقط للمرضى الذين لديهم بالفعل سجلات طبية';
+                    }
+                ?>
+            </div>
+        </div>
 	</div>
 
 	<button class="bg-brand px-3 py-3 text-white w-48 mx-auto mt-10 mb-10" style="border-radius: 50%; width: 47px; font-size: 18px;">

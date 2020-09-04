@@ -1442,6 +1442,9 @@ transform: translateY(-8px);
   .desktop_br{
     display:none;
   }
+  .content-affiliate{
+    height: 47vh;
+  }
 }
   
   @media only screen and (min-width: 635px) { /* desktop */
@@ -1475,6 +1478,9 @@ transform: translateY(-8px);
     }
     .desktop_br{
       display:block;
+    }
+    .content-affiliate{
+      height: 60vh;
     }
   }
   

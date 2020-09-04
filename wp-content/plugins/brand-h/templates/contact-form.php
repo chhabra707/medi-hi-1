@@ -314,7 +314,7 @@
 		<div class="w-full">
 			<label class="block font-bold mb-1 mb-0 pr-4" for="message">
 				<img class="inline pr-2" src="<?php bloginfo('template_url') ?>/img/check.svg" alt="">
-				Major questions to doctors: <span class="text-red-500">*</span>
+				Major questions to doctors <span class="text-red-500">*</span>
 			</label>
 		</div>
 		<div class="w-full p-10">
