@@ -29,7 +29,7 @@
 		?>
     
   </h3>
-  <p class="mt-5 text-center px-6 leading-none" style="color:#2681F3;font-size:16px">
+  <!-- <p class="mt-5 text-center px-6 leading-none" style="color:#2681F3;font-size:16px">
   		<?php 
 			if(ICL_LANGUAGE_CODE == 'en'){ 
 				echo '* If you have an urget inquiry <br class="lg:hidden"> please leave it via WhatsApp.';
@@ -45,7 +45,7 @@
 			}
 		?>
 		
-	</p>
+	</p> -->
 	<!-- Content (end) -->
 
 	<!-- Divider (start) -->

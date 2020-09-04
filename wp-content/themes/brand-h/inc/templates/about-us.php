@@ -53,7 +53,7 @@
 		<p class="pt-4 px-2 text-gray-700 text-left text-3xl leading-none text-white" style="color:#5F5F5F; line-height:1.2" >
 			<?php 
 					if(ICL_LANGUAGE_CODE == 'en'){ 
-						echo '\‘Himedi\’ is a combined word of \‘Hi\’ which is a friendly greeting and \‘Medical\’ which
+						echo '\'Himedi\' is a combined word of \'Hi\' which is a friendly greeting and \'Medical\' which
 						means medical science. <br><br> It reflects the intention to provide friendly service that wipes out fear from
 						foreign patients coming from overseas';
 					} 
@@ -77,8 +77,8 @@
 		<p class="pt-4 px-2 text-gray-700 text-left text-2xl leading-none text-white" style="color:#5F5F5F; line-height:1.2" >
 			<?php 
 					if(ICL_LANGUAGE_CODE == 'en'){ 
-						echo 'The path that Himedi has followed since 2011 as \‘an enterprise of innovation that
-						realizes easy and comfortable medical tourism.\’';
+						echo 'The path that Himedi has followed since 2011 as \'an enterprise of innovation that
+						realizes easy and comfortable medical tourism.\'';
 					} 
 					elseif(ICL_LANGUAGE_CODE == 'ru') { 
 						echo 'Путь, по которому Хаймеди, следует с 2011 года как «инновационное предприятие, обеспечивающее легкий и удобный медицинский туризм».';

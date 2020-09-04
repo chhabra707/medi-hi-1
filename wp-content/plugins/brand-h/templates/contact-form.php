@@ -318,7 +318,7 @@
 			</label>
 		</div>
 		<div class="w-full p-10">
-			<textarea name="message1" id="message1" class="field-input border border-gray-500 w-full px-4" placeholder="Your Message" rows="3" required></textarea>
+			<textarea name="message1" id="message1" class="field-input border border-gray-500 w-full px-4" placeholder="Your message here" rows="3" required></textarea>
 			<small class="field-msg error" data-error="invalidMessage1">A Message is Required</small>
 		</div>
 	</div>
@@ -333,7 +333,7 @@
 			</label>
 		</div>
 		<div class="w-full p-10">
-			<textarea name="message2" id="message2" class="field-input border border-gray-500 w-full px-4" placeholder="Your Message2" rows="3" required></textarea>
+			<textarea name="message2" id="message2" class="field-input border border-gray-500 w-full px-4" placeholder="Your message here" rows="3" required></textarea>
 			<small class="field-msg error" data-error="invalidMessage2">A Message2 is Required</small>
 		</div>
 	</div>
