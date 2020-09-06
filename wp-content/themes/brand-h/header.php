@@ -112,7 +112,8 @@ body > div.container-fluid.mb-1 > div > header{
 	@media screen and (max-width:500px){
 	    .header-container.fixed-top{
             position: fixed;
-            width: 50rem;
+			/* width: 50rem; */
+			wdith:100%;
             margin: 0 auto;
         }
         .contnet-addtional {
@@ -123,7 +124,8 @@ body > div.container-fluid.mb-1 > div > header{
 	@media screen and (max-width:460px){
 	    .header-container.fixed-top{
             position: fixed;
-            width: 38rem;
+			width: 40.1rem;
+			/* wdith:100%; */
             margin: 0 auto;
         }
         

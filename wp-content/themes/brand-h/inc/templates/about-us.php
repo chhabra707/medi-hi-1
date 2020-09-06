@@ -606,90 +606,90 @@
 					echo 'الموقع';	
 				}
 			?>	
-			</h3>
+		</h3>
 
 		<iframe class="w-full h-56 mb-4" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDgl81NrLLD43y1Qep_Dc8INyr8ilgvSwE
 	&q=22+Seocho-daero+78-gil,+Seocho-dong,+Seocho-gu,+Seoul" allowfullscreen>
 		</iframe>
-
-		<h3 class="font-bold text-center px-0 font-size-24 leading-relaxed" style="font-size:22px">
-			<?php 
-				if(ICL_LANGUAGE_CODE == 'en'){ 
-					echo 'Himedi Headquarters';
-				} 
-				elseif(ICL_LANGUAGE_CODE == 'ru') { 
-					echo 'Штаб-квартира Химеди';
-				} 
-				elseif(ICL_LANGUAGE_CODE == 'mn') { 
-					echo 'Himedi-н төв байр';
-				} 
-				elseif(ICL_LANGUAGE_CODE == 'ar') { 
-					echo 'مقر هاي ميدي';	
-				}
-			?>	
-						
+		<div>
+			<h3 class="font-bold px-0 font-size-24 leading-relaxed" style="font-size:22px">
+				<?php 
+					if(ICL_LANGUAGE_CODE == 'en'){ 
+						echo 'Himedi Headquarters';
+					} 
+					elseif(ICL_LANGUAGE_CODE == 'ru') { 
+						echo 'Штаб-квартира Химеди';
+					} 
+					elseif(ICL_LANGUAGE_CODE == 'mn') { 
+						echo 'Himedi-н төв байр';
+					} 
+					elseif(ICL_LANGUAGE_CODE == 'ar') { 
+						echo 'مقر هاي ميدي';	
+					}
+				?>	
+							
 			</h3>
 
-		<div class="leading-relaxed">
-			<table>
-				<tr class="text-sm">
-					<td class="pr-4 py-2" valign="top">
-						<?php 
-							if(ICL_LANGUAGE_CODE == 'en'){ 
-								echo 'Address';
-							} 
-							elseif(ICL_LANGUAGE_CODE == 'ru') { 
-								echo 'Адресс ';
-							} 
-							elseif(ICL_LANGUAGE_CODE == 'mn') { 
-								echo 'Хаяг';
-							} 
-							elseif(ICL_LANGUAGE_CODE == 'ar') { 
-								echo 'العنوان';	
-							}
-						?>	
-					</td>
-					<td class="py-2">7th Floor, Hongwu-2-Building, 78-gil 22, Seochodaero, Seocho-gu, Seoul</td>
-				</tr>
-
-				<tr class="text-sm">
-					<td class="pr-4 py-2" valign="top">Location</td>
-					<td class="py-2">
-						<?php 
+			<div class="leading-relaxed">
+				<table>
+					<tr class="text-sm">
+						<td class="pr-4 py-2" valign="top">
+							<?php 
 								if(ICL_LANGUAGE_CODE == 'en'){ 
-									echo '5 minutes from Exit No. 6 of Gangnam Station (Shinbundang subway line)';
+									echo 'Address';
 								} 
 								elseif(ICL_LANGUAGE_CODE == 'ru') { 
-									echo '5 минут от выхода № 6 со станции Гангнам (линия метро Шинбунданг)';
+									echo 'Адресс ';
 								} 
 								elseif(ICL_LANGUAGE_CODE == 'mn') { 
-									echo 'Ганнам метроны буудал 6р гарцаар гараад 5мин (Shinbundang метроны шугам)';
+									echo 'Хаяг';
 								} 
 								elseif(ICL_LANGUAGE_CODE == 'ar') { 
-									echo 'خمس دقائق من المخرج رقم 6 لمحطة كانغنام (خط مترو أنفاق شينبوندانغ)';	
+									echo 'العنوان';	
 								}
 							?>	
 						</td>
-				</tr>
+						<td class="py-2">7th Floor, Hongwu-2-Building, 78-gil 22, Seochodaero, Seocho-gu, Seoul</td>
+					</tr>
 
-				<tr class="text-sm">
-					<td class="pr-4 py-2" valign="top">Tel</td>
-					<td class="py-2">+82 70-8146-8986</td>
-				</tr>
+					<tr class="text-sm">
+						<td class="pr-4 py-2" valign="top">Location</td>
+						<td class="py-2">
+							<?php 
+									if(ICL_LANGUAGE_CODE == 'en'){ 
+										echo '5 minutes from Exit No. 6 of Gangnam Station (Shinbundang subway line)';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'ru') { 
+										echo '5 минут от выхода № 6 со станции Гангнам (линия метро Шинбунданг)';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'mn') { 
+										echo 'Ганнам метроны буудал 6р гарцаар гараад 5мин (Shinbundang метроны шугам)';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'ar') { 
+										echo 'خمس دقائق من المخرج رقم 6 لمحطة كانغنام (خط مترو أنفاق شينبوندانغ)';	
+									}
+								?>	
+							</td>
+					</tr>
 
-				<tr class="text-sm">
-					<td class="pr-4 py-2" valign="top">Fax</td>
-					<td class="py-2">+82 2-545-0420</td>
-				</tr>
+					<tr class="text-sm">
+						<td class="pr-4 py-2" valign="top">Tel</td>
+						<td class="py-2">+82 70-8146-8986</td>
+					</tr>
 
-				<tr class="text-sm">
-					<td class="pr-4 py-2" valign="top">E-mail</td>
-					<td class="py-2">acc@himedi.com</td>
-				</tr>
+					<tr class="text-sm">
+						<td class="pr-4 py-2" valign="top">Fax</td>
+						<td class="py-2">+82 2-545-0420</td>
+					</tr>
 
-			</table>
+					<tr class="text-sm">
+						<td class="pr-4 py-2" valign="top">E-mail</td>
+						<td class="py-2">acc@himedi.com</td>
+					</tr>
+
+				</table>
+			</div>
 		</div>
-
 	</div>
 
 </div>
