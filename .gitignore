@@ -11,3 +11,4 @@ wp-content/plugins/.DS_Store
 *.log
 wp-content/ai1wm-backups/medi-master.com-20200903-141526-zs324v.wpress
 *.log
+*.wpress
