@@ -21,7 +21,7 @@
 	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-	<!-- <link rel="stylesheet" href="http://medi.techroad.io/wp-content/themes/brand-h/style.css"> -->
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/style.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
 	<style>
@@ -243,12 +243,12 @@ body > div.container-fluid.mb-1 > div > header{
 	</style>
 	<!--End tailwind-->
 	<!--Begin OG-->
-	<meta property="og:title" content="Himedi">
+	<meta property="og:title" content="Himed with doctors">
 	<meta property="og:site_name" content="Himedi">
-	<meta property="og:url" content="https://www.himedi.io">
+	<meta property="og:url" content="https://himedidoctors.com/">
 	<meta property="og:description" content="Himedi meets doctors of first-class hospitals in Korea on behalf of you. We lead you to world-best medical staff and best remedies.">
 	<meta property="og:type" content="business.business">
-	<meta property="og:image" content="http://medi.techroad.io/wp-content/themes/brand-h/img/Bild3.jpg">
+	<meta property="og:image" content="<?php bloginfo('template_directory') ?>/img/Bild3.jpg">
 	<!--End OG -->
 	<?php if (is_singular() && pings_open(get_queried_object())) : ?>
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
