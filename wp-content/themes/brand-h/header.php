@@ -21,7 +21,9 @@
 	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/style.css">
+<!-- <link rel="stylesheet" href="http://medi.techroad.io/wp-content/themes/brand-h/style.css"> -->
+<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/style.css">
+
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
 	<style>
@@ -543,7 +545,22 @@ body > div.container-fluid.mb-1 > div > header{
 					<div class="table-cell" style="vertical-align:top;padding-top:25px">
 						<h1 class="site-title sunset-icon justify-center flex">
 							<!-- <span class="sunset-logo"></span> -->
-							<a href="/">
+							
+							
+
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+							
+								<?php 
+									if(ICL_LANGUAGE_CODE == 'en'){ 
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'ru') { 
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'mn') { 
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'ar') {  
+									}
+								?>
+
 								<div>
 									<img src="<?php echo get_template_directory_uri(); ?>/img/logo_final.png" class="mx-auto scroll_full"/>
 								</div>
