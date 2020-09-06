@@ -9,7 +9,7 @@
 			</label>
 		</div>
 		<div class="sm:w-2/3 w-3/5">
-			<input type="text" class="field-input appearance-none border-2 border-gray-200 rounded-lg w-full py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Jane Doe" id="name" name="name" required>
+			<input type="text" class="field-input appearance-none border border-gray-200 rounded-lg w-full py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Jane Doe" id="name" name="name" required>
 			<small class="field-msg error" data-error="invalidName">Your Name is Required</small>
 		</div>
 	</div>
@@ -25,9 +25,9 @@
 		</div>
 		<div class="sm:w-2/3 w-3/5 flex justify-between">
 			<!-- Phone codes (start) -->
-			<select class="arabic-style-phone mr-5 w-2/5 border border-gray-200 text-gray-500 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state" name="phone_code">
+			<select class="field-input mr-5 w-2/5 border border-gray-200 text-gray-500 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state" required name="phone_code">
 
-				<option selected>Nation</option>
+				<option selected disabled>Nation</option>
 				<option data-countryCode="KR" value="82">S. Korea (+82)</option>
 				<option data-countryCode="US" value="1">USA (+1)</option>
 				<option data-countryCode="GB" value="44">UK (+44)</option>
@@ -247,7 +247,7 @@
 			</select>
 			<small class="field-msg error" data-error="invalidPhoneCode">The Phone Code is not valid</small>
 			<!-- Phone codes (end) -->
-			<input type="number" class="field-input w-3/5 appearance-none border-2 border-gray-200 rounded-lg py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Your Phone Number" id="phone" name="phone" min="1">
+			<input type="number" class="field-input w-3/5 appearance-none border border-gray-200 rounded-lg py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Your Phone Number" id="phone" name="phone" min="1" required>
 			<small class="field-msg error" data-error="invalidPhone">The Phone is not valid</small>
 		</div>
 	</div>
@@ -262,7 +262,7 @@
 			</label>
 		</div>
 		<div class="sm:w-2/3 w-3/5">
-			<input type="email" class="field-input appearance-none border-2 border-gray-200 rounded-lg w-full py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Your Email" id="email" name="email" required>
+			<input type="email" class="field-input appearance-none border border-gray-200 rounded-lg w-full py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Your Email" id="email" name="email" required>
 			<small class="field-msg error" data-error="invalidEmail">The Email address is not valid</small>
 		</div>
 	</div>
@@ -277,7 +277,7 @@
 			</label>
 		</div>
 		<div class="sm:w-2/3 w-3/5">
-			<input type="text" class="field-input appearance-none border-2 border-gray-200 rounded-lg w-full py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Write disease here" id="care" name="care">
+			<input type="text" class="field-input appearance-none border border-gray-200 rounded-lg w-full py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Write disease here" id="care" name="care" required>
 			<small class="field-msg error" data-error="invalidCare">The Disesae is not valid</small>
 		</div>
 	</div>

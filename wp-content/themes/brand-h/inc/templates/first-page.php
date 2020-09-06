@@ -147,7 +147,7 @@
 
   <div class="w-full bg-gray-100 text-justify">
 		<div class="medi_graph flex flex-col justify-center flex-wrap" style="max-height: 450px;">
-			<p class="pt-4 px-8 text-gray-700 text-center font-noto-regular leading-none" style="font-size:20px">
+			<p class="pt-4 px-8 text-gray-700 text-center font-noto-regular leading-none w-full" style="font-size:20px">
         <?php 
               if(ICL_LANGUAGE_CODE == 'en'){ 
                   echo 'The survival rate of patients with one of the 5 major cancers compared <br class="lg:hidden block">to that in the U.S';
@@ -173,7 +173,7 @@
 
 		</div>
 		<div class="medi_graph flex flex-col justify-center  flex-wrap hidden" style="max-height: 450px;">
-			<p class="pt-4 px-8 text-gray-700 text-center font-noto-regular leading-none" style="font-size:20px;">
+			<p class="pt-4 px-8 text-gray-700 text-center font-noto-regular leading-none w-full" style="font-size:20px;">
         <?php 
               if(ICL_LANGUAGE_CODE == 'en'){ 
                   echo 'No. of hospitals per a thousand people among OECD countries';
@@ -199,7 +199,7 @@
 
 		</div>
 		<div class="medi_graph flex flex-col justify-center  flex-wrap hidden" style="max-height: 450px;">
-			<p class="pt-4 px-2  text-gray-700 text-center font-noto-regular leading-none" style="font-size:20px;">
+			<p class="pt-4 px-2  text-gray-700 text-center font-noto-regular leading-none w-full" style="font-size:20px;">
         <?php 
               if(ICL_LANGUAGE_CODE == 'en'){ 
                   echo 'Medical expenses for serious illnesses in<br> <b>Germany VS Korea</b>';

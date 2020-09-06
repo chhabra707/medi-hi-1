@@ -84,8 +84,26 @@
 				});
 			}
 
-			jQuery("form input").on('invalid', function() {
-				$('input,textarea,radio').addClass('border border-red-500');
+			// jQuery("form input").on('invalid', function() {
+			// 	debugger;
+			// 	$('input,textarea,radio').addClass('border border-red-500');
+			// });
+
+			jQuery('.applyBtn').click(function() {
+				
+			    var formvalidation = jQuery(this).parents('.inquiry-form');
+			    formvalidation.find('.field-input').each(function() {
+			        var thisValue = jQuery(this).val();
+			        var thisValueSelect = jQuery(this).val();
+
+			        if (thisValue == "" || thisValueSelect == null) {
+			            jQuery(this).addClass('border-red-500');
+			            jQuery(this).focus();
+			          
+			        } else {
+			            jQuery(this).removeClass('border-red-500');
+			        }
+			    });
 			});
 		}
 	);

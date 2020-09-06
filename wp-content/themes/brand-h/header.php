@@ -98,7 +98,7 @@ body > div.container-fluid.mb-1 > div > header{
 		@media screen and (max-width:640px){
 	    .header-container.fixed-top{
             position: fixed;
-            width: 55rem;
+            width: 100%;
             margin: 0 auto;
             top:0px;
         }
@@ -111,10 +111,9 @@ body > div.container-fluid.mb-1 > div > header{
 	
 	@media screen and (max-width:500px){
 	    .header-container.fixed-top{
-            position: fixed;
-			/* width: 50rem; */
-			wdith:100%;
-            margin: 0 auto;
+            /*position: fixed;*/
+            /*width: 50rem;*/
+            /*margin: 0 auto;*/
         }
         .contnet-addtional {
             top: 13%!important;
@@ -123,10 +122,9 @@ body > div.container-fluid.mb-1 > div > header{
 	
 	@media screen and (max-width:460px){
 	    .header-container.fixed-top{
-            position: fixed;
-			width: 40.1rem;
-			/* wdith:100%; */
-            margin: 0 auto;
+            /*position: fixed;*/
+            /*width: 38rem;*/
+            /*margin: 0 auto;*/
         }
         
         .header-container .top_full, .header-container.fixed-top .scroll_full {
@@ -138,16 +136,16 @@ body > div.container-fluid.mb-1 > div > header{
 	
 		@media screen and (max-width:360px){
 	    .header-container.fixed-top{
-            position: fixed;
-            width: 36rem;
-            margin: 0 auto;
+            /*position: fixed;*/
+            /*width: 36rem;*/
+            /*margin: 0 auto;*/
         }
 	}
 	
 	@media screen and (max-width:320px){
 	    .header-container.fixed-top{
             position: fixed;
-            width: 32rem;
+            /*width: 32rem;*/
             margin: 0 auto;
         }
         .fixed-top img.mx-auto.scroll_full {
@@ -514,7 +512,7 @@ body > div.container-fluid.mb-1 > div > header{
 						<div class="mt-12" >
 							<div style="position:relative">
 								<!-- <img src="<?php echo get_template_directory_uri(); ?>/img/sidebar-1.png" style="position:absolute;top:0px"> -->
-								<div style="position:absolute;top:10px">
+								<div style="top:10px">
 									<img src="<?php echo get_template_directory_uri(); ?>/img/himedi-story-sidebar.png">
 									<!-- <div class="mt-3 ml-5">HIMEDI STORY</div>
 									<div class="ml-5 text-sm">As a complex medical service platform</div>								
@@ -523,6 +521,23 @@ body > div.container-fluid.mb-1 > div > header{
 							</div>
 						</div>
 					</a>	
+
+					<div class=" wpml-ls wpml-ls-legacy-list-horizontal text-center">
+						<ul>
+							<li class="wpml-ls-item">
+								<a href="/en/" class="wpml-ls-link"><img class="wpml-ls-flag" src="<?php echo get_template_directory_uri(); ?>/img/en.png" alt=""></a>
+							</li>
+							<li class="wpml-ls-item">
+								<a href="/ar/" class="wpml-ls-link"><img class="wpml-ls-flag" src="<?php echo get_template_directory_uri(); ?>/img/ar.png" alt=""></a>
+							</li>
+							<li class="wpml-ls-item">
+								<a href="/ru/" class="wpml-ls-link"><img class="wpml-ls-flag" src="<?php echo get_template_directory_uri(); ?>/img/ru.png" alt=""></a>
+							</li>
+							<li class="wpml-ls-item">
+								<a href="/mn/" class="wpml-ls-link"><img class="wpml-ls-flag" src="<?php echo get_template_directory_uri(); ?>/img/mn.png" alt=""></a>
+							</li>
+						</ul>
+					</div>	
 					</div>
 				</div>
 			</div><!-- .sidebar-scroll -->
