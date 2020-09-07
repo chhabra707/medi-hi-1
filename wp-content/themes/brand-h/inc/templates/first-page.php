@@ -114,7 +114,7 @@
         ?>
 				
         </h2>
-            <p class="pt-4 px-8 text-gray-700 text-left font-size-24 leading-none" style="font-size: 20px; text-align: left!important;    font-family: Noto Sans Light, sans-serif!important; line-height: 1.2; color: rgba(0,0,0,.5)!important; word-break: break-all;">
+            <p class="pt-4 px-8 text-gray-700 text-left font-size-24 leading-none" style="font-size: 20px; font-family: Noto Sans Light, sans-serif!important; line-height: 1.2; color: rgba(0,0,0,.5)!important; word-break: break-all;">
             <?php 
               if(ICL_LANGUAGE_CODE == 'en'){ 
                   echo 'Send your relevant medical records such as treatment history, image, etc';
@@ -288,7 +288,7 @@
    
   <!-- Chart Text (start) -->
   <div class="lg:mt-10 mt-10 lg:mb-24 mb-0 lg:p-10 p-2 px-12">
-        <h2 class="title-1" >
+        <h2 class="title-1 text-left" >
           <?php 
                 if(ICL_LANGUAGE_CODE == 'en'){ 
                     echo 'Korea’s medical service boasts a world-class level';
@@ -305,7 +305,7 @@
           ?>
         
         </h2>
-        <p class="pt-4 sub-title-1" >
+        <p class="pt-4 sub-title-1 text-left" >
           <?php 
                 if(ICL_LANGUAGE_CODE == 'en'){ 
                     echo 'Every aspect of it—including technology, skills, infrastructures, <br class="lg:hidden block">and prices—is all highly credible';

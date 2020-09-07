@@ -43,7 +43,7 @@ body {
 
 .applyBtn:hover:after {
     content: ' >';
-    word-spacong: 30px;
+    word-spacing: 30px;
 }
 
 .arrowAnimate {
@@ -51,7 +51,9 @@ body {
     animation-duration: 1.8s;
     animation-iteration-count: infinite;
 }
-
+.rtl .arabic-style {
+    margin: 0 .2rem 0 1rem;
+}
 @keyframes bounce {
 
     0%,
@@ -135,47 +137,45 @@ body {
         padding-top: 2rem;
         margin-bottom: 4rem;
     }
-
     .header-container {
         height: 66px !important;
         transition: .3s all ease-in-out;
     }
-
     .interview-slider .px-3 {
         padding-top: 2px;
     }
 
-    .swiper-container {
-        min-height: auto;
+        .swiper-container {
+            min-height: auto;
+        }
+    
+        #successCase_popup {
+            width: 90%
+        }
+    
+        #bms_popup .text-effect, .interview-slider .swiper-wrapper .swiper-slide .swipe-container-content {
+            position: relative;
+        }
+    
+        #bms_popup .text-effect:before, .interview-slider .swiper-wrapper .swiper-slide .swipe-container-content:before {
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+68,ffffff+100&0+0,1+100 */
+            background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.68) 68%, rgba(255, 255, 255, 1) 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.68) 68%, rgba(255, 255, 255, 1) 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.68) 68%, rgba(255, 255, 255, 1) 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0);
+            /* IE6-9 */
+    
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 90px;
+            content: '';
+        }
     }
-
-    #successCase_popup {
-        width: 90%
-    }
-
-    #bms_popup .text-effect, .interview-slider .swiper-wrapper .swiper-slide .swipe-container-content {
-        position: relative;
-    }
-
-    #bms_popup .text-effect:before, .interview-slider .swiper-wrapper .swiper-slide .swipe-container-content:before {
-        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+68,ffffff+100&0+0,1+100 */
-        background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.68) 68%, rgba(255, 255, 255, 1) 100%);
-        /* FF3.6-15 */
-        background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.68) 68%, rgba(255, 255, 255, 1) 100%);
-        /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.68) 68%, rgba(255, 255, 255, 1) 100%);
-        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0);
-        /* IE6-9 */
-
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 90px;
-        content: '';
-    }
-}
 
 
 .header-container {
@@ -188,7 +188,6 @@ body {
     color: #fff;
     border-radius: 7px;
 }
-
 .close-button {
     position: absolute;
     top: 2px;
@@ -203,6 +202,4 @@ body {
         padding-top: 2rem; */
         padding-top: 20rem;
     }
-
-
 }
