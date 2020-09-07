@@ -9,7 +9,7 @@
 			</label>
 		</div>
 		<div class="sm:w-2/3 w-3/5">
-			<input type="text" class="field-input appearance-none border border-gray-200 rounded-lg w-full py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Jane Doe" id="name" name="name" required>
+			<input type="text" class="field-input appearance-none border-2 border-gray-200 rounded-lg w-full py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Jane Doe" id="name" name="name" required>
 			<small class="field-msg error" data-error="invalidName">Your Name is Required</small>
 		</div>
 	</div>
@@ -25,9 +25,9 @@
 		</div>
 		<div class="sm:w-2/3 w-3/5 flex justify-between">
 			<!-- Phone codes (start) -->
-			<select class="arabic-style-phone field-input mr-5 w-2/5 border border-gray-200 text-gray-500 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state" required name="phone_code">
+			<select class="mr-5 w-2/5 border border-gray-200 text-gray-500 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state" name="phone_code">
 
-				<option selected disabled>Nation</option>
+				<option selected>Nation</option>
 				<option data-countryCode="KR" value="82">S. Korea (+82)</option>
 				<option data-countryCode="US" value="1">USA (+1)</option>
 				<option data-countryCode="GB" value="44">UK (+44)</option>
@@ -247,7 +247,7 @@
 			</select>
 			<small class="field-msg error" data-error="invalidPhoneCode">The Phone Code is not valid</small>
 			<!-- Phone codes (end) -->
-			<input type="number" class="field-input w-3/5 appearance-none border border-gray-200 rounded-lg py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Your Phone Number" id="phone" name="phone" min="1" required>
+			<input type="number" class="field-input w-3/5 appearance-none border-2 border-gray-200 rounded-lg py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Your Phone Number" id="phone" name="phone" min="1">
 			<small class="field-msg error" data-error="invalidPhone">The Phone is not valid</small>
 		</div>
 	</div>
@@ -262,7 +262,7 @@
 			</label>
 		</div>
 		<div class="sm:w-2/3 w-3/5">
-			<input type="email" class="field-input appearance-none border border-gray-200 rounded-lg w-full py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Your Email" id="email" name="email" required>
+			<input type="email" class="field-input appearance-none border-2 border-gray-200 rounded-lg w-full py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Your Email" id="email" name="email" required>
 			<small class="field-msg error" data-error="invalidEmail">The Email address is not valid</small>
 		</div>
 	</div>
@@ -277,7 +277,7 @@
 			</label>
 		</div>
 		<div class="sm:w-2/3 w-3/5">
-			<input type="text" class="field-input appearance-none border border-gray-200 rounded-lg w-full py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Write disease here" id="care" name="care" required>
+			<input type="text" class="field-input appearance-none border-2 border-gray-200 rounded-lg w-full py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Write disease here" id="care" name="care">
 			<small class="field-msg error" data-error="invalidCare">The Disesae is not valid</small>
 		</div>
 	</div>
@@ -312,7 +312,7 @@
 	<!-- Question 1 (start) -->
 	<div class="field-container mb-10">
 		<div class="w-full">
-			<label class="block font-bold mb-1 mb-0 pr-4 arabic-style-pr4" for="message">
+			<label class="block font-bold mb-1 mb-0 pr-4" for="message">
 				<img class="inline pr-2" src="<?php bloginfo('template_url') ?>/img/check.svg" alt="">
 				Major questions to doctors <span class="text-red-500">*</span>
 			</label>
@@ -327,14 +327,14 @@
 	<!-- Question 2 (start) -->
 	<div class="field-container mb-10">
 		<div class="w-full">
-			<label class="block font-bold mb-1 mb-0 pr-4 " for="message2">
+			<label class="block font-bold mb-1 mb-0 pr-4" for="message2">
 				<img class="inline pr-2" src="<?php bloginfo('template_url') ?>/img/check.svg" alt="">
-				Is there any aspect regarding the patient that <span class="arabic-style-pr4 pl-10 lg:pl-0">Doctors need to take note of? </span><span class="text-red-500">*</span>
+				Is there any aspect regarding the patient that <span class="pl-10 lg:pl-0">Doctors need to take note of? </span><span class="text-red-500">*</span>
 			</label>
 		</div>
 		<div class="w-full p-10">
 			<textarea name="message2" id="message2" class="field-input border border-gray-500 w-full px-4" placeholder="Your message here" rows="3" required></textarea>
-			<small class="field-msg error" data-error="invalidMessage2">A Message is Required</small>
+			<small class="field-msg error" data-error="invalidMessage2">A Message2 is Required</small>
 		</div>
 	</div>
 	<!-- Question 2 (end) -->

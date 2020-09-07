@@ -20,13 +20,13 @@
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide object-fit-slide">
-					        <img src="<?php bloginfo('template_directory') ?>/img/Bild2-min-700.jpg" alt="" >
+					        <img src="<?php bloginfo('template_directory') ?>/img/Bild2.jpg" alt="" >
                 </div>
                 <div class="swiper-slide object-fit-slide">
-				          <img src="<?php bloginfo('template_directory') ?>/img/Bild3-min-700.jpg" >
+				          <img src="<?php bloginfo('template_directory') ?>/img/Bild3.jpg" >
                 </div>
                 <div class="swiper-slide object-fit-slide">
-				          <img src="<?php bloginfo('template_directory') ?>/img/Bild4-min-700.jpg">
+				          <img src="<?php bloginfo('template_directory') ?>/img/Bild4.jpg">
                 </div>
                 <!-- ... (use in case of pagination) -->
             </div>
@@ -94,7 +94,7 @@
 	<!-- Section1-1 (start) -->
 	  <!-- Content (start) -->
 	  <div class="mt-40 w-full" id="section2">
-	    <img src="<?php bloginfo('template_directory') ?>/img/section1-1-min-700.jpg" alt="">
+	    <img src="<?php bloginfo('template_directory') ?>/img/section1-1.jpg" alt="">
 	  </div>
 	  <div class="lg:mt-10 mt-10 lg:mb-24 mb-0 lg:p-10 p-2">
 	  	<h2 class="px-8 font-size-24 text-left leading-relaxed " style="font-size:25px; font-weight:400; color:#000; line-height: 1.3em; font-family:arial;">
@@ -147,7 +147,7 @@
 
   <div class="w-full bg-gray-100 text-justify">
 		<div class="medi_graph flex flex-col justify-center flex-wrap" style="max-height: 450px;">
-			<p class="pt-4 px-8 text-gray-700 text-center font-noto-regular leading-none w-full" style="font-size:20px">
+			<p class="pt-4 px-8 text-gray-700 text-center font-noto-regular leading-none" style="font-size:20px">
         <?php 
               if(ICL_LANGUAGE_CODE == 'en'){ 
                   echo 'The survival rate of patients with one of the 5 major cancers compared <br class="lg:hidden block">to that in the U.S';
@@ -173,7 +173,7 @@
 
 		</div>
 		<div class="medi_graph flex flex-col justify-center  flex-wrap hidden" style="max-height: 450px;">
-			<p class="pt-4 px-8 text-gray-700 text-center font-noto-regular leading-none w-full" style="font-size:20px;">
+			<p class="pt-4 px-8 text-gray-700 text-center font-noto-regular leading-none" style="font-size:20px;">
         <?php 
               if(ICL_LANGUAGE_CODE == 'en'){ 
                   echo 'No. of hospitals per a thousand people among OECD countries';
@@ -199,7 +199,7 @@
 
 		</div>
 		<div class="medi_graph flex flex-col justify-center  flex-wrap hidden" style="max-height: 450px;">
-			<p class="pt-4 px-2  text-gray-700 text-center font-noto-regular leading-none w-full" style="font-size:20px;">
+			<p class="pt-4 px-2  text-gray-700 text-center font-noto-regular leading-none" style="font-size:20px;">
         <?php 
               if(ICL_LANGUAGE_CODE == 'en'){ 
                   echo 'Medical expenses for serious illnesses in<br> <b>Germany VS Korea</b>';
@@ -339,7 +339,7 @@
 	<!-- Content (start) -->
 	<div class="relative">
 		<div class="bg-black w-full h-full absolute inset-0 opacity-50"></div>
-		<img src="<?php bloginfo('template_directory') ?>/img/endCont-min.jpg">
+		<img src="<?php bloginfo('template_directory') ?>/img/endCont.jpg">
 		<p class="absolute inset-0 h-full text-white text-5xl px-5 contnet-addtional" style="font-size:24px; line-height:40px; font-family: Arial, Verdana, sans-serif!important; font-weight:400;">
       <?php 
           if(ICL_LANGUAGE_CODE == 'en'){ 
@@ -613,7 +613,7 @@
   <div class="text-bold mt-20 font-bold text-left px-6 font-size-24 leading-relaxed" style="color:#2681F3; margin-top:12px;">
     <h2>STEP 01</h2>
   </div>
-  <div class="text-left px-6 font-size-24 leading-none" style="line-height:30px; font-size:24px; font-family: font-family: Noto Sans Regular, sans-serif!important; ">
+  <div class="text-left px-6 font-size-24 leading-none" style="line-height:30px; font-size:24px; font-family: 'noto_sanslight'!important;">
     <?php 
             if(ICL_LANGUAGE_CODE == 'en'){ 
                 echo 'Let <strong style="font-family: \'Noto Sans\', sans-serif!important;">Himedi</strong> know your disease name and questions you want to ask doctors';
@@ -656,7 +656,7 @@
   </div> -->
   <div style="height:400px">
     <div class="relative ">
-      <img class="mx-auto mb-24 mt-5" src="<?php bloginfo('template_directory') ?>/img/himedi-inquiry-screen1-min.png" width="346px" height="346px" alt="">      
+      <img class="mx-auto mb-24 mt-5" src="<?php bloginfo('template_directory') ?>/img/himedi-inquiry-screen1.png" width="346px" height="346px" alt="">      
     </div>
   </div>
 
@@ -708,13 +708,13 @@
       <div class="swiper-wrapper mt-2">
           <!-- Slides -->
           <div class="swiper-slide object-fit-slide">
-            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-1-min-700.jpg" alt="">
+            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-1.jpg" alt="">
           </div>
           <div class="swiper-slide object-fit-slide">
-            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-2-min-700.jpg" alt="" >
+            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-2.jpg" alt="" >
           </div>
           <div class="swiper-slide object-fit-slide">
-            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-3-min-700.jpg" alt="">
+            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-3.jpg" alt="">
           </div>
           <!-- ... (use in case of pagination) -->
       </div>
@@ -830,7 +830,7 @@
       </a>
     </div>
     <div>
-      <img class="mx-auto mb-24 mt-10" src="<?php bloginfo('template_directory') ?>/img/himedi-whatsapp1-min.png" width="346px" height="346px" alt="himedi-whatsapp">
+      <img class="mx-auto mb-24 mt-10" src="<?php bloginfo('template_directory') ?>/img/himedi-whatsapp1.png" width="346px" height="346px" alt="himedi-whatsapp">
     </div>
   </div>
   </div>
