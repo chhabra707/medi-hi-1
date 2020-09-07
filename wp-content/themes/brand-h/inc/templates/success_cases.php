@@ -1,3 +1,37 @@
+
+<style type="text/css">
+@media screen and (min-width:1024px){
+   .first-image{
+    height: 600px;
+    width: 100%;
+    background: #fff;
+    object-fit: contain;
+    }
+    }
+    
+    @media screen and (max-width:480px){
+        .success-popup{
+     max-width: calc(100% - 15px ) !important;
+    transform: translate(-50.1%, -50%) !important;
+    height: 68vh !important;
+        }
+    }
+    @media screen and (max-width:370px){
+        .success-popup {
+                padding-top: 36px;
+    padding-bottom: 3px;
+    height: 80vh !important;
+        }
+    }
+    .closeicon{
+color: #fff;
+    position: absolute;
+    top: -30px;
+    right: 14px;
+    font-size: 14px;
+    z-index: -1;
+    }
+</style>
 <!-- Section 3-5 (start) -->
 <section class="items-center pt-20">
 <div class="flex justify-center flex-wrap mx-10" style="margin-top:70px;">
@@ -81,16 +115,16 @@
     </div> -->
 
     <div id="successCase_popup_bg" class="fixed w-screen h-screen top-0 right-0 z-40 hidden" style="background-color: rgba(0, 0, 0, 0.6);"></div>
-    <div id="successCase_popup" class="himedi-modal w-full sm:w-1/2 md:w-2/3 fixed top-0 z-50 p-4 pt-16 overflow-hidden  hidden" style="max-width: 635px;height: 70vh;top:50%; left: 50%; transform: translate(-50%, -50%);">
+ <div id="successCase_popup" class="success-popup  w-full sm:w-1/2 md:w-2/3 fixed top-0 z-50 p-4 pt-16  hidden" style="max-width: 635px;height: 70vh;top:50%; left: 50%; transform: translate(-50%, -50%);">
      
 
-          <button type="button" class="inline-flex justify-center close-button w-full rounded-md border border-gray-300 px-4 py-2 bg-white text-base leading-6 font-medium text-gray-700 shadow-sm hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue transition ease-in-out duration-150 sm:text-sm sm:leading-5">
+          <button type="button" class="closeicon inline-flex justify-center close-button w-full rounded-md border border-gray-300 px-4 py-2 bg-white text-base leading-6 font-medium text-gray-700 shadow-sm hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue transition ease-in-out duration-150 sm:text-sm sm:leading-5">
             x
           </button>
             <!-- PopUp Content goes here. -->
             <img class="absolute top-0 left-0 w-full h-full z-40" src="<?php bloginfo('template_directory') ?>/img/static/chart2.png" alt="" style="pointer-events:none">
            <div class="w-full h-full overflow-auto hide_scrollBar" style="height:100%"> 
-               <img src="<?php bloginfo('template_directory') ?>/img/case/case-01.jpg" alt="">
+               <img class="first-image" src="<?php bloginfo('template_directory') ?>/img/case/case-01.jpg" alt="">
                <img src="<?php bloginfo('template_directory') ?>/img/case/case-02.jpg" alt="">
                <img src="<?php bloginfo('template_directory') ?>/img/case/case-03.jpg" alt="">
                <img src="<?php bloginfo('template_directory') ?>/img/case/case-04.jpg" alt="">

@@ -242,7 +242,16 @@ body > div.container-fluid.mb-1 > div > header{
         .space-evenly {
             justify-content: space-evenly;
         }
-        
+        	 .sidebar-scroll .wpml-ls-legacy-list-horizontal .wpml-ls-item.active a{
+        	    border: solid 1px #4287f5;
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+        }
+
 	</style>
 	<!--End tailwind-->
 	<!--Begin OG-->
