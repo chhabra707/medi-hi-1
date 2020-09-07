@@ -11,21 +11,27 @@
 <html <?php language_attributes(); ?>>
 
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177407848-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-177407848-1');
+	</script>
 	<title><?php bloginfo('name');
 			wp_title(); ?></title>
 	<meta name="description" content="<?php bloginfo('description'); ?>">
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<!--Begin tailwind-->
 	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-<!-- <link rel="stylesheet" href="http://medi.techroad.io/wp-content/themes/brand-h/style.css"> -->
-<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/style.css">
-
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/style.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+
 	<style>
 	
 	@font-face {
@@ -36,305 +42,305 @@
     font-weight: normal;
     font-style: normal;
 
-}
-body > div.container-fluid.mb-1 > div > header{
-	z-index:2!important;
-}
-
-/* body.page-template-default.page.customize-support.no-scroll header.header-container{
-    z-index:2!important;
-} */
-
-
-
-.font-roboto{
-    font-family: 'noto_sanslight'!important;
-}
-
-.right-poop-0 {
-    right: -353px!important;
-}
-
-.w-screen-98 {
-    width: 98vw!important;
-}
-
-.h-screen-per{
-    height:100%!important;
-}
-.button_11{
-             padding:15px!important;
-        }
-        
-         .active.button_11{
-             padding:14px!important;
-        }
-        
-        .location_content p{
-            font-size:14px!important;
-        }
-	
-	@media screen and (max-width:1920px){
-	    .header-container.fixed-top{
-            position: fixed;
-            width: 64rem;
-            margin: 0 auto;
-        }
-        
-        
 	}
-	
-	
-        .remove_icon{
-            display:none;
-        }
-        
-        @media screen and (max-width:991px){
-            .button_11{
-                padding:18px;
-            }
-        }
-	
-		@media screen and (max-width:640px){
-	    .header-container.fixed-top{
-            position: fixed;
-            width: 100%;
-            margin: 0 auto;
-            top:0px;
-        }
-        
-        .content-partners {
-            width: 100%!important;
-            height: 25vh!important;
-        }
+	body > div.container-fluid.mb-1 > div > header{
+		z-index:2!important;
 	}
-	
-	@media screen and (max-width:500px){
-	    .header-container.fixed-top{
-            /*position: fixed;*/
-            /*width: 50rem;*/
-            /*margin: 0 auto;*/
-        }
-        .contnet-addtional {
-            top: 13%!important;
-        }
+
+	/* body.page-template-default.page.customize-support.no-scroll header.header-container{
+		z-index:2!important;
+	} */
+
+
+
+	.font-roboto{
+		font-family: 'noto_sanslight'!important;
 	}
-	
-	@media screen and (max-width:460px){
-	    .header-container.fixed-top{
-            /*position: fixed;*/
-            /*width: 38rem;*/
-            /*margin: 0 auto;*/
-        }
-        
-        .header-container .top_full, .header-container.fixed-top .scroll_full {
-            display: block;
-            width: 80%;
-            margin-left: 0;
-        }
+
+	.right-poop-0 {
+		right: -353px!important;
 	}
-	
-		@media screen and (max-width:360px){
-	    .header-container.fixed-top{
-            /*position: fixed;*/
-            /*width: 36rem;*/
-            /*margin: 0 auto;*/
-        }
+
+	.w-screen-98 {
+		width: 98vw!important;
 	}
-	
-	@media screen and (max-width:320px){
-	    .header-container.fixed-top{
-            position: fixed;
-            /*width: 32rem;*/
-            margin: 0 auto;
-        }
-        .fixed-top img.mx-auto.scroll_full {
-            width: 72%;
-            margin-left: 10px;
-        }
+
+	.h-screen-per{
+		height:100%!important;
 	}
-	
-        .fixed-top .header-content.table {
-            background-color:#fff;
-            -webkit-box-shadow:0px 5px 9px -6px rgba(0, 0, 0, 0.2)!important;
-            -moz-box-shadow:0px 5px 9px -6px rgba(0, 0, 0, 0.2)!important;
-            box-shadow:0px 5px 9px -6px rgba(0, 0, 0, 0.2)!important;   
-            padding-bottom:23px;
-        }
-        .header-container .top_full, .header-container.fixed-top .scroll_full,
-        .header-container .scroll_full, .header-container.fixed-top .top_full{
-            display: block;
-            width: 65%;
-            margin: 0 auto;
-        }
+	.button_11{
+				padding:15px!important;
+			}
+			
+			.active.button_11{
+				padding:14px!important;
+			}
+			
+			.location_content p{
+				font-size:14px!important;
+			}
 		
-		
-		.leading-tight {
-            line-height: 1.25!important;
-        }
-        .chart_area .active {
-            font-weight: bold;
-        }
-        
-        .swiper-slide{
-            top:70px!important;
-        }
-        .sunset-sidebar{
-            z-index:9999!important;
-        }
-        
-        .border-3 {
-            border: 0px dashed #fff;
-        }
-        .button_hovere .border-3.active{
-            border:0px dashed #fff;
-        }
-        
-        .button-12 {
-            background-color: #ffffff!important;
-            color: #2681F3;
-            font-size: 20px;
-            border-radius: 9999px;
-            font-size: 18px;
-            border-color: #2681F3;
-        }
-        
-        .button-12:focus, .button-12:hover{
-            outline:none!important;
-            background-color:#2681F3!important;
-            color:#fff!important;
-        }
-        
-        .sidebar-open{
-            top:20px!important;
-        }
-        
-        /* .z-40{
-            z-index:9999!important;
-        } */
-        
-        .main_cont_img .flex img{
-               /*transition: transform .2s;*/
-               
-               
-               display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-    cursor:pointer;
-               
-        }
-        
-       .main_cont_img .flex img:hover{
-           /*transform: scale(2);*/
-           -webkit-transform: translateY(-8px);
-    transform: translateY(-8px);
-        }
-        
-        .space-evenly {
-            justify-content: space-evenly;
-        }
-        
-	</style>
-	<!--End tailwind-->
-	<!--Begin OG-->
-	<meta property="og:title" content="Himed with doctors">
-	<meta property="og:site_name" content="Himedi">
-	<meta property="og:url" content="https://himedidoctors.com/">
-	<meta property="og:description" content="Himedi meets doctors of first-class hospitals in Korea on behalf of you. We lead you to world-best medical staff and best remedies.">
-	<meta property="og:type" content="business.business">
-	<meta property="og:image" content="<?php bloginfo('template_directory') ?>/img/Bild3.jpg">
-	<!--End OG -->
-	<?php if (is_singular() && pings_open(get_queried_object())) : ?>
-		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-	<?php endif; ?>
-	<?php wp_head(); ?>
-
-	<?php
-	$custom_css = esc_attr(get_option('sunset_css'));
-	if (!empty($custom_css)) :
-		echo '<style>' . $custom_css . '</style>';
-	endif;
-	?>
-
-	<style>
-	body{
-	    font-family: 'Noto Sans', sans-serif!important;
-	}
-		.swiper-container {
-			cursor: pointer;
-			min-height: 445px;
-		}
-
-		.swiper-scrollbar {
-			bottom: 15px !important;
-			margin-left: 2em;
-			width: 90% !important;
-		}
-
-		.swiper-scrollbar-drag {
-			background: #ffffff;
-		}
-
-		.endCont {
-			width: 100%;
-			height: 500px;
-			background-image: url("<?php bloginfo('template_directory') ?>/img/endCont.jpg");
-			background-repeat: no-repeat;
-			background-size: contain;
+		@media screen and (max-width:1920px){
+			.header-container.fixed-top{
+				position: fixed;
+				width: 64rem;
+				margin: 0 auto;
+			}
+			
 			
 		}
-
-		.overlay {
-			background: #00000030;
-		}
-
-		.active {
-			display: inline-block !important;
-		}
-
-		.applyBtn {
-			border-radius: 10px;
-		}
-
-		.applyBtn:hover:after {
-			content: ' >';
-			word-spacong: 30px;
-		}
-
-		.arrowAnimate {
-			animation-name: bounce;
-			animation-duration: 1.8s;
-			animation-iteration-count: infinite;
-		}
-		.rtl .arabic-style {
-			margin: 0 .2rem 0 1rem;
-		}
-		@keyframes bounce {
-
-			0%,
-			20%,
-			50%,
-			80%,
-			100% {
-				transform: translateY(0px);
+		
+		
+			.remove_icon{
+				display:none;
 			}
-
-			40% {
-				transform: translateY(-15px);
+			
+			@media screen and (max-width:991px){
+				.button_11{
+					padding:18px;
+				}
 			}
-
-			60% {
-				transform: translateY(-5px);
+		
+			@media screen and (max-width:640px){
+			.header-container.fixed-top{
+				position: fixed;
+				width: 100%;
+				margin: 0 auto;
+				top:0px;
+			}
+			
+			.content-partners {
+				width: 100%!important;
+				height: 25vh!important;
 			}
 		}
+		
+		@media screen and (max-width:500px){
+			.header-container.fixed-top{
+				/*position: fixed;*/
+				/*width: 50rem;*/
+				/*margin: 0 auto;*/
+			}
+			.contnet-addtional {
+				top: 13%!important;
+			}
+		}
+		
+		@media screen and (max-width:460px){
+			.header-container.fixed-top{
+				/*position: fixed;*/
+				/*width: 38rem;*/
+				/*margin: 0 auto;*/
+			}
+			
+			.header-container .top_full, .header-container.fixed-top .scroll_full {
+				display: block;
+				width: 80%;
+				margin-left: 0;
+			}
+		}
+		
+			@media screen and (max-width:360px){
+			.header-container.fixed-top{
+				/*position: fixed;*/
+				/*width: 36rem;*/
+				/*margin: 0 auto;*/
+			}
+		}
+		
+		@media screen and (max-width:320px){
+			.header-container.fixed-top{
+				position: fixed;
+				/*width: 32rem;*/
+				margin: 0 auto;
+			}
+			.fixed-top img.mx-auto.scroll_full {
+				width: 72%;
+				margin-left: 10px;
+			}
+		}
+		
+			.fixed-top .header-content.table {
+				background-color:#fff;
+				-webkit-box-shadow:0px 5px 9px -6px rgba(0, 0, 0, 0.2)!important;
+				-moz-box-shadow:0px 5px 9px -6px rgba(0, 0, 0, 0.2)!important;
+				box-shadow:0px 5px 9px -6px rgba(0, 0, 0, 0.2)!important;   
+				padding-bottom:23px;
+			}
+			.header-container .top_full, .header-container.fixed-top .scroll_full,
+			.header-container .scroll_full, .header-container.fixed-top .top_full{
+				display: block;
+				width: 65%;
+				margin: 0 auto;
+			}
+			
+			
+			.leading-tight {
+				line-height: 1.25!important;
+			}
+			.chart_area .active {
+				font-weight: bold;
+			}
+			
+			.swiper-slide{
+				top:70px!important;
+			}
+			.sunset-sidebar{
+				z-index:9999!important;
+			}
+			
+			.border-3 {
+				border: 0px dashed #fff;
+			}
+			.button_hovere .border-3.active{
+				border:0px dashed #fff;
+			}
+			
+			.button-12 {
+				background-color: #ffffff!important;
+				color: #2681F3;
+				font-size: 20px;
+				border-radius: 9999px;
+				font-size: 18px;
+				border-color: #2681F3;
+			}
+			
+			.button-12:focus, .button-12:hover{
+				outline:none!important;
+				background-color:#2681F3!important;
+				color:#fff!important;
+			}
+			
+			.sidebar-open{
+				top:20px!important;
+			}
+			
+			/* .z-40{
+				z-index:9999!important;
+			} */
+			
+			.main_cont_img .flex img{
+				/*transition: transform .2s;*/
+				
+				
+				display: inline-block;
+		vertical-align: middle;
+		-webkit-transform: perspective(1px) translateZ(0);
+		transform: perspective(1px) translateZ(0);
+		box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+		-webkit-transition-duration: 0.3s;
+		transition-duration: 0.3s;
+		-webkit-transition-property: transform;
+		transition-property: transform;
+		-webkit-transition-timing-function: ease-out;
+		transition-timing-function: ease-out;
+		cursor:pointer;
+				
+			}
+			
+		.main_cont_img .flex img:hover{
+			/*transform: scale(2);*/
+			-webkit-transform: translateY(-8px);
+		transform: translateY(-8px);
+			}
+			
+			.space-evenly {
+				justify-content: space-evenly;
+			}
+			
+		</style>
+		<!--End tailwind-->
+		<!--Begin OG-->
+		<meta property="og:title" content="Himed with doctors">
+		<meta property="og:site_name" content="Himedi">
+		<meta property="og:url" content="https://himedidoctors.com/">
+		<meta property="og:description" content="Himedi meets doctors of first-class hospitals in Korea on behalf of you. We lead you to world-best medical staff and best remedies.">
+		<meta property="og:type" content="business.business">
+		<meta property="og:image" content="<?php bloginfo('template_directory') ?>/img/Bild3.jpg">
+		<!--End OG -->
+		<?php if (is_singular() && pings_open(get_queried_object())) : ?>
+			<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+		<?php endif; ?>
+		<?php wp_head(); ?>
+
+		<?php
+		$custom_css = esc_attr(get_option('sunset_css'));
+		if (!empty($custom_css)) :
+			echo '<style>' . $custom_css . '</style>';
+		endif;
+		?>
+
+		<style>
+		body{
+			font-family: 'Noto Sans', sans-serif!important;
+		}
+			.swiper-container {
+				cursor: pointer;
+				min-height: 445px;
+			}
+
+			.swiper-scrollbar {
+				bottom: 15px !important;
+				margin-left: 2em;
+				width: 90% !important;
+			}
+
+			.swiper-scrollbar-drag {
+				background: #ffffff;
+			}
+
+			.endCont {
+				width: 100%;
+				height: 500px;
+				background-image: url("<?php bloginfo('template_directory') ?>/img/endCont.jpg");
+				background-repeat: no-repeat;
+				background-size: contain;
+				
+			}
+
+			.overlay {
+				background: #00000030;
+			}
+
+			.active {
+				display: inline-block !important;
+			}
+
+			.applyBtn {
+				border-radius: 10px;
+			}
+
+			.applyBtn:hover:after {
+				content: ' >';
+				word-spacong: 30px;
+			}
+
+			.arrowAnimate {
+				animation-name: bounce;
+				animation-duration: 1.8s;
+				animation-iteration-count: infinite;
+			}
+			.rtl .arabic-style {
+				margin: 0 .2rem 0 1rem;
+			}
+			@keyframes bounce {
+
+				0%,
+				20%,
+				50%,
+				80%,
+				100% {
+					transform: translateY(0px);
+				}
+
+				40% {
+					transform: translateY(-15px);
+				}
+
+				60% {
+					transform: translateY(-5px);
+				}
+			}
 	</style>
 
 </head>

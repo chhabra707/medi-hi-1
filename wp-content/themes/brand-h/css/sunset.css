@@ -1402,7 +1402,7 @@ transform: translateY(-8px);
   margin-left:12px!important;
 }
 
-.rtl .arabic-style-pr4{
+.rtl .arabic-style-pr4 span.pl-10{
   padding-right:0px!important;
   padding-left:4px!important;
 }

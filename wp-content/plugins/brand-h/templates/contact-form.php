@@ -25,7 +25,7 @@
 		</div>
 		<div class="sm:w-2/3 w-3/5 flex justify-between">
 			<!-- Phone codes (start) -->
-			<select class="field-input mr-5 w-2/5 border border-gray-200 text-gray-500 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state" required name="phone_code">
+			<select class="arabic-style-phone field-input mr-5 w-2/5 border border-gray-200 text-gray-500 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state" required name="phone_code">
 
 				<option selected disabled>Nation</option>
 				<option data-countryCode="KR" value="82">S. Korea (+82)</option>
@@ -327,14 +327,14 @@
 	<!-- Question 2 (start) -->
 	<div class="field-container mb-10">
 		<div class="w-full">
-			<label class="block font-bold mb-1 mb-0 pr-4 arabic-style-pr4" for="message2">
+			<label class="block font-bold mb-1 mb-0 pr-4 " for="message2">
 				<img class="inline pr-2" src="<?php bloginfo('template_url') ?>/img/check.svg" alt="">
-				Is there any aspect regarding the patient that <span class="pl-10 lg:pl-0">Doctors need to take note of? </span><span class="text-red-500">*</span>
+				Is there any aspect regarding the patient that <span class="arabic-style-pr4 pl-10 lg:pl-0">Doctors need to take note of? </span><span class="text-red-500">*</span>
 			</label>
 		</div>
 		<div class="w-full p-10">
 			<textarea name="message2" id="message2" class="field-input border border-gray-500 w-full px-4" placeholder="Your message here" rows="3" required></textarea>
-			<small class="field-msg error" data-error="invalidMessage2">A Message2 is Required</small>
+			<small class="field-msg error" data-error="invalidMessage2">A Message is Required</small>
 		</div>
 	</div>
 	<!-- Question 2 (end) -->

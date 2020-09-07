@@ -23,7 +23,7 @@
 
 
 <p class="text-gray-500 mt-8 mb-16">
-&copy; HIMEDI Korea Co.,LTD.
+&copy; HIMEDI, Inc
 </p>
 
 </footer>
