@@ -177,9 +177,7 @@ body > div.container-fluid.mb-1 > div > header{
             font-weight: bold;
         }
         
-        .swiper-slide{
-            top:0px!important;
-        }
+        
         .sunset-sidebar{
             z-index:9999!important;
         }
