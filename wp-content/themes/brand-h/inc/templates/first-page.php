@@ -233,7 +233,7 @@
 		</div>
 	</div>
 
-  <div class="lg:pt-32 pt-10 flex justify-between px-10 lg:px-24 py-10">
+  <div class="lg:pt-32 pt-10 flex justify-between px-10 lg:px-24 py-10 graph-button-container">
 		<button onclick="showGraph(1)"  class="grph_btn border-2 border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 mr-3 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">
             <?php 
                     if(ICL_LANGUAGE_CODE == 'en'){ 
@@ -327,7 +327,7 @@
 	<!-- Chart Text (end) -->
 
   <!-- Arrow icon (start) -->
-  <a href="#section4">
+  <a href="#section4" class="fourth-section">
     <img class="mx-auto lg:pt-10 pt-32 pb-30 lg:mt-20 mb-40 lg:mb-40 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
   </a>
 	<!-- Arrow icon (end) -->	

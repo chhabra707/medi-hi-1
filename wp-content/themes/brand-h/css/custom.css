@@ -89,13 +89,27 @@ body{
 #chart_3_cont .flex-row{
     padding:0;
 }
-
+.grph_btn{
+    border:dashed 2px #fff;
+}
+.grph_btn.border-2{
+    border:dashed 2px #4299e1;
+}
+.graph-button-container.px-10{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
 @media screen and (max-width: 640px) {
     .header-container.fixed-top {
         width: 100% !important;
     }
-    .swiper-scrollbar{
-        
+
+    .title-1{
+        margin-bottom: 0;
+    }
+    .fourth-section .arrowAnimate{
+        padding-top:2rem;
+        margin-bottom:4rem;
     }
 
 }
