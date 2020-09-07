@@ -70,6 +70,13 @@
 	jQuery(document).ready(
 		function() {
 
+			// var divHeight = jQuery('.header-container').height(); 
+			// console.log(divHeight);
+			// jQuery('body').css('padding-top', divHeight+'px');
+
+
+
+
 			for (let i = 0; i < 3; i++) {
 				const chart = jQuery('.chart' + i);
 				const trig = jQuery('.chartTrig' + i);
@@ -88,7 +95,10 @@
 				$('input,textarea,radio').addClass('border border-red-500');
 			});
 		}
+		
 	);
+
+	
 </script>
 
 </body>
