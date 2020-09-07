@@ -129,27 +129,49 @@ body {
         padding-top: 2rem;
         margin-bottom: 4rem;
     }
-    .header-container{
-        height:66px !important;
+
+    .header-container {
+        height: 66px !important;
         transition: .3s all ease-in-out;
     }
-    .interview-slider .px-3{
-        padding-top:2px;
+
+    .interview-slider .px-3 {
+        padding-top: 2px;
+    }
+
+    .swiper-container {
+        min-height: auto;
+    }
+
+    #successCase_popup {
+        width: 90%
     }
 }
-.header-container{
+
+.header-container {
     transition: .3s all ease-in-out;
 }
+
 .field-msg.success.js-form-success {
     background: #2f812f;
     width: 100%;
     color: #fff;
     border-radius: 7px;
 }
+
+.close-button {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    z-index: 100;
+    width: 20px;
+}
+
 @media screen and (max-width: 568px) {
-    .fixed-top + body {
+    .fixed-top+body {
         /* margin-top: 18rem;
         padding-top: 2rem; */
         padding-top: 20rem;
     }
+
 }

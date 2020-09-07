@@ -35,11 +35,15 @@
 		$(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 1) {
+    if (scroll >= 50) {
         $(".header-container").addClass("fixed-top");
     } else {
         $(".header-container").removeClass("fixed-top");
     }
+
+	$(document).on("click",".himedi-modal .close-button",function() {
+        $('#successCase_popup_bg, #successCase_popup').addClass('hidden');
+    });
 });
 		</script>
 
