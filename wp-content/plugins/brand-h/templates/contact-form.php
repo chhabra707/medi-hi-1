@@ -312,9 +312,9 @@
 	<!-- Question 1 (start) -->
 	<div class="field-container mb-10">
 		<div class="w-full">
-			<label class="block font-bold mb-1 mb-0 pr-4" for="message">
+			<label class="contact-label block font-bold mb-1 mb-0 pr-4" for="message">
 				<img class="inline pr-2" src="<?php bloginfo('template_url') ?>/img/check.svg" alt="">
-				Major questions to doctors <span class="text-red-500">*</span>
+				<em>Major questions to doctors <span class="text-red-500">*</span></em>
 			</label>
 		</div>
 		<div class="w-full p-10">
@@ -327,9 +327,12 @@
 	<!-- Question 2 (start) -->
 	<div class="field-container mb-10">
 		<div class="w-full">
-			<label class="block font-bold mb-1 mb-0 pr-4" for="message2">
+			<label class="contact-label block font-bold mb-1 mb-0 pr-4" for="message2">
 				<img class="inline pr-2" src="<?php bloginfo('template_url') ?>/img/check.svg" alt="">
+				<em>
 				Is there any aspect regarding the patient that <span class="pl-10 lg:pl-0">Doctors need to take note of? </span><span class="text-red-500">*</span>
+				</em>
+				
 			</label>
 		</div>
 		<div class="w-full p-10">

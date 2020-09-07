@@ -34,11 +34,11 @@
   </div>
 
 	<!-- Main slider (start) -->
-	<div class="swiper-container" style="height:70vh">
+	<div class="swiper-container interview-slider" style="height:70vh">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper mt-1 h-full">
                 <!-- Slides -->
-                <div class="swiper-slide h-full w-full flex justify-center content-end  flex-row flex-wrap pb-12" style="top:0px!important;">
+                <div class=" swiper-slide h-full w-full flex justify-center content-end  flex-row flex-wrap pb-12" style="top:0px!important;">
 					<div class="px-3 overflow-auto hide_scrollBar pt-20" style="max-height:49%; margin-bottom:1%;">
 						<img width="25" height="25" src="<?php bloginfo('template_directory') ?>/img/interview/main-review.png" alt="" />
 						<div class="italic text-3xl text-gray-700 pt-4 text-gray-700 text-left font-size-24 leading-none fading_artical" style="font-size:17px; line-height:1.78; color:rgba(0,0,0,.8)!important">
