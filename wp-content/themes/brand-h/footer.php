@@ -35,7 +35,7 @@
 		$(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 50) {
+    if (scroll >= 1) {
         $(".header-container").addClass("fixed-top");
     } else {
         $(".header-container").removeClass("fixed-top");

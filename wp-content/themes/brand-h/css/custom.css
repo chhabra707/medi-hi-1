@@ -131,9 +131,21 @@ body {
     }
     .header-container{
         height:66px !important;
+        transition: .3s all ease-in-out;
+    }
+    .interview-slider .px-3{
+        padding-top:2px;
     }
 }
-
+.header-container{
+    transition: .3s all ease-in-out;
+}
+.field-msg.success.js-form-success {
+    background: #2f812f;
+    width: 100%;
+    color: #fff;
+    border-radius: 7px;
+}
 @media screen and (max-width: 568px) {
     .fixed-top + body {
         /* margin-top: 18rem;
