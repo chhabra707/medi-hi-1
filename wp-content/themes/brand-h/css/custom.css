@@ -12,7 +12,7 @@ body{
         left: 1rem !important;
         right:1rem !important;
         width: calc(100% - 2rem) !important;
-        bottom:20px !important;
+        bottom:10px !important;
     }
 
     .swiper-scrollbar-drag {
@@ -79,6 +79,15 @@ body{
 
 .rtl .text-left {
     text-align: right;
+}
+
+#chart_3_cont{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    max-width : calc(100% - 5rem) !important;
+}
+#chart_3_cont .flex-row{
+    padding:0;
 }
 
 @media screen and (max-width: 640px) {
