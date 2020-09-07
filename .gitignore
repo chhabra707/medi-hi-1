@@ -14,3 +14,5 @@ wp-content/ai1wm-backups/medi-master.com-20200903-141526-zs324v.wpress
 *.wpress
 wp-content/debug.log
 wp-content/plugins/all-in-one-wp-migration/storage/index.html
+.htaccess
+wp-content/debug.log
