@@ -38,10 +38,10 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper mt-1 h-full">
                 <!-- Slides -->
-                <div class=" swiper-slide h-full w-full flex justify-center content-end  flex-row flex-wrap pb-12" style="top:0px!important;">
-					<div class="px-3 overflow-auto hide_scrollBar pt-20" style="max-height:49%; margin-bottom:1%;">
+                <div class="swiper-slide h-full w-full flex justify-center content-end  flex-row flex-wrap pb-12" style="top:0px!important;">
+					<div class="px-3 overflow-auto swipe-container-content hide_scrollBar pt-20" style="max-height:49%; margin-bottom:1%;">
 						<img width="25" height="25" src="<?php bloginfo('template_directory') ?>/img/interview/main-review.png" alt="" />
-						<div class="italic text-3xl text-gray-700 pt-4 text-gray-700 text-left font-size-24 leading-none fading_artical" style="font-size:17px; line-height:1.78; color:rgba(0,0,0,.8)!important">
+						<div class="italic text-3xl  text-gray-700 pt-4 text-gray-700 text-left font-size-24 leading-none fading_artical" style="font-size:17px; line-height:1.78; color:rgba(0,0,0,.8)!important">
 							Regarding Himedi, to be honest, they did all their best for us, starting from the airport where they greeted us in a friendly manner to recommending the best hotels in Seoul for us. They took care of everything, especially hospital recommendations, recommending one of the best hospitals in Seoul that is specialized in cancer treatments.
 						</div>	
 						<div class="mt-10 text-gray-500 mb-32 italic font-size-24 leading-none" style="color: rgba(0,0,0,.5)!important; font-size:16px">

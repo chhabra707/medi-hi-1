@@ -12,7 +12,7 @@
             <div class="w-32 h-32 sm:w-40 sm:h-40 absolute border-solid border-4 sm:border-8 border-gray-600 rounded-full overflow-hidden content-affiliate-avatar" style="transform: translateY(-60%);">
                 <img id="bms_avatar_image" class="w-full bg-white" alt="" srcset="">
             </div>
-            <div class="w-full overflow-auto mt-24 hide_scrollBar" style="flex:60%;">
+            <div class="w-full overflow-auto mt-24 hide_scrollBar text-effect" style="flex:60%;">
                 <p id="bms_heading" class="font-size-22 text-b80 text-center mb-5 text-center" style="margin-top: 10px;">Text</p>
                 <p id="bms_about_text" class="text-base lg:text-2xl leading-normal text-center text-gray-600">#Text</p>
                 <p id="bms_tags" class="font-size-16 lg:text-xl text-b50 text-center margin-28 h-line-1-4 font-light keep-direction leading-none text-base">#Text</p>

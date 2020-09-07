@@ -41,7 +41,7 @@
         $(".header-container").removeClass("fixed-top");
     }
 
-	$(document).on("click",".himedi-modal .close-button",function() {
+	$('.himedi-modal').on("click",".close-button",function() {
         $('#successCase_popup_bg, #successCase_popup').addClass('hidden');
     });
 });
