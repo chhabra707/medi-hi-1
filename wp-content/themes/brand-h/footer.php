@@ -40,6 +40,10 @@
     } else {
         $(".header-container").removeClass("fixed-top");
     }
+
+	$('.himedi-modal').on("click",".close-button",function() {
+        $('#successCase_popup_bg, #successCase_popup').addClass('hidden');
+    });
 });
 		</script>
 

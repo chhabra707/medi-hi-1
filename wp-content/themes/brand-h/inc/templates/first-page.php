@@ -4,7 +4,6 @@
 	
 @package sunsettheme
 -- Page Template
-
 */
 
 ?>
@@ -114,7 +113,7 @@
         ?>
 				
         </h2>
-            <p class="pt-4 px-8 text-gray-700 text-left font-size-24 leading-none" style="font-size: 20px; text-align: left!important;    font-family: Noto Sans Light, sans-serif!important; line-height: 1.2; color: rgba(0,0,0,.5)!important; word-break: break-all;">
+            <p class="pt-4 px-8 text-gray-700 text-left font-size-24 leading-none" style="font-size: 20px; font-family: Noto Sans Light, sans-serif!important; line-height: 1.2; color: rgba(0,0,0,.5)!important; word-break: break-all;">
             <?php 
               if(ICL_LANGUAGE_CODE == 'en'){ 
                   echo 'Send your relevant medical records such as treatment history, image, etc';
@@ -233,7 +232,7 @@
 		</div>
 	</div>
 
-  <div class="lg:pt-32 pt-10 flex justify-between px-10 lg:px-24 py-10">
+    <div class="lg:pt-32 pt-10 flex justify-between px-10 lg:px-24 py-10 graph-button-container">
 		<button onclick="showGraph(1)"  class="grph_btn border-2 border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 mr-3 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">
             <?php 
                     if(ICL_LANGUAGE_CODE == 'en'){ 
@@ -327,7 +326,7 @@
 	<!-- Chart Text (end) -->
 
   <!-- Arrow icon (start) -->
-  <a href="#section4">
+  <a href="#section4" class="fourth-section">
     <img class="mx-auto lg:pt-10 pt-32 pb-30 lg:mt-20 mb-40 lg:mb-40 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
   </a>
 	<!-- Arrow icon (end) -->	
@@ -631,7 +630,7 @@
     
   </div>
   <p class="px-6 pt-0 leading-none mt-3" style="font-size: 14px;
-    text-align: left!important; font-family: Noto Sans Light, sans-serif!important; line-height: 1.2; color: rgba(0,0,0,.5)!important;">
+    font-family: Noto Sans Light, sans-serif!important; line-height: 1.2; color: rgba(0,0,0,.5)!important;">
       <?php 
         if(ICL_LANGUAGE_CODE == 'en'){ 
             echo 'Based on the information you share and consultations, Himedi will recommend best-suitable remedies and doctors for you';
@@ -685,7 +684,7 @@
 	<div class="text-bold mt-20 font-bold text-left px-6 font-size-24 leading-relaxed" style="color:#2681F3">
     <h2>STEP 02</h2>
   </div>
-  <div class="text-left px-6 font-size-24 leading-none" style="line-height:30px; font-size:24px; font-family: 'noto_sanslight'!important;">
+  <div class="text-left px-6 font-size-24 leading-none" style="line-height:30px; font-size:24px; font-family: 'Noto Sans'!important;">
     <?php 
           if(ICL_LANGUAGE_CODE == 'en'){ 
               echo 'If you would like to receive the <strong style="font-family: \'Noto Sans\', sans-serif!important;">second opinion</strong> or deputy consultation from the recommended doctors, please share more detailed <strong style="font-family: \'Noto Sans\', sans-serif!important;">medical records</strong>';
