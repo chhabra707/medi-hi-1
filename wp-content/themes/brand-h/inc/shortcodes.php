@@ -220,7 +220,7 @@ function brandh_about_us( $atts, $content = null ) {
 	return ob_get_clean();
 	
 }
-add_shortcode( 'about-us', 'brandh_about-us' );
+add_shortcode( 'about_us', 'brandh_about_us' );
 
 
 // thankyou shortcode
