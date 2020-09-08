@@ -182,12 +182,12 @@ body {
     transition: .3s all ease-in-out;
 }
 
-.field-msg.success.js-form-success {
+/* .field-msg.success.js-form-success {
     background: #2f812f;
     width: 100%;
     color: #fff;
     border-radius: 7px;
-}
+} */
 
 .close-button {
     position: absolute;

@@ -318,7 +318,7 @@
 				<em>Major questions to doctors <span class="text-red-500">*</span></em>
 			</label>
 		</div>
-		<div class="w-full p-10">
+		<div class="w-full pt-4 lg:pt-10 px-4">
 			<textarea name="message1" id="message1" class="field-input border border-gray-500 w-full px-4" placeholder="Your message here" rows="3" required></textarea>
 			<small class="field-msg error" data-error="invalidMessage1">A Message is Required</small>
 		</div>
@@ -327,16 +327,20 @@
 
 	<!-- Question 2 (start) -->
 	<div class="field-container mb-10">
-		<div class="w-full">
-			<label class="block font-bold mb-1 mb-0 sm:arabic-style-pr4 lg:arabic-style-pr4-lg" for="message2" style="line-height:1.25em">
-				<img class="inline px-2" src="<?php bloginfo('template_url') ?>/img/check.svg" alt="">
-				<em >
-				Is there any aspect regarding the patient that <span class="lg:pl-0">Doctors need to take note of? </span><span class="text-red-500">*</span>
-				</em>
-
-			</label>
+		<div class="w-full flex items-start">
+			<div class="w-16">
+				<img class="inline px-2 mb-8" src="<?php bloginfo('template_url') ?>/img/check.svg" alt="" style="width:27px;hegiht:16px;">
+			</div>
+			<div class="" >
+				<label class="block font-bold mb-1 mb-0 sm:arabic-style-pr4 lg:arabic-style-pr4-lg" for="message2" style="line-height:1.25em">
+					<em class="mx-0">
+					Is there any aspect regarding the patient that <span class="lg:pl-0">Doctors need to take note of? </span><span class="text-red-500">*</span>
+					</em>
+				</label>
+			</div>				
+			
 		</div>
-		<div class="w-full pt-4 px-10">
+		<div class="w-full pt-4 lg:pt-10 px-4">
 			<textarea name="message2" id="message2" class="field-input border border-gray-500 w-full px-4" placeholder="Your message here" rows="3" required></textarea>
 			<small class="field-msg error" data-error="invalidMessage2">A Message is Required</small>
 		</div>
