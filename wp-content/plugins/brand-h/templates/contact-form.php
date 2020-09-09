@@ -1,3 +1,16 @@
+<style type="text/css">
+    .rtl .arabic-style-phone{
+            padding-right: 7px;
+    padding-left: 12px;
+        margin-left: 6px!important;
+    }
+
+    .rtl .arabicphone-field{
+            padding-right: 7px;
+    padding-left: 7px;
+    font-size: 11px;
+    }
+</style>
 <form class="w-full mt-20 px-5 sm:text-2xl text-lg sm:p-16" id="brandh-form-form" action="#" method="post" data-url="<?php echo admin_url('admin-ajax.php'); ?>">
 
 	<!-- Name (start) -->
@@ -247,7 +260,7 @@
 			</select>
 			<small class="field-msg error" data-error="invalidPhoneCode">The Phone Code is not valid</small>
 			<!-- Phone codes (end) -->
-			<input type="number" class="field-input w-3/5 appearance-none border border-gray-200 rounded-lg py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Your Phone Number" id="phone" name="phone" min="1" required>
+			<input type="number" class="arabicphone-field field-input w-3/5 appearance-none border border-gray-200 rounded-lg py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Your Phone Number" id="phone" name="phone" min="1" required>
 			<small class="field-msg error" data-error="invalidPhone">The Phone is not valid</small>
 		</div>
 	</div>

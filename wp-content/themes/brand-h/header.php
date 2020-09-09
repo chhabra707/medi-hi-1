@@ -245,6 +245,15 @@
 			.space-evenly {
 				justify-content: space-evenly;
 			}
+			 .sidebar-scroll .wpml-ls-legacy-list-horizontal .wpml-ls-item.active a{
+        	    border: solid 1px #4287f5;
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+        }
 			
 		</style>
 		<!--End tailwind-->
@@ -459,7 +468,7 @@
 
 					<div class=" wpml-ls wpml-ls-legacy-list-horizontal text-center">
 						<ul>
-							<li class="wpml-ls-item">
+							<li class="wpml-ls-item active">
 								<a href="/en/" class="wpml-ls-link"><img class="wpml-ls-flag" src="<?php echo get_template_directory_uri(); ?>/img/en.png" alt=""></a>
 							</li>
 							<li class="wpml-ls-item">
