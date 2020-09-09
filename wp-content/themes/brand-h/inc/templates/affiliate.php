@@ -6,7 +6,7 @@
 
   <!-- Popup Up start -->
         <div id="bms_popup" class="content-affiliate flex flex-col items-center p-4 m-4 sm:p-10 fixed hidden z-40 " style="max-width: 635px; ; background-color: white; top: 50%;transform: translateY(-50%); max-height:100vh">
-            <button id="bms_popup_cancel_btn" class="fixed p-2 m-2 sm:p-4 sm:m-4 text-2xl sm:text-3xl cursor-pointer z-40 font-bold text-white border-r border text-center rounded-full text-gray-500 text-gray-200 bg-white hidden hover:bg-gray-300 popup-close-btn" >X</button>
+            <button id="bms_popup_cancel_btn" class="fixed p-2 m-2 sm:p-4 sm:m-4 text-2xl sm:text-3xl cursor-pointer z-40 font-bold text-white border-r border text-center rounded-full hidden hover:bg-gray-500 text-white popup-close-btn" >X</button>
             <div class="w-full overflow-hidden content-affiliate" >
                 <img id="bms_back_image" class="w-full bg-white" alt="" srcset="">
             </div>
