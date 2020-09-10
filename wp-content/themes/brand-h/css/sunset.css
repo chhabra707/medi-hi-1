@@ -1417,6 +1417,24 @@ transform: translateY(-8px);
   padding-left:4px!important;
 }
 
+.thank-1{
+  
+}
+
+.thank-2{
+  font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 18px;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #1A1A1A;
+
+}
+
+
 
 @media only screen and (max-width:500px) {
   .chartTrigCont button {width: 14em!important;
