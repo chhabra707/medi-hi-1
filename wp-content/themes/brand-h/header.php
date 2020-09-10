@@ -176,6 +176,12 @@
     width: 64rem;
     margin: 0 auto;
 }
+@media screen and (max-width:640px){
+						header.header-container {
+ 
+    width: 100%;
+}
+		}
 
 header.header-container .header-content
 {
