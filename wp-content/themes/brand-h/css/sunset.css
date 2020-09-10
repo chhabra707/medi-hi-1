@@ -1418,7 +1418,7 @@ transform: translateY(-8px);
 }
 
 .thank-1{
-  
+
 }
 
 .thank-2{
@@ -1493,6 +1493,7 @@ color: #1A1A1A;
   .successChart_popup{
     height: 70vh;
   }
+  
 }
   
 @media only screen and (min-width: 360px) { /* desktop */
