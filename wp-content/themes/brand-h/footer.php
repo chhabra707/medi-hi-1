@@ -23,7 +23,7 @@
 
 
 <p class="text-gray-500 mt-8 mb-16">
-&copy; HIMEDI Korea Co.,LTD.
+&copy; HIMEDI, Inc
 </p>
 
 </footer>
@@ -74,13 +74,6 @@
 	jQuery(document).ready(
 		function() {
 
-			// var divHeight = jQuery('.header-container').height(); 
-			// console.log(divHeight);
-			// jQuery('body').css('padding-top', divHeight+'px');
-
-
-
-
 			for (let i = 0; i < 3; i++) {
 				const chart = jQuery('.chart' + i);
 				const trig = jQuery('.chartTrig' + i);
@@ -95,14 +88,29 @@
 				});
 			}
 
-			jQuery("form input").on('invalid', function() {
-				$('input,textarea,radio').addClass('border border-red-500');
+			// jQuery("form input").on('invalid', function() {
+			// 	debugger;
+			// 	$('input,textarea,radio').addClass('border border-red-500');
+			// });
+
+			jQuery('.applyBtn').click(function() {
+				
+			    var formvalidation = jQuery(this).parents('.inquiry-form');
+			    formvalidation.find('.field-input').each(function() {
+			        var thisValue = jQuery(this).val();
+			        var thisValueSelect = jQuery(this).val();
+
+			        if (thisValue == "" || thisValueSelect == null) {
+			            jQuery(this).addClass('border-red-500');
+			            jQuery(this).focus();
+			          
+			        } else {
+			            jQuery(this).removeClass('border-red-500');
+			        }
+			    });
 			});
 		}
-		
 	);
-
-	
 </script>
 
 </body>

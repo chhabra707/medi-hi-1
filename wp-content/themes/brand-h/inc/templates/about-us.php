@@ -74,7 +74,8 @@
 		<h3 class="text-center px-0 font-size-24 leading-relaxed" style="font-size:20px">
 			History
 		</h3>
-		<p class="pt-4 px-2 text-gray-700 text-left text-2xl leading-none text-white" style="color:#5F5F5F; line-height:1.2" >
+		<!-- <p class="pt-4 px-2 text-gray-700 text-left text-2xl leading-none text-white" style="color:#5F5F5F; line-height:1.2" > -->
+		<p class="pt-4 px-2 text-left text-2xl leading-none " style="line-height:1.2" >
 			<?php 
 					if(ICL_LANGUAGE_CODE == 'en'){ 
 						echo 'The path that Himedi has followed since 2011 as \'an enterprise of innovation that
@@ -92,17 +93,17 @@
 			?>
 			
 		</p>
-		<div class="flex mt-2 pb-4 border-solid border-b-2 border-gray-200 leading-relaxed text-base" style="color:#666!important;">
-			<div class="text-sm font-bold mr-4" style="color:#333!important;">
+		<div class="flex mt-2 pb-4 border-solid border-b-2 border-gray-200 leading-relaxed text-base" >
+			<div class="text-xl font-bold mr-4">
 				2020
 			</div>
 
 			<div class="flex flex-wrap ">
 				<div class="flex mb-2">
-					<div class="text-sm mr-4">
+					<div class="text-xl mr-4">
 						04
 					</div>
-					<div class="text-sm ">
+					<div class="text-xl " >
 						<?php 
 							if(ICL_LANGUAGE_CODE == 'en'){ 
 								echo 'Attracted Series B investment amounting to 6 billion won';
@@ -125,16 +126,16 @@
 
 
 		<div class="flex mt-2 pb-4 border-solid border-b-2 border-gray-200">
-			<div class="text-sm font-bold mr-4" style="color:#333!important;">
+			<div class="text-xl font-bold mr-4" style="color:#333!important;">
 				2019
 			</div>
 
 			<div class="flex flex-wrap">
 				<div class="flex mb-2">
-					<div class="text-sm mr-4">
+					<div class="text-xl mr-4">
 						04
 					</div>
-					<div class="text-sm">
+					<div class="text-xl">
 						<?php 
 							if(ICL_LANGUAGE_CODE == 'en'){ 
 								echo 'Himedi Korea Co., Ltd. Separated as an affiliate';
@@ -154,10 +155,10 @@
 				</div>
 
 				<div class="flex mb-2">
-					<div class="text-sm mr-4">
+					<div class="text-xl mr-4">
 						04
 					</div>
-					<div class="text-sm">
+					<div class="text-xl">
 						<?php 
 							if(ICL_LANGUAGE_CODE == 'en'){ 
 								echo 'Changed the company name to Himedi Co., Ltd.';
@@ -180,16 +181,16 @@
 		</div>
 
 		<div class="flex mt-2 pb-4 border-solid border-b-2 border-gray-200 leading-relaxed">
-			<div class="text-sm font-bold mr-4" style="color:#333!important;">
+			<div class="text-xl font-bold mr-4" style="color:#333!important;">
 				2018
 			</div>
 
 			<div class="flex flex-wrap">
 				<div class="flex mb-2">
-					<div class="text-sm mr-4 ">
+					<div class="text-xl mr-4 ">
 						10
 					</div>
-					<div class="text-sm">
+					<div class="text-xl text-gray-800" >
 						<?php 
 							if(ICL_LANGUAGE_CODE == 'en'){ 
 								echo 'Attracted Series A investment amounting to 2 billion won from Murex Partners';
@@ -210,10 +211,10 @@
 				</div>
 
 				<div class="flex mb-2">
-					<div class="text-sm mr-4">
+					<div class="text-xl mr-4">
 						09
 					</div>
-					<div class="text-sm">
+					<div class="text-xl">
 						<?php 
 								if(ICL_LANGUAGE_CODE == 'en'){ 
 									echo 'Concluded the concierge contract of Russian patients with Severance Check-up';
@@ -233,10 +234,10 @@
 				</div>
 
 				<div class="flex mb-2">
-					<div class="text-sm mr-4">
+					<div class="text-xl mr-4">
 						08
 					</div>
-					<div class="text-sm">
+					<div class="text-xl">
 						<?php 
 								if(ICL_LANGUAGE_CODE == 'en'){ 
 									echo 'Founded the Uzbekistan corporation of Himedi';
@@ -256,10 +257,10 @@
 				</div>
 
 				<div class="flex mb-2">
-					<div class="text-sm mr-4">
+					<div class="text-xl mr-4">
 						08
 					</div>
-					<div class="text-sm">
+					<div class="text-xl">
 						<?php 
 								if(ICL_LANGUAGE_CODE == 'en'){ 
 									echo 'Concluded the concierge operation/management contract of Arab Muslim patients with BOBATH
@@ -280,10 +281,10 @@
 				</div>
 
 				<div class="flex mb-2">
-					<div class="text-sm mr-4">
+					<div class="text-xl mr-4">
 						06
 					</div>
-					<div class="text-sm">
+					<div class="text-xl">
 						<?php 
 								if(ICL_LANGUAGE_CODE == 'en'){ 
 									echo 'Concluded the concierge operation/management contract of Arab Muslim patients with Wooridul
@@ -304,10 +305,10 @@
 				</div>
 
 				<div class="flex mb-2">
-					<div class="text-sm mr-4">
+					<div class="text-xl mr-4">
 						02
 					</div>
-					<div class="text-sm">
+					<div class="text-xl">
 						<?php 
 								if(ICL_LANGUAGE_CODE == 'en'){ 
 									echo 'Concluded the concierge operation/management contract of Arab Muslim patients with Seoul National University Bundang Hospital';
@@ -327,10 +328,10 @@
 				</div>
 
 				<div class="flex mb-2">
-					<div class="text-sm mr-4">
+					<div class="text-xl mr-4">
 						01
 					</div>
-					<div class="text-sm">
+					<div class="text-xl">
 						<?php 
 								if(ICL_LANGUAGE_CODE == 'en'){ 
 									echo 'Concluded the concierge operation/management contract of Arab Muslim patients with Seoul National University Hospital (Main)';
@@ -352,16 +353,16 @@
 		</div>
 
 		<div class="flex mt-2 pb-4 border-solid border-b-2 border-gray-200 leading-relaxed">
-			<div class="text-sm font-bold mr-4" style="color:#333!important;">
+			<div class="text-xl font-bold mr-4" style="color:#333!important;">
 				2015
 			</div>
 
 			<div class="flex flex-wrap">
 				<div class="flex mb-2">
-					<div class="text-sm mr-4">
+					<div class="text-xl mr-4">
 						12
 					</div>
-					<div class="text-sm">
+					<div class="text-xl">
 						<?php 
 							if(ICL_LANGUAGE_CODE == 'en'){ 
 								echo 'Concluded the concierge operation/management contract of Arab Muslim patients with Cha University Gangnam Medical Center';
@@ -381,10 +382,10 @@
 				</div>
 
 				<div class="flex mb-2">
-					<div class="text-sm mr-4">
+					<div class="text-xl mr-4">
 						11
 					</div>
-					<div class="text-sm">
+					<div class="text-xl">
 						<?php 
 							if(ICL_LANGUAGE_CODE == 'en'){ 
 								echo 'Concluded the concierge operation/management contract of Arab Muslim patients with Samsung Medical Center';
@@ -404,10 +405,10 @@
 				</div>
 
 				<div class="flex mb-2">
-					<div class="text-sm mr-4">
+					<div class="text-xl mr-4">
 						09
 					</div>
-					<div class="text-sm">
+					<div class="text-xl">
 						<?php 
 							if(ICL_LANGUAGE_CODE == 'en'){ 
 								echo 'Concluded the UAE health insurance patient registration/billing service contract with Daman Health Insurance';
@@ -427,10 +428,10 @@
 				</div>
 
 				<div class="flex mb-2">
-					<div class="text-sm mr-4">
+					<div class="text-xl mr-4">
 						03
 					</div>
-					<div class="text-sm">
+					<div class="text-xl">
 						<?php 
 							if(ICL_LANGUAGE_CODE == 'en'){ 
 								echo 'An internship program with Arabic Department of Chosun University';
@@ -451,10 +452,10 @@
 				</div>
 
 				<div class="flex mb-2">
-					<div class="text-sm mr-4">
+					<div class="text-xl mr-4">
 						03
 					</div>
-					<div class="text-sm">
+					<div class="text-xl">
 						<?php 
 							if(ICL_LANGUAGE_CODE == 'en'){ 
 								echo 'An internship program with Arabic Studies Department, Myongji University';
@@ -477,16 +478,16 @@
 		</div>
 
 		<div class="flex mt-2 pb-4 border-solid border-b-2 border-gray-200 leading-relaxed">
-			<div class="text-sm font-bold mr-4" style="color:#333!important;">
+			<div class="text-xl font-bold mr-4" style="color:#333!important;">
 				2014
 			</div>
 
 			<div class="flex flex-wrap">
 				<div class="flex mb-2">
-					<div class="text-sm mr-4">
+					<div class="text-xl mr-4">
 						12
 					</div>
-					<div class="text-sm">
+					<div class="text-xl">
 						<?php 
 							if(ICL_LANGUAGE_CODE == 'en'){ 
 								echo 'Concluded the medical checkup service contract for the staff of the Russian airline Air Bridge Cargo';
@@ -506,10 +507,10 @@
 				</div>
 
 				<div class="flex mb-2">
-					<div class="text-sm mr-4">
+					<div class="text-xl mr-4">
 						07
 					</div>
-					<div class="text-sm">
+					<div class="text-xl">
 						<?php 
 							if(ICL_LANGUAGE_CODE == 'en'){ 
 								echo 'Founded the corporation of Widers Korea';
@@ -532,16 +533,16 @@
 		</div>
 
 		<div class="flex mt-2 pb-4 border-solid border-b-2 border-gray-200 leading-relaxed">
-			<div class="text-sm font-bold mr-4" style="color:#333!important;">
+			<div class="text-xl font-bold mr-4" style="color:#333!important;">
 				2011
 			</div>
 
 			<div class="flex flex-wrap">
 				<div class="flex mb-2">
-					<div class="text-sm mr-4">
+					<div class="text-xl mr-4">
 						12
 					</div>
-					<div class="text-sm">
+					<div class="text-xl">
 						<?php 
 							if(ICL_LANGUAGE_CODE == 'en'){ 
 								echo 'Concluded the concierge operation/management contract of Arab Muslim patients with Severance Hospital';
@@ -562,10 +563,10 @@
 				</div>
 
 				<div class="flex mb-2">
-					<div class="text-sm mr-4">
+					<div class="text-xl mr-4">
 						12
 					</div>
-					<div class="text-sm">
+					<div class="text-xl">
 						<?php 
 							if(ICL_LANGUAGE_CODE == 'en'){ 
 								echo 'Founded Widers Company';
@@ -606,90 +607,90 @@
 					echo 'الموقع';	
 				}
 			?>	
-			</h3>
+		</h3>
 
 		<iframe class="w-full h-56 mb-4" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDgl81NrLLD43y1Qep_Dc8INyr8ilgvSwE
 	&q=22+Seocho-daero+78-gil,+Seocho-dong,+Seocho-gu,+Seoul" allowfullscreen>
 		</iframe>
-
-		<h3 class="font-bold text-center px-0 font-size-24 leading-relaxed" style="font-size:22px">
-			<?php 
-				if(ICL_LANGUAGE_CODE == 'en'){ 
-					echo 'Himedi Headquarters';
-				} 
-				elseif(ICL_LANGUAGE_CODE == 'ru') { 
-					echo 'Штаб-квартира Химеди';
-				} 
-				elseif(ICL_LANGUAGE_CODE == 'mn') { 
-					echo 'Himedi-н төв байр';
-				} 
-				elseif(ICL_LANGUAGE_CODE == 'ar') { 
-					echo 'مقر هاي ميدي';	
-				}
-			?>	
-						
+		<div>
+			<h3 class="font-bold px-0 font-size-24 leading-relaxed" style="font-size:22px">
+				<?php 
+					if(ICL_LANGUAGE_CODE == 'en'){ 
+						echo 'Himedi Headquarters';
+					} 
+					elseif(ICL_LANGUAGE_CODE == 'ru') { 
+						echo 'Штаб-квартира Химеди';
+					} 
+					elseif(ICL_LANGUAGE_CODE == 'mn') { 
+						echo 'Himedi-н төв байр';
+					} 
+					elseif(ICL_LANGUAGE_CODE == 'ar') { 
+						echo 'مقر هاي ميدي';	
+					}
+				?>	
+							
 			</h3>
 
-		<div class="leading-relaxed">
-			<table>
-				<tr class="text-sm">
-					<td class="pr-4 py-2" valign="top">
-						<?php 
-							if(ICL_LANGUAGE_CODE == 'en'){ 
-								echo 'Address';
-							} 
-							elseif(ICL_LANGUAGE_CODE == 'ru') { 
-								echo 'Адресс ';
-							} 
-							elseif(ICL_LANGUAGE_CODE == 'mn') { 
-								echo 'Хаяг';
-							} 
-							elseif(ICL_LANGUAGE_CODE == 'ar') { 
-								echo 'العنوان';	
-							}
-						?>	
-					</td>
-					<td class="py-2">7th Floor, Hongwu-2-Building, 78-gil 22, Seochodaero, Seocho-gu, Seoul</td>
-				</tr>
-
-				<tr class="text-sm">
-					<td class="pr-4 py-2" valign="top">Location</td>
-					<td class="py-2">
-						<?php 
+			<div class="leading-relaxed">
+				<table>
+					<tr class="text-xl">
+						<td class="pr-4 py-2" valign="top">
+							<?php 
 								if(ICL_LANGUAGE_CODE == 'en'){ 
-									echo '5 minutes from Exit No. 6 of Gangnam Station (Shinbundang subway line)';
+									echo 'Address';
 								} 
 								elseif(ICL_LANGUAGE_CODE == 'ru') { 
-									echo '5 минут от выхода № 6 со станции Гангнам (линия метро Шинбунданг)';
+									echo 'Адресс ';
 								} 
 								elseif(ICL_LANGUAGE_CODE == 'mn') { 
-									echo 'Ганнам метроны буудал 6р гарцаар гараад 5мин (Shinbundang метроны шугам)';
+									echo 'Хаяг';
 								} 
 								elseif(ICL_LANGUAGE_CODE == 'ar') { 
-									echo 'خمس دقائق من المخرج رقم 6 لمحطة كانغنام (خط مترو أنفاق شينبوندانغ)';	
+									echo 'العنوان';	
 								}
 							?>	
 						</td>
-				</tr>
+						<td class="py-2">7th Floor, Hongwu-2-Building, 78-gil 22, Seochodaero, Seocho-gu, Seoul</td>
+					</tr>
 
-				<tr class="text-sm">
-					<td class="pr-4 py-2" valign="top">Tel</td>
-					<td class="py-2">+82 70-8146-8986</td>
-				</tr>
+					<tr class="text-xl">
+						<td class="pr-4 py-2 px-4" valign="top">Location</td>
+						<td class="py-2">
+							<?php 
+									if(ICL_LANGUAGE_CODE == 'en'){ 
+										echo '5 minutes from Exit No. 6 of Gangnam Station (Shinbundang subway line)';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'ru') { 
+										echo '5 минут от выхода № 6 со станции Гангнам (линия метро Шинбунданг)';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'mn') { 
+										echo 'Ганнам метроны буудал 6р гарцаар гараад 5мин (Shinbundang метроны шугам)';
+									} 
+									elseif(ICL_LANGUAGE_CODE == 'ar') { 
+										echo 'خمس دقائق من المخرج رقم 6 لمحطة كانغنام (خط مترو أنفاق شينبوندانغ)';	
+									}
+								?>	
+							</td>
+					</tr>
 
-				<tr class="text-sm">
-					<td class="pr-4 py-2" valign="top">Fax</td>
-					<td class="py-2">+82 2-545-0420</td>
-				</tr>
+					<tr class="text-xl">
+						<td class="pr-4 py-2" valign="top">Tel</td>
+						<td class="py-2">+82 70-8146-8986</td>
+					</tr>
 
-				<tr class="text-sm">
-					<td class="pr-4 py-2" valign="top">E-mail</td>
-					<td class="py-2">acc@himedi.com</td>
-				</tr>
+					<tr class="text-xl">
+						<td class="pr-4 py-2" valign="top">Fax</td>
+						<td class="py-2">+82 2-545-0420</td>
+					</tr>
 
-			</table>
+					<tr class="text-xl">
+						<td class="pr-4 py-2" valign="top">E-mail</td>
+						<td class="py-2">acc@himedi.com</td>
+					</tr>
+
+				</table>
+			</div>
 		</div>
-
 	</div>
 
 </div>

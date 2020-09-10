@@ -102,4 +102,5 @@
 [03-Sep-2020 11:58:28 UTC] PHP Warning:  Use of undefined constant STAGS_OPTIONS_NAME - assumed 'STAGS_OPTIONS_NAME' (this will throw an Error in a future version of PHP) in /Users/ryancho/work/medi-hi-master/wp-content/plugins/simple-tags/uninstall.php on line 9
 [03-Sep-2020 11:58:28 UTC] PHP Warning:  Use of undefined constant STAGS_OPTIONS_NAME - assumed 'STAGS_OPTIONS_NAME' (this will throw an Error in a future version of PHP) in /Users/ryancho/work/medi-hi-master/wp-content/plugins/simple-tags/uninstall.php on line 10
 [03-Sep-2020 11:58:28 UTC] PHP Warning:  Use of undefined constant STAGS_OPTIONS_NAME_AUTO - assumed 'STAGS_OPTIONS_NAME_AUTO' (this will throw an Error in a future version of PHP) in /Users/ryancho/work/medi-hi-master/wp-content/plugins/simple-tags/uninstall.php on line 12
-[06-Sep-2020 03:21:20 UTC] PHP Notice:  Undefined index: message in /Users/ryancho/work/medi-hi-master/wp-content/plugins/brand-h/inc/Base/TestimonialController.php on line 52
+[08-Sep-2020 04:07:46 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/ryancho/work/medi-hi-master/wp-includes/wp-db.php on line 1626
+[08-Sep-2020 05:05:57 UTC] PHP Notice:  Undefined index: message in /Users/ryancho/work/medi-hi-master/wp-content/plugins/brand-h/inc/Base/TestimonialController.php on line 52
