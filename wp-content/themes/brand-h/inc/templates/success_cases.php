@@ -1,7 +1,7 @@
 <style type="text/css">
 @media screen and (min-width:1024px){
    .first-image{
-    height: 600px;
+    height: 500px;
     width: 100%;
     background: #fff;
     object-fit: contain;
@@ -23,14 +23,29 @@
     height: 470px !important;
         }
     }
-    .closeicon{
-color: #fff;
+ .closeicon {
     position: absolute;
-    top: -30px;
+    top: -55px;
     right: 14px;
-    font-size: 14px;
+    background: #7f7f7f;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
     z-index: -1;
-    }
+}
+.closeicon span{
+    color: #fff;
+    font-size: 14px;
+    border: solid 1px #fff;
+    border-radius: 50%;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+        cursor: pointer;
+
+}
 </style>
 <!-- Section 3-5 (start) -->
 <section class="items-center pt-20">
@@ -115,8 +130,8 @@ color: #fff;
     </div> -->
 
     <div id="successCase_popup_bg" class="fixed w-screen h-screen top-0 right-0 z-40 hidden" style="background-color: rgba(0, 0, 0, 0.6);"></div>
-    <div id="successCase_popup" class="success-popup himedi-modal w-full sm:w-1/2 md:w-2/3 fixed top-0 z-50 p-4 pt-16   hidden successChart_popup" style="max-width: 635px;height: 650px;top:50%; left: 50%; transform: translate(-50%, -50%);">
-        <span class="closeicon">X</span>
+    <div id="successCase_popup" class="success-popup himedi-modal w-full sm:w-1/2 md:w-2/3 fixed top-0 z-50 p-4 pt-16   hidden successChart_popup" style=" max-width: 435px; height: 550px;top:50%; left: 50%; transform: translate(-50%, -50%);">
+        <span class="closeicon"><span>X</span></span>
         <!-- <button id="bms_popup_cancel_btn" class="fixed p-2 m-2 sm:p-4 sm:m-4 text-2xl sm:text-3xl cursor-pointer z-40 font-bold text-white border-r border text-center rounded-full text-gray-500 text-gray-200 bg-white hidden hover:bg-gray-300 popup-close-btn" >X</button> -->
     <!-- <button type="button" class="inline-flex justify-center close-button w-full rounded-full border border-gray-300 px-8 py-6 bg-white text-base leading-6 font-medium text-gray-700 shadow-sm hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue transition ease-in-out duration-150 sm:text-2xl sm:leading-5">
             x

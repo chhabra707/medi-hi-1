@@ -92,7 +92,7 @@
     <!-- Section 1 (end) -->
 	<!-- Section1-1 (start) -->
 	  <!-- Content (start) -->
-	  <div class="mt-40 w-full" id="section2">
+	  <div class="mt-40 w-full pt-32" id="section2">
 	    <img src="<?php bloginfo('template_directory') ?>/img/section1-1-min-700.jpg" alt="">
 	  </div>
 	  <div class="lg:mt-10 mt-10 lg:mb-24 mb-0 lg:p-10 p-2">
@@ -883,7 +883,7 @@
   <!-- Section 3-2 (end) -->
   <!--.entry-content-->
   
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+  <script src="<?php bloginfo('template_directory') ?>/js/Chart.min.js"></script>
   <script>
   function showGraph(n) {
     let texts = document.getElementsByClassName('medi_graph')

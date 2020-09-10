@@ -1,15 +1,16 @@
 <style type="text/css">
-    .rtl .arabic-style-phone{
-            padding-right: 7px;
+    .rtl .arabic-style-phone {
+    padding-right: 7px;
     padding-left: 12px;
-        margin-left: 6px!important;
-    }
-
-    .rtl .arabicphone-field{
-            padding-right: 7px;
-    padding-left: 7px;
+    margin-left: 15px!important;
     font-size: 11px;
-    }
+}
+
+   .rtl .arabicphone-field {
+    padding-right: 4px;
+    padding-left: 5px;
+    font-size: 10.80px;
+}
 </style>
 <form class="w-full mt-20 px-5 sm:text-2xl text-lg sm:p-16" id="brandh-form-form" action="#" method="post" data-url="<?php echo admin_url('admin-ajax.php'); ?>">
 

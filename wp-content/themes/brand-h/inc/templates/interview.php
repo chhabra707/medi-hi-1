@@ -7,10 +7,14 @@
 							Yousif
 						</div> -->
 						<style type="text/css">
-							.story-text{
-								position: relative;
+							.testimonial-content {
+
+							    height: 287px;
+							    overflow-y: auto;
+							    padding-bottom: 20px;
+
 							}
-							.story-text:after{
+							.testimonial-height:after{
 								content: "";
 								position: absolute;
 								bottom: 0;
@@ -20,9 +24,12 @@
 								background: hsla(0,0%,100%,.2);
 								background: -webkit-gradient(linear,left top,left bottom,from(hsla(0,0%,100%,0)),to(#fff));
 								background: linear-gradient(180deg,hsla(0,0%,100%,0) 0,#fff);
+								
 							}
 							.testimonial-height {
-							 min-height: 260px;
+							    min-height: 260px;
+							    overflow: hidden;
+							     position: relative;
 							}
 						</style>
 
@@ -59,13 +66,15 @@
                 <!-- Slides -->
                 <div class="swiper-slide h-full w-full flex justify-center content-end  flex-row flex-wrap pb-12" style="top:0px!important;">
 					<div class="testimonial-height overflow-auto swipe-container-content hide_scrollBar pt-0 px-10" style="max-height:49%; margin-bottom:1%;">
-						<img width="25" height="25" src="<?php bloginfo('template_directory') ?>/img/interview/main-review.png" alt="" />
-						<!-- <div class="italic text-3xl text-gray-700 pt-4 text-gray-700 text-left font-size-24 leading-none fading_artical story-text" style="font-size:17px; line-height:1.78; color:rgba(0,0,0,.8)!important"> -->
-						<div class="story-text italic text-3xl text-gray-700 pt-4 text-gray-700 text-left font-size-24 leading-none fading_artical" style="font-size:17px; line-height:1.78; color:rgba(0,0,0,.8)!important">
-							Regarding Himedi, to be honest, they did all their best for us, starting from the airport where they greeted us in a friendly manner to recommending the best hotels in Seoul for us. They took care of everything, especially hospital recommendations, recommending one of the best hospitals in Seoul that is specialized in cancer treatments.
-						</div>	
-						<div class="mt-10 text-gray-500 mb-32 italic font-size-24 leading-none" style="color: rgba(0,0,0,.5)!important; font-size:16px">
-							Yousif
+						<div class="testimonial-content">
+							<img width="25" height="25" src="<?php bloginfo('template_directory') ?>/img/interview/main-review.png" alt="" />
+							<!-- <div class="italic text-3xl text-gray-700 pt-4 text-gray-700 text-left font-size-24 leading-none fading_artical story-text" style="font-size:17px; line-height:1.78; color:rgba(0,0,0,.8)!important"> -->
+							<div class="story-text italic text-3xl text-gray-700 pt-4 text-gray-700 text-left font-size-24 leading-none fading_artical" style="font-size:17px; line-height:1.78; color:rgba(0,0,0,.8)!important">
+								Regarding Himedi, to be honest, they did all their best for us, starting from the airport where they greeted us in a friendly manner to recommending the best hotels in Seoul for us. They took care of everything, especially hospital recommendations, recommending one of the best hospitals in Seoul that is specialized in cancer treatments.
+							</div>	
+							<div class="mt-10 text-gray-500 mb-32 italic font-size-24 leading-none" style="color: rgba(0,0,0,.5)!important; font-size:16px">
+								Yousif
+							</div>
 						</div>
 					</div>
 					<div>
@@ -79,18 +88,23 @@
                 </div>
                 <div class="swiper-slide h-full w-full flex justify-center content-end  flex-row flex-wrap pb-12" style="top:0px!important;">
 							<div class="testimonial-height pt-0 overflow-auto hide_scrollBar px-10" style="max-height:49%; margin-bottom:1%;">
-								<img width="25" height="25" src="<?php bloginfo('template_directory') ?>/img/interview/main-review.png" alt="" />
-								<div class="story-text italic text-3xl text-gray-700 pt-4 text-gray-700 text-left font-size-24 leading-none fading_artical" style="font-size:17px; line-height:1.78; color:rgba(0,0,0,.8)!important">
-									Frankly, Everything they provide is good, including organizing and all what they do is just well provided.
-								</div>	
-								<div class="mt-10 text-gray-500 mb-32 italic font-size-24 leading-none" style="color: rgba(0,0,0,.5)!important; font-size:16px">
-									Mariam
+								<div class="testimonial-content">
+									
+									<img width="25" height="25" src="<?php bloginfo('template_directory') ?>/img/interview/main-review.png" alt="" />
+									<div class="story-text italic text-3xl text-gray-700 pt-4 text-gray-700 text-left font-size-24 leading-none fading_artical" style="font-size:17px; line-height:1.78; color:rgba(0,0,0,.8)!important">
+										Frankly, Everything they provide is good, including organizing and all what they do is just well provided.
+									</div>	
+									<div class="mt-10 text-gray-500 mb-32 italic font-size-24 leading-none" style="color: rgba(0,0,0,.5)!important; font-size:16px">
+										Mariam
+									</div>
 								</div>
+
 							</div>
 				          <a class="self-end overflow-hidden" style="max-height:50%;" href="https://youtu.be/DXg_vmpIlmE"><img src="<?php bloginfo('template_directory') ?>/img/interview2.jpg" width="632px" height="348px" alt=""></a>
                 </div>
                 <div class="swiper-slide h-full w-full flex justify-center content-end  flex-row flex-wrap pb-12" style="top:0px!important;">
 							<div class="testimonial-height pt-0 overflow-auto hide_scrollBar px-10" style="max-height:49%; margin-bottom:1%;">
+								<div class="testimonial-content">
 								<img width="25" height="25" src="<?php bloginfo('template_directory') ?>/img/interview/main-review.png" alt="" />
 								<div class="story-text italic text-3xl text-gray-700 pt-4 text-gray-700 text-left font-size-24 leading-none fading_artical" style="font-size:17px; line-height:1.78; color:rgba(0,0,0,.8)!important">
 									I should mention that Himedi provides services rather than hospital related services, such as recommending not just large hospitals but also simple and small clinics, as well as recommending tourism services for those who are interested in tours and traveling around. Moreover, translation and interpretation service, unlike other tourism agencies, communicating with Himedi was easy and comfortable, Himedi facilitates connecting with hospitals, moreover, this is available for 24 hours.
@@ -98,17 +112,20 @@
 								<div class="mt-10 text-gray-500 mb-32 italic font-size-24 leading-none" style="color: rgba(0,0,0,.5)!important; font-size:16px">
 									Saeed abdullah 
 								</div>
+								</div>
 							</div>
 				          <a class="self-end overflow-hidden" style="max-height:50%;" href="https://youtu.be/IaoksqOG9eo?t=44"><img src="<?php bloginfo('template_directory') ?>/img/interview3.jpg" width="632px" height="348px" alt=""></a>
                 </div>
 				<div class="swiper-slide h-full w-full flex justify-center content-end  flex-row flex-wrap pb-12" style="top:0px!important;">
 							<div class="testimonial-height pt-0 overflow-auto hide_scrollBar px-10" style="max-height:49%; margin-bottom:1%;">
+								<div class="testimonial-content">
 								<img width="25" height="25" src="<?php bloginfo('template_directory') ?>/img/interview/main-review.png" alt="" />
 								<div class="story-text italic text-3xl text-gray-700 pt-4 text-gray-700 text-left font-size-24 leading-none fading_artical" style="font-size:17px; line-height:1.78; color:rgba(0,0,0,.8)!important">
 									Himedi is a specialized company, I am glad that I had the opportunity of getting to know it. When we came in Seoul we were able to experience its services all. Those who work there, they can speak Arabic and English very well, and I just felt as if I am in my homeland.
 								</div>	
 								<div class="mt-10 text-gray-500 mb-32 italic font-size-24 leading-none" style="color: rgba(0,0,0,.5)!important; font-size:16px">
 									Badee
+								</div>
 								</div>
 							</div>
 				          <a class="self-end overflow-hidden" style="max-height:50%;" href="https://youtu.be/AbLHU1mED5A"><img src="<?php bloginfo('template_directory') ?>/img/interview4.jpg" width="632px" height="348px" alt=""></a>
