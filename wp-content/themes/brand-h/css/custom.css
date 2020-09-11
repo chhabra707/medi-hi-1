@@ -398,8 +398,9 @@ body {
         margin-bottom: 0;
     }
 
-    .swiper-slide{
-        top:0px!important;
+    .swiper-slide{ 
+top: 0px!important;
+    padding: 0;
     }
     .fourth-section .arrowAnimate {
         padding-top: 2rem;
@@ -475,4 +476,28 @@ body {
     }
 
 
+}
+@media screen and (max-width: 600px) {
+  .homepageslider-wrapper .object-fit-slide img{
+        margin-top: 68px;
+  }
+  .arrowspace-mobile{
+padding-bottom: 60px;
+    position: relative;
+  }
+  .arrowspace-mobile .section2arrow{
+position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -70px;
+  }
+}
+@media screen and (max-width: 480px) {
+
+.rtl .rtl-form .rtl-label {
+    width: 36%;
+}
+.rtl .rtl-form .rtl-field {
+    width: 64%;
+}
 }

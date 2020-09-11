@@ -16,7 +16,7 @@
         <!-- Main slider (start) -->
         <div class="swiper-container">
             <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
+            <div class="swiper-wrapper homepageslider-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide object-fit-slide">
 					        <img src="<?php bloginfo('template_directory') ?>/img/Bild2-min-700.jpg" alt="" >
@@ -40,9 +40,9 @@
             <div class="swiper-scrollbar"></div>
         </div>
         <!-- Main slider (end) -->
-    
+    <div class="arrowspace-mobile">
         <!-- Content (start) -->
-        <div class="lg:mt-10 mt-10 lg:mb-24 mb-0 lg:p-10 p-2">
+        <div class="lg:mt-10 mt-10 lg:mb-24 mb-0 lg:p-10 p-2 ">
             <h2 class="px-8 text-left font-size-24 leading-relaxed " style="font-size:25px; color:rgba(0,0,0,.8); line-height: 1.3em;">
 				
             <?php 
@@ -83,9 +83,10 @@
         <!-- Content (end) -->
     
         <!-- Arrow icon (start) -->
-        <a href="#section2">
+        <a href="#section2" class="section2arrow">
             <img class="mx-auto lg:pt-0 pt-10 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
         </a>
+         </div>
         <!-- Arrow icon (end) -->
     
     </section>

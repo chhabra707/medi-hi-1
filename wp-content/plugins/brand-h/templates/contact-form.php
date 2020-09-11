@@ -15,14 +15,14 @@
 <form class="w-full mt-20 px-5 sm:text-2xl text-lg sm:p-16" id="brandh-form-form" action="#" method="post" data-url="<?php echo admin_url('admin-ajax.php'); ?>">
 
 	<!-- Name (start) -->
-	<div class="field-container flex items-center mb-10">
-		<div class="sm:w-1/3 w-2/5">
+	<div class="field-container flex items-center mb-10 rtl-form">
+		<div class="sm:w-1/3 w-2/5 rtl-label">
 			<label for="name">
 				<img class="inline px-2" src="<?php bloginfo('template_url') ?>/img/check.svg" alt="check icon">
 				Full Name <span class="text-red-500">*</span>
 			</label>
 		</div>
-		<div class="sm:w-2/3 w-3/5">
+		<div class="sm:w-2/3 w-3/5 rtl-field">
 			<input type="text" class="field-input appearance-none border border-gray-200 rounded-lg w-full py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Jane Doe" id="name" name="name" required>
 			<small class="field-msg error" data-error="invalidName">Your Name is Required</small>
 		</div>
@@ -30,16 +30,16 @@
 	<!-- Name (end) -->
 
 	<!-- Phone (start) -->
-	<div class="field-container flex items-center mb-10">
-		<div class="sm:w-1/3 w-2/5">
+	<div class="field-container flex items-center mb-10 rtl-form">
+		<div class="sm:w-1/3 w-2/5 rtl-label">
 			<label for="phone">
 				<img class="inline px-2" src="<?php bloginfo('template_url') ?>/img/check.svg" alt="check icon">
 				Phone <span class="text-red-500">*</span>
 			</label>
 		</div>
-		<div class="sm:w-2/3 w-3/5 flex justify-between">
+		<div class="sm:w-2/3 w-3/5 flex justify-between rtl-field">
 			<!-- Phone codes (start) -->
-			<select class="arabic-style-phone field-input mr-5 w-2/5 border border-gray-200 text-gray-500 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state" required name="phone_code">
+			<select class="arabic-style-phone field-input mr-5 w-2/5 border border-gray-200 text-gray-500 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 bg-white" id="grid-state" required name="phone_code">
 
 				<option selected disabled>Nation</option>
 				<option data-countryCode="KR" value="82">S. Korea (+82)</option>
@@ -268,14 +268,14 @@
 	<!-- Phone (end) -->
 
 	<!-- Email (start) -->
-	<div class="field-container flex items-center mb-10">
-		<div class="sm:w-1/3 w-2/5">
+	<div class="field-container flex items-center mb-10 rtl-form">
+		<div class="sm:w-1/3 w-2/5 rtl-label">
 			<label for="email">
 				<img class="inline px-2" src="<?php bloginfo('template_url') ?>/img/check.svg" alt="check icon">
 				Email <span class="text-red-500">*</span>
 			</label>
 		</div>
-		<div class="sm:w-2/3 w-3/5">
+		<div class="sm:w-2/3 w-3/5 rtl-field">
 			<input type="email" class="field-input appearance-none border border-gray-200 rounded-lg w-full py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Your Email" id="email" name="email" required>
 			<small class="field-msg error" data-error="invalidEmail">The Email address is not valid</small>
 		</div>
@@ -283,14 +283,14 @@
 	<!-- Email (end) -->
 
 	<!-- Disease (start) -->
-	<div class="field-container flex items-center mb-10">
-		<div class="sm:w-1/3 w-2/5">
+	<div class="field-container flex items-center mb-10 rtl-form">
+		<div class="sm:w-1/3 w-2/5 rtl-label">
 			<label for="care">
 				<img class="inline px-2" src="<?php bloginfo('template_url') ?>/img/check.svg" alt="check icon">
 				Disease <span class="text-red-500">*</span>
 			</label>
 		</div>
-		<div class="sm:w-2/3 w-3/5">
+		<div class="sm:w-2/3 w-3/5 rtl-field">
 			<input type="text" class="field-input appearance-none border border-gray-200 rounded-lg w-full py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Write disease here" id="care" name="care" required>
 			<small class="field-msg error" data-error="invalidCare">The Disesae is not valid</small>
 		</div>

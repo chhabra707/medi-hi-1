@@ -20,7 +20,7 @@
 								bottom: 0;
 								left: 0;
 								right: 0;
-								height: 136px;
+								height: 80px;
 								background: hsla(0,0%,100%,.2);
 								background: -webkit-gradient(linear,left top,left bottom,from(hsla(0,0%,100%,0)),to(#fff));
 								background: linear-gradient(180deg,hsla(0,0%,100%,0) 0,#fff);
