@@ -360,9 +360,30 @@
 			<button type="stubmit" class="applyBtn bg-brand p-5 text-white font-normal w-1/2 mx-auto mt-10" style="border-radius:10px; font-size:18px">Apply</button>
 		</div>
 		<div class="flex justify-center items-center">
-			<small class="field-msg js-form-submission">Submission in process, please wait&hellip;</small>
+			<!-- <small class="field-msg js-form-submission">Submission in process, please wait&hellip;</small>
 			<small class="field-msg success js-form-success">Successfully submitted.</small>
-			<small class="field-msg error js-form-error">There was a problem with the Contact Form, please try again!</small>
+			<small class="field-msg error js-form-error">There was a problem with the Contact Form, please try again!</small> -->
+			<div class="field-msg js-form-submission">
+				<div class="w-full pt-4 lg:pt-10 px-4">
+					<center>Submission in process</center>
+					<div class="loader">
+						<center><img src="<?php echo site_url().'/wp-content/plugins/brand-h/assets/images/loader.gif'; ?>" style="width:64px;"></center>
+					</div>
+					<center>Please Wait</center>
+				</div>
+			</div>
+			<div class="field-msg success js-form-success">
+				<div class="w-full pt-4 lg:pt-10 px-4">
+					<center>Successfully Submitted</center>
+					
+					<button>Done</button>
+				</div>
+			</div>
+			<div class="field-msg error js-form-error">
+				<div class="w-full pt-4 lg:pt-10 px-4">
+					<center>Error </center>
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -371,3 +392,12 @@
 	<!-- Submit (end) -->
 
 </form>
+<!-- <div class="field-msg js-form-submission" style="display: none;">
+	<div class="w-full pt-4 lg:pt-10 px-4">
+		<center>Submission in process</center>
+		<div class="loader">
+			<center><img src="<?php echo site_url().'/wp-content/plugins/brand-h/assets/images/loader.gif'; ?>" style="width:64px;"></center>
+		</div>
+		<center>Please Wait</center>
+	</div>
+</div> -->
