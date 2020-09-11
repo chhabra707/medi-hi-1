@@ -1,7 +1,16 @@
+<style type="text/css">
+	@media screen and (max-width:768px){
+   .aboutpage-banner{
+
+    margin-top: 0 !important;
+    }
+    }
+    
+</style>
 <!-- Section 3-6 (start) -->
 <div class="flex-wrap">
 
-	<div class="flex-wrap relative mt-5" style="background-image:url('<?php bloginfo('template_directory') ?>/img/static/p_himedi_1_m.jpg'); background-repeat:no-repeat; background-position:center top; background-size:cover; min-height:360px; margin-top:70px;">
+	<div class="aboutpage-banner flex-wrap relative mt-5" style="background-image:url('<?php bloginfo('template_directory') ?>/img/static/p_himedi_1_m.jpg'); background-repeat:no-repeat; background-position:center top; background-size:cover; min-height:360px; margin-top:70px;">
 		<!--<img class="w-full" src="<?php //bloginfo('template_directory') ?>/img/static/p_himedi_1_m.jpg" alt="">-->
 		<div class="top-0 right-0  flex-wrap items-center justify-center content-center w-full h-full p-6"
 			style="background-color: rgba(0, 0, 0, 0.4); padding-top:60px; padding-bottom:140px;">

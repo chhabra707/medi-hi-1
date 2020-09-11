@@ -25,12 +25,16 @@
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
-	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+	<link href="<?php bloginfo('template_directory') ?>/css/tailwind.min.css" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> -->
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/css/swiper-bundle.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/css/swiper-bundle.min.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/style.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet"> -->
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/css/custom.css">
 	<style>
 	
@@ -165,8 +169,27 @@
 				-webkit-box-shadow:0px 5px 9px -6px rgba(0, 0, 0, 0.2)!important;
 				-moz-box-shadow:0px 5px 9px -6px rgba(0, 0, 0, 0.2)!important;
 				box-shadow:0px 5px 9px -6px rgba(0, 0, 0, 0.2)!important;   
-				padding-bottom:23px;
+				/*padding-bottom:23px;*/
 			}
+			header.header-container {
+    position: fixed;
+    width: 64rem;
+    margin: 0 auto;
+}
+@media screen and (max-width:640px){
+						header.header-container {
+ 
+    width: 100%;
+}
+		}
+
+header.header-container .header-content
+{
+      padding-bottom: 23px;
+    background: #fff;
+    padding-top: 6px;
+
+}
 			.header-container .top_full, .header-container.fixed-top .scroll_full,
 			.header-container .scroll_full, .header-container.fixed-top .top_full{
 				display: block;
@@ -245,6 +268,15 @@
 			.space-evenly {
 				justify-content: space-evenly;
 			}
+			 .sidebar-scroll .wpml-ls-legacy-list-horizontal .wpml-ls-item.active a{
+        	    border: solid 1px #4287f5;
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+        }
 			
 		</style>
 		<!--End tailwind-->
@@ -459,7 +491,7 @@
 
 					<div class=" wpml-ls wpml-ls-legacy-list-horizontal text-center">
 						<ul>
-							<li class="wpml-ls-item">
+							<li class="wpml-ls-item active">
 								<a href="/en/" class="wpml-ls-link"><img class="wpml-ls-flag" src="<?php echo get_template_directory_uri(); ?>/img/en.png" alt=""></a>
 							</li>
 							<li class="wpml-ls-item">
