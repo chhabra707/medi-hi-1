@@ -44,6 +44,9 @@
     cursor: pointer;
 
 }
+textarea:focus, input:focus, button:focus{
+    outline: none;
+}
 </style>
 <!-- Section 3-5 (start) -->
 <section class="items-center pt-20">
@@ -129,11 +132,7 @@
 
     <div id="successCase_popup_bg" class="fixed w-screen h-screen top-0 right-0 z-40 hidden" style="background-color: rgba(0, 0, 0, 0.5);"></div>
     <div id="successCase_popup" class="success-popup himedi-modal w-full sm:w-1/2 md:w-2/3 fixed top-0 z-50 p-4 pt-16   hidden successChart_popup" style=" max-width: 535px; height: 70vh;top:50%; left: 50%; transform: translate(-50%, -50%);    padding-top: 30px;">
-        <span class="closeicon"><span>X</span></span>
-        <!-- <button id="bms_popup_cancel_btn" class="fixed p-2 m-2 sm:p-4 sm:m-4 text-2xl sm:text-3xl cursor-pointer z-40 font-bold text-white border-r border text-center rounded-full text-gray-500 text-gray-200 bg-white hidden hover:bg-gray-300 popup-close-btn" >X</button> -->
-    <!-- <button type="button" class="inline-flex justify-center close-button w-full rounded-full border border-gray-300 px-8 py-6 bg-white text-base leading-6 font-medium text-gray-700 shadow-sm hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue transition ease-in-out duration-150 sm:text-2xl sm:leading-5">
-            x
-          </button>         -->
+        <span class="closeicon hover:bg-gray-500 rounded-full"><span>X</span></span>
     <!-- PopUp Content goes here. -->
             <img class="absolute top-0 left-0 w-full h-full z-40" src="<?php bloginfo('template_directory') ?>/img/static/chart2-min.png" alt="" style="pointer-events:none">
            <div class="w-full h-full overflow-auto hide_scrollBar bg-white" style="height:100%"> 
