@@ -1,9 +1,14 @@
 <style type="text/css">
-    .rtl .arabic-style-phone {
-    padding-right: 7px;
-    padding-left: 12px;
-    margin-left: 15px!important;
+	.rtl .arabic-style-phone {
+        padding-right: 8px;
+    padding-left: 20px;
+}
+    .rtl .selectdropdown-common {
+        padding-right: 0;
+    padding-left: 0;
+    margin-left: 15px;
     font-size: 11px;
+    margin-right: 0;
 }
 
    .rtl .arabicphone-field {
@@ -11,6 +16,38 @@
     padding-left: 5px;
     font-size: 10.80px;
 }
+
+.selectdropdown-common {
+	position: relative;
+}
+.selectdropdown-common select{
+-moz-appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 42px;
+    background: transparent;
+    position: relative;
+    z-index: 2;
+}
+.selectdropdown-common:before {
+	       content: "\f107";
+    font-family: 'FontAwesome';
+    position: absolute;
+    color: #a0aec0;
+    right: 7px;
+    font-size: 18px;
+    top: 7px;
+}
+
+.rtl .selectdropdown-common:before {
+    right: inherit;   
+    left: 7px;
+}
+
+.selectdropdown-common select:focus {
+    background: transparent;
+}
+
 </style>
 <form class="w-full mt-20 px-5 sm:text-2xl text-lg sm:p-16" id="brandh-form-form" action="#" method="post" data-url="<?php echo admin_url('admin-ajax.php'); ?>">
 
@@ -39,7 +76,8 @@
 		</div>
 		<div class="sm:w-2/3 w-3/5 flex justify-between rtl-field">
 			<!-- Phone codes (start) -->
-			<select class="arabic-style-phone field-input mr-5 w-2/5 border border-gray-200 text-gray-500 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 bg-white" id="grid-state" required name="phone_code">
+			<div class="selectdropdown-common mr-5 w-2/5 ">
+				<select class="arabic-style-phone field-input border border-gray-200 text-gray-500 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-blue-500 bg-white" id="grid-state" required name="phone_code">
 
 				<option selected disabled>Nation</option>
 				<option data-countryCode="KR" value="82">S. Korea (+82)</option>
@@ -259,6 +297,7 @@
 				<option data-countryCode="ZM" value="260">Zambia (+260)</option>
 				<option data-countryCode="ZW" value="263">Zimbabwe (+263)</option>
 			</select>
+			</div>
 			<small class="field-msg error" data-error="invalidPhoneCode">The Phone Code is not valid</small>
 			<!-- Phone codes (end) -->
 			<input type="number" class="arabicphone-field field-input w-3/5 appearance-none border border-gray-200 rounded-lg py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Your Phone Number" id="phone" name="phone" min="1" required>

@@ -170,6 +170,11 @@
         //** Events */
         successCaseCholeithiasisBtn.addEventListener('click', successCasePopUpHandeler);
         successCasePopUpBg.addEventListener('click', successCasePopUpHandeler);
+    
+        jQuery('.closeicon').click(function() {
+              successCasePopUpBg.classList.add("hidden");
+                successCasePopUp.classList.add("hidden");
+        });
     </script>
 </section>
 <!-- Section 3-5 (end) -->
