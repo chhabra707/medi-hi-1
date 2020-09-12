@@ -44,9 +44,15 @@
     cursor: pointer;
 
 }
-textarea:focus, input:focus, button:focus{
-    outline: none;
+
+@media only screen and (max-width: 500px) {
+    .closeicon span{
+    width: 42px;
+    height: 42px;
+    line-height:42px;
 }
+}
+
 </style>
 <!-- Section 3-5 (start) -->
 <section class="items-center pt-20">
