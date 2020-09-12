@@ -483,6 +483,12 @@ top: 0px!important;
   .interview-slider .swiper-slide {
     width: 100% !important
   }
+
+ section .contnet-addtional{
+        top: 0 !important;
+    display: flex;
+    align-items: center;
+  }
 }
 @media screen and (max-width: 600px) {
   body{

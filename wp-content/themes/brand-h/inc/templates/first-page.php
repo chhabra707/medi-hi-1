@@ -685,7 +685,7 @@
 	<div class="text-bold mt-20 font-bold text-left px-6 font-size-24 leading-relaxed" style="color:#2681F3">
     <h2>STEP 02</h2>
   </div>
-  <div class="text-left px-6 font-size-24 leading-none" style="line-height:30px; font-size:24px; font-family: 'Noto Sans'!important;">
+  <div class="text-left px-6 font-size-24 leading-none mb-8" style="line-height:30px; font-size:24px; font-family: 'Noto Sans'!important;">
     <?php 
           if(ICL_LANGUAGE_CODE == 'en'){ 
               echo 'If you would like to receive the <strong style="font-family: \'Noto Sans\', sans-serif!important;">second opinion</strong> or deputy consultation from the recommended doctors, please share more detailed <strong style="font-family: \'Noto Sans\', sans-serif!important;">medical records</strong>';
