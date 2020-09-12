@@ -1,28 +1,18 @@
-
 <section style="max-width:635px">
-    <div class="mx-auto w-full mt-64" >
-        <img src="<?php bloginfo('template_directory') ?>/img/thankyou.svg" alt="" class="mx-auto">
-        <div>
-        <img src="<?php bloginfo('template_directory') ?>/img/thankyou-bar.png" alt="" class="mx-auto mt-24">
-            <!-- <div class="font-bold text-center px-6 font-size-24 leading-relaxed " style="font-size:22px">
-            An answer will be given within 24hours. <br> Your sincerely.
-
-                <?php 
-                        if(ICL_LANGUAGE_CODE == 'en'){ 
-                            echo 'An answer will be given within 24hours. <br> Your sincerely.';
-                        } 
-                        elseif(ICL_LANGUAGE_CODE == 'ru') { 
-                            echo 'Ответ будет дан в течение 24 часов';
-                        } 
-                        elseif(ICL_LANGUAGE_CODE == 'mn') { 
-                            echo '24 цагийн дотор хариу өгөх болно';
-                        } 
-                        elseif(ICL_LANGUAGE_CODE == 'ar') { 
-                            echo 'يرجى الاستماع إلى المرضى الذين اعتنت بهم هاي ميدي.';
-                        }
-                    ?>
-            
-            </div> -->
+    <div class="mx-auto w-full lg:mt-20 mt-0" >
+        <img src="<?php bloginfo('template_directory') ?>/img/thankyou.jpg" alt="" class="mx-auto lg:hidden">
+        <img src="<?php bloginfo('template_directory') ?>/img/thankyou2.jpg" alt="" class="mx-auto desktop_br lg:w-full">
+        <div class="text-center my-20 lg:my-32" style="font-size:42px;">Thank you</div>
+        <div class="">
+            <div class="thank-2" >An answer will be given within 24hours</div>
+            <div class="divide-y divide-gray-400 lg:px-64 px-32 mt-5">
+                <div class="thank-2 mb-6">Your Sincerely</div>
+                <div class="text-center py-2 thank-2 pt-6" style="font-size:10px">Having Trouble ? <span><a href="mailto:medi@himedidoctors.com" style="color:rgba(16, 88, 228, 0.7);">Contact Us</a></span></div>
+            </div>
+            <div class="w-full flex justify-center">
+			    <button class=" bg-brand px-5 py-1  font-normal w-5/12 mx-auto mt-10" style="border-radius:5px; font-size:14px"><a class="text-white" style="color:white!important" href="<?php echo esc_url( home_url( '/' ) ); ?>">Back to Home</a></button>
+		    </div>
         </div>
+        
     </div>
 </section>

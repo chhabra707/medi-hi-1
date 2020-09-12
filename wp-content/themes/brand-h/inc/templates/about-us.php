@@ -663,7 +663,7 @@
 					</tr>
 
 					<tr class="text-xl">
-						<td class="pr-4 py-2" valign="top">Location</td>
+						<td class="pr-4 py-2 px-4" valign="top">Location</td>
 						<td class="py-2">
 							<?php 
 									if(ICL_LANGUAGE_CODE == 'en'){ 
