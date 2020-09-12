@@ -12,7 +12,7 @@
     html { scroll-behavior: smooth; } 
 </style>
  <!-- Section 1 (start) -->
- <section class="text-justify">
+ <section class="text-justify main-sectionhome">
         <!-- Main slider (start) -->
         <div class="swiper-container">
             <!-- Additional required wrapper -->

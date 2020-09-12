@@ -388,7 +388,9 @@ body {
 .swiper-slide{
     top:70px!important;
 }
-
+.interview-slider .swiper-slide{
+    padding: 0px;
+}
 @media screen and (max-width: 640px) {
     .header-container.fixed-top {
         width: 100% !important;
@@ -477,9 +479,21 @@ top: 0px!important;
 
 
 }
+@media screen and (max-width: 650px) {
+  .interview-slider .swiper-slide {
+    width: 100% !important
+  }
+}
 @media screen and (max-width: 600px) {
+  body{
+        width:  100% !important;
+  }
+  .homepageslider-wrapper .object-fit-slide.swiper-slide{
+    width: 100% !important
+  }
   .homepageslider-wrapper .object-fit-slide img{
         margin-top: 68px;
+            width: 100%!important;
   }
   .arrowspace-mobile{
 padding-bottom: 60px;
@@ -499,5 +513,15 @@ position: absolute;
 }
 .rtl .rtl-form .rtl-field {
     width: 64%;
+}
+}
+@media screen and (max-width: 425px) {
+
+.main-sectionhome{
+      height: 620px;
+}
+.arrowspace-mobile .section2arrow {
+
+    bottom: -20px;
 }
 }
