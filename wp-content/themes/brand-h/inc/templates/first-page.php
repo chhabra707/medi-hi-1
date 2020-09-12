@@ -340,7 +340,7 @@
 	<div class="relative">
 		<div class="bg-black w-full h-full absolute inset-0 opacity-50"></div>
 		<img src="<?php bloginfo('template_directory') ?>/img/endCont-min.jpg">
-		<p class="absolute inset-0 h-full text-white text-5xl px-5 contnet-addtional" style="font-size:24px; line-height:40px; font-family: Arial, Verdana, sans-serif!important; font-weight:400;">
+		<p class="absolute inset-0 h-full text-white text-5xl px-5 contnet-addtional" style="font-size:24px; line-height:40px; font-family: Noto Sans Regular, sans-serif!important; font-weight:400;">
       <?php 
           if(ICL_LANGUAGE_CODE == 'en'){ 
               echo 'In addition, <b class="font-extrabold">Himedi</b> has cared for <b class="font-extrabold">4,239</b> patients while addressing <b class="font-extrabold">10,290</b> inquiries in consultation with Korea’s best medical staff';

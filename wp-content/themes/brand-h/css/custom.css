@@ -479,15 +479,20 @@ top: 0px!important;
 
 
 }
+.rtl section .contnet-addtional{
+               font-size: 19px !important;
+  }
 @media screen and (max-width: 650px) {
   .interview-slider .swiper-slide {
     width: 100% !important
   }
-
+ .rtl section .contnet-addtional{
+           top: 28% !important;
+               font-size: 20px !important;
+  }
  section .contnet-addtional{
-        top: 0 !important;
-    display: flex;
-    align-items: center;
+           top: 32% !important;
+
   }
 }
 @media screen and (max-width: 600px) {
