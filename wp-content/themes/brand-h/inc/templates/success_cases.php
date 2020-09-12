@@ -1,3 +1,53 @@
+<style type="text/css">
+@media screen and (min-width:1024px){
+   .first-image{
+    height: 500px;
+    width: 100%;
+    background: #fff;
+    object-fit: contain;
+        position: relative;
+    top: 10px;
+    }
+    }
+    
+    @media screen and (max-width:480px){
+        .success-popup{
+  max-width: calc(100% - 15px ) !important;
+    transform: translate(-50.1%, -50%) !important;
+    height: 490px !important;
+    padding-top: 32px;
+        }
+    }
+    @media screen and (max-width:370px){
+        .success-popup {
+        padding-top: 33px;
+    padding-bottom: 3px;
+    height: 470px !important;
+        }
+    }
+ .closeicon {
+    position: absolute;
+    top: -55px;
+    right: 14px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    z-index: -1;
+}
+.closeicon span{
+    color: #fff;
+    font-size: 14px;
+    border: solid 1px #fff;
+    border-radius: 50%;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+        cursor: pointer;
+
+}
+</style>
 <!-- Section 3-5 (start) -->
 <section class="items-center pt-20">
 <div class="flex justify-center flex-wrap mx-10" style="margin-top:70px;">
@@ -13,7 +63,7 @@
             <h2 class="font-bold text-center px-6 font-size-24 leading-relaxed " style="font-size:22px">
              <?php 
                 if(ICL_LANGUAGE_CODE == 'en'){ 
-                    echo 'Check out these diagnosis examples and methods bestsuitable for you.';
+                    echo 'Check out these diagnosis examples and methods best suitable for you.';
                 } 
                 elseif(ICL_LANGUAGE_CODE == 'ru') { 
                     echo 'Ознакомьтесь с примерами диагностики и методами, которые лучше всего подходят для вас.';
@@ -81,15 +131,16 @@
     </div> -->
 
     <div id="successCase_popup_bg" class="fixed w-screen h-screen top-0 right-0 z-40 hidden" style="background-color: rgba(0, 0, 0, 0.6);"></div>
-    <div id="successCase_popup" class="himedi-modal w-full sm:w-1/2 md:w-2/3 fixed top-0 z-50 p-4 pt-16 overflow-hidden  hidden successChart_popup" style="max-width: 635px;height: 70vh;top:50%; left: 50%; transform: translate(-50%, -50%);">
+    <div id="successCase_popup" class="success-popup himedi-modal w-full sm:w-1/2 md:w-2/3 fixed top-0 z-50 p-4 pt-16   hidden successChart_popup" style=" max-width: 435px; height: 550px;top:50%; left: 50%; transform: translate(-50%, -50%);    padding-top: 30px;">
+        <span class="closeicon"><span>X</span></span>
         <!-- <button id="bms_popup_cancel_btn" class="fixed p-2 m-2 sm:p-4 sm:m-4 text-2xl sm:text-3xl cursor-pointer z-40 font-bold text-white border-r border text-center rounded-full text-gray-500 text-gray-200 bg-white hidden hover:bg-gray-300 popup-close-btn" >X</button> -->
     <!-- <button type="button" class="inline-flex justify-center close-button w-full rounded-full border border-gray-300 px-8 py-6 bg-white text-base leading-6 font-medium text-gray-700 shadow-sm hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue transition ease-in-out duration-150 sm:text-2xl sm:leading-5">
             x
           </button>         -->
     <!-- PopUp Content goes here. -->
             <img class="absolute top-0 left-0 w-full h-full z-40" src="<?php bloginfo('template_directory') ?>/img/static/chart2-min.png" alt="" style="pointer-events:none">
-           <div class="w-full h-full overflow-auto hide_scrollBar" style="height:100%"> 
-               <img src="<?php bloginfo('template_directory') ?>/img/case/case-01-min.jpg" alt="">
+           <div class="w-full h-full overflow-auto hide_scrollBar bg-white" style="height:100%"> 
+               <img class="first-image" src="<?php bloginfo('template_directory') ?>/img/case/case-01-min.jpg" alt="">
                <img src="<?php bloginfo('template_directory') ?>/img/case/case-02-min.jpg" alt="">
                <img src="<?php bloginfo('template_directory') ?>/img/case/case-03-min.jpg" alt="">
                <img src="<?php bloginfo('template_directory') ?>/img/case/case-04-min.jpg" alt="">
@@ -119,6 +170,11 @@
         //** Events */
         successCaseCholeithiasisBtn.addEventListener('click', successCasePopUpHandeler);
         successCasePopUpBg.addEventListener('click', successCasePopUpHandeler);
+    
+        jQuery('.closeicon').click(function() {
+              successCasePopUpBg.classList.add("hidden");
+                successCasePopUp.classList.add("hidden");
+        });
     </script>
 </section>
 <!-- Section 3-5 (end) -->

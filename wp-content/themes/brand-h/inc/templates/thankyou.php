@@ -1,4 +1,3 @@
-
 <section style="max-width:635px">
     <div class="mx-auto w-full lg:mt-20 mt-0" >
         <img src="<?php bloginfo('template_directory') ?>/img/thankyou.jpg" alt="" class="mx-auto lg:hidden">

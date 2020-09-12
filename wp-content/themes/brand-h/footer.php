@@ -30,7 +30,7 @@
 
 <?php wp_footer(); ?>
 
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/jquery.min.js"></script>
 	<script>
 		$(window).scroll(function() {    
     var scroll = $(window).scrollTop();
@@ -47,8 +47,8 @@
 });
 		</script>
 
-<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="<?php bloginfo('template_directory') ?>/js/swiper-bundle.js"></script>
+<script src="<?php bloginfo('template_directory') ?>/js/swiper-bundle.min.js"></script>
 <script>
 	var mySwiper = new Swiper('.swiper-container', {
 		// Optional parameters

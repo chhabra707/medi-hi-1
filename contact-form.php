@@ -13,12 +13,6 @@
     height: 1100px;
     color: #fff;
 	}
-#popupqw, #popupqw1 {
-
-	width: 200px;
-    background: #fff;
-    margin: 0 auto;
-}
 </style>
 
 <form class="w-full mt-20 px-5 sm:text-2xl text-lg sm:p-16" id="brandh-form-form" action="#" method="post" data-url="<?php echo admin_url('admin-ajax.php'); ?>">
@@ -388,7 +382,7 @@
 			<small class="field-msg error js-form-error">There was a problem with the Contact Form, please try again!</small> -->
 			<div class="field-msg js-form-submission">
 				<div style="padding-top: 60%;color: #007aff;">
-				<div id="popupqw" class="w-full pt-4 lg:pt-10 px-4">
+				<div class="w-full pt-4 lg:pt-10 px-4">
 					<center>Submission in process</center>
 					<div class="loader">
 						<center><img src="<?php echo site_url().'/wp-content/plugins/brand-h/assets/images/loader.gif'; ?>" style="width:64px;"></center>
@@ -399,7 +393,7 @@
 			</div>
 			<div class="field-msg success js-form-success">
 				<div style="padding-top: 60%;background: #ffffff;color: #007aff;">
-				<div id="popupqw1" class="w-full pt-4 lg:pt-10 px-4">
+				<div class="w-full pt-4 lg:pt-10 px-4">
 					<center>Successfully Submitted</center>
 					
 					<button>Done</button>
