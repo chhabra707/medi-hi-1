@@ -617,9 +617,20 @@
 				}
 			?>	
 		</h3>
-
+		<?php   $langVar = '';
+			if(ICL_LANGUAGE_CODE == 'en'){
+				$langVar = '&language=en';
+			}elseif(ICL_LANGUAGE_CODE == 'ru'){
+				$langVar = '&language=ru';
+			}elseif(ICL_LANGUAGE_CODE == 'mn'){
+				$langVar = '&language=mn';
+			}elseif(ICL_LANGUAGE_CODE == 'ar'){
+				$langVar = '&language=ar';
+			}
+		?>
+		
 		<iframe class="w-full h-56 mb-4" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDgl81NrLLD43y1Qep_Dc8INyr8ilgvSwE
-	&q=22+Seocho-daero+78-gil,+Seocho-dong,+Seocho-gu,+Seoul" allowfullscreen>
+	&q=22+Seocho-daero+78-gil,+Seocho-dong,+Seocho-gu,+Seoul<?php echo $langVar; ?>" allowfullscreen>
 		</iframe>
 		<div>
 			<h3 class="font-bold px-0 font-size-24 leading-relaxed" style="font-size:22px">
