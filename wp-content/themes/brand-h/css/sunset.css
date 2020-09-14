@@ -1546,3 +1546,7 @@ color: #1A1A1A;
     }
   }
   
+
+  textarea:focus, input:focus, button:focus{
+    outline: none;
+}
