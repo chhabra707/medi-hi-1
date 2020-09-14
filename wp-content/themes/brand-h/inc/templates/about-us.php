@@ -609,8 +609,7 @@
 			?>	
 		</h3>
 		<?php   $langVar = '';
-<<<<<<< HEAD
-			if(defined(ICL_LANGUAGE_CODE)){
+			if(ICL_LANGUAGE_CODE){
 				if(ICL_LANGUAGE_CODE == 'en'){
 					$langVar = '&language=en';
 				}elseif(ICL_LANGUAGE_CODE == 'ru'){
@@ -620,16 +619,6 @@
 				}elseif(ICL_LANGUAGE_CODE == 'ar'){
 					$langVar = '&language=ar';
 				}
-=======
-			if(ICL_LANGUAGE_CODE == 'en'){
-				$langVar = '&language=en';
-			}elseif(ICL_LANGUAGE_CODE == 'ru'){
-				$langVar = '&language=ru';
-			}elseif(ICL_LANGUAGE_CODE == 'mn'){
-				$langVar = '&language=mn';
-			}elseif(ICL_LANGUAGE_CODE == 'ar'){
-				$langVar = '&language=ar';
->>>>>>> 46b7e06689d1eea06b75a65c3963425bf006a7b4
 			}
 		?>
 		
