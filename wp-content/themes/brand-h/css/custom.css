@@ -487,13 +487,12 @@ top: 0px!important;
     width: 100% !important
   }
  .rtl section .contnet-addtional{
-           top: 28% !important;
-               font-size: 20px !important;
+              top: 28% !important;
+    font-size: 20px !important;
+    padding: 0 18px;
   }
  section .contnet-addtional{
-              top: 32% !important;
-    font-size: 18px !important;
-    line-height: 28px !important;
+           top: 32% !important;
 
   }
 }
