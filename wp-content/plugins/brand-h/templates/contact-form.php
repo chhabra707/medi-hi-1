@@ -47,14 +47,11 @@
 .selectdropdown-common select:focus {
     background: transparent;
 }
-<<<<<<< HEAD
 
 textarea:focus, input:focus, button:focus{
     outline: none;
 }
 </style>
-=======
->>>>>>> parent of 6e588973... make loader changes
 
 </style>
 <form class="w-full mt-20 px-5 sm:text-2xl text-lg sm:p-16" id="brandh-form-form" action="#" method="post" data-url="<?php echo admin_url('admin-ajax.php'); ?>">
@@ -428,21 +425,21 @@ textarea:focus, input:focus, button:focus{
 				<div class="w-full pt-4 lg:pt-10 px-4">
 					<center>Submission in process</center>
 					<div class="loader">
-						<center><img src="<?php echo site_url().'/wp-content/plugins/brand-h/assets/images/loader.gif'; ?>" style="width:64px;"></center>
+						<!-- <center><img src="<?php echo site_url().'/wp-content/plugins/brand-h/assets/images/loader.gif'; ?>" style="width:64px;"></center> -->
 					</div>
-					<center>Please Wait</center>
+					<!-- <center>Please Wait</center> -->
 				</div>
 			</div>
 			<div class="field-msg success js-form-success">
 				<div class="w-full pt-4 lg:pt-10 px-4">
 					<center>Successfully Submitted</center>
 					
-					<button>Done</button>
+					<!-- <button>Done</button> -->
 				</div>
 			</div>
 			<div class="field-msg error js-form-error">
 				<div class="w-full pt-4 lg:pt-10 px-4">
-					<center>Error </center>
+					<!-- <center>Error </center> -->
 				</div>
 			</div>
 		</div>
