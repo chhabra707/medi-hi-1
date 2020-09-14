@@ -1,16 +1,7 @@
-<style type="text/css">
-	@media screen and (max-width:768px){
-   .aboutpage-banner{
-
-    margin-top: 0 !important;
-    }
-    }
-    
-</style>
 <!-- Section 3-6 (start) -->
 <div class="flex-wrap">
 
-	<div class="aboutpage-banner flex-wrap relative mt-5" style="background-image:url('<?php bloginfo('template_directory') ?>/img/static/p_himedi_1_m.jpg'); background-repeat:no-repeat; background-position:center top; background-size:cover; min-height:360px; margin-top:70px;">
+	<div class="flex-wrap relative mt-5" style="background-image:url('<?php bloginfo('template_directory') ?>/img/static/p_himedi_1_m.jpg'); background-repeat:no-repeat; background-position:center top; background-size:cover; min-height:360px; margin-top:70px;">
 		<!--<img class="w-full" src="<?php //bloginfo('template_directory') ?>/img/static/p_himedi_1_m.jpg" alt="">-->
 		<div class="top-0 right-0  flex-wrap items-center justify-center content-center w-full h-full p-6"
 			style="background-color: rgba(0, 0, 0, 0.4); padding-top:60px; padding-bottom:140px;">
@@ -618,14 +609,16 @@
 			?>	
 		</h3>
 		<?php   $langVar = '';
-			if(ICL_LANGUAGE_CODE == 'en'){
-				$langVar = '&language=en';
-			}elseif(ICL_LANGUAGE_CODE == 'ru'){
-				$langVar = '&language=ru';
-			}elseif(ICL_LANGUGE_CODE == 'mn'){
-				$langVar = '&language=mn';
-			}elseif(ICL_LANGUAGE_CODE == 'ar'){
-				$langVar = '&language=ar';
+			if(defined(ICL_LANGUAGE_CODE)){
+				if(ICL_LANGUAGE_CODE == 'en'){
+					$langVar = '&language=en';
+				}elseif(ICL_LANGUAGE_CODE == 'ru'){
+					$langVar = '&language=ru';
+				}elseif(ICL_LANGUAGE_CODE == 'mn'){
+					$langVar = '&language=mn';
+				}elseif(ICL_LANGUAGE_CODE == 'ar'){
+					$langVar = '&language=ar';
+				}
 			}
 		?>
 		<iframe class="w-full h-56 mb-4" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDgl81NrLLD43y1Qep_Dc8INyr8ilgvSwE
