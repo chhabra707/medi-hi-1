@@ -340,7 +340,7 @@
 	<div class="relative">
 		<div class="bg-black w-full h-full absolute inset-0 opacity-50"></div>
 		<img src="<?php bloginfo('template_directory') ?>/img/endCont-min.jpg">
-		<p class="absolute inset-0 h-full text-white text-5xl px-5 contnet-addtional" style="font-size:24px; line-height:40px; font-family: Arial, Verdana, sans-serif!important; font-weight:400;">
+		<p class="absolute inset-0 h-full text-white text-5xl px-5 contnet-addtional" style="font-size:24px; line-height:40px; font-family: Noto Sans Regular, sans-serif!important; font-weight:400;">
       <?php 
           if(ICL_LANGUAGE_CODE == 'en'){ 
               echo 'In addition, <b class="font-extrabold">Himedi</b> has cared for <b class="font-extrabold">4,239</b> patients while addressing <b class="font-extrabold">10,290</b> inquiries in consultation with Korea’s best medical staff';
@@ -685,7 +685,7 @@
 	<div class="text-bold mt-20 font-bold text-left px-6 font-size-24 leading-relaxed" style="color:#2681F3">
     <h2>STEP 02</h2>
   </div>
-  <div class="text-left px-6 font-size-24 leading-none" style="line-height:30px; font-size:24px; font-family: 'Noto Sans'!important;">
+  <div class="text-left px-6 font-size-24 leading-none mb-8" style="line-height:30px; font-size:24px; font-family: 'Noto Sans'!important;">
     <?php 
           if(ICL_LANGUAGE_CODE == 'en'){ 
               echo 'If you would like to receive the <strong style="font-family: \'Noto Sans\', sans-serif!important;">second opinion</strong> or deputy consultation from the recommended doctors, please share more detailed <strong style="font-family: \'Noto Sans\', sans-serif!important;">medical records</strong>';

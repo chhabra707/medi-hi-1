@@ -488,19 +488,30 @@ header.header-container .header-content
 							</div>
 						</div>
 					</a>	
-
+					<?php   
+						
+						if(ICL_LANGUAGE_CODE == 'en'){
+							$langVar = 'active';
+						}elseif(ICL_LANGUAGE_CODE == 'ru'){
+							$langVarRu = 'active';
+						}elseif(ICL_LANGUAGE_CODE == 'mn'){
+							$langVarMn = 'active';
+						}elseif(ICL_LANGUAGE_CODE == 'ar'){
+							$langVarAr = 'active';
+						}
+					?>
 					<div class=" wpml-ls wpml-ls-legacy-list-horizontal text-center">
 						<ul>
-							<li class="wpml-ls-item active">
+							<li class="wpml-ls-item <?php echo $langVar; ?>">
 								<a href="/en/" class="wpml-ls-link"><img class="wpml-ls-flag" src="<?php echo get_template_directory_uri(); ?>/img/en.png" alt=""></a>
 							</li>
-							<li class="wpml-ls-item">
+							<li class="wpml-ls-item <?php echo $langVarAr; ?>">
 								<a href="/ar/" class="wpml-ls-link"><img class="wpml-ls-flag" src="<?php echo get_template_directory_uri(); ?>/img/ar.png" alt=""></a>
 							</li>
-							<li class="wpml-ls-item">
+							<li class="wpml-ls-item <?php echo $langVarRu; ?>">
 								<a href="/ru/" class="wpml-ls-link"><img class="wpml-ls-flag" src="<?php echo get_template_directory_uri(); ?>/img/ru.png" alt=""></a>
 							</li>
-							<li class="wpml-ls-item">
+							<li class="wpml-ls-item <?php echo $langVarMn; ?>">
 								<a href="/mn/" class="wpml-ls-link"><img class="wpml-ls-flag" src="<?php echo get_template_directory_uri(); ?>/img/mn.png" alt=""></a>
 							</li>
 						</ul>
@@ -521,7 +532,7 @@ header.header-container .header-content
 				
 			<header class="header-container background-image text-center lg:h-48 h-16" style="background-image: url(<?php header_image(); ?>);height:0px; z-index:999">
 				
-				<a class="js-toggleSidebar sidebar-open mt-0">
+				<a class="js-toggleSidebar sidebar-open mt-3 ">
 					<!-- <span class="sunset-icon sunset-menu lg:text-2xl text-2xl" style="color:#333333"></span> -->
 					<img src="<?php echo get_template_directory_uri(); ?>/img/menu-black.png" style="width:25px;" class="scroll_full"/>
 				</a>

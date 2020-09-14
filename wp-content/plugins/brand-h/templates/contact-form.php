@@ -19,6 +19,10 @@
     background: #fff;
     margin: 0 auto;
 }
+
+textarea:focus, input:focus, button:focus{
+    outline: none;
+}
 </style>
 
 <form class="w-full mt-20 px-5 sm:text-2xl text-lg sm:p-16" id="brandh-form-form" action="#" method="post" data-url="<?php echo admin_url('admin-ajax.php'); ?>">

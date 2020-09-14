@@ -1,7 +1,67 @@
+<style>
+    @media screen and (max-width: 425px) {
+
+.main-sectionhome{
+      height: 620px;
+}
+.arrowspace-mobile .section2arrow {
+    bottom: -20px;
+}
+
+}
+
+@media (max-width: 640px) { 
+  .desktop_hidden{
+    display:block!important;
+  }
+  .mobile_hidden{
+    display:none!important;
+    } 
+}	
+
+@media (min-width: 640px) { 
+  .desktop_hidden{
+    display:block!important;
+  }
+  .mobile_hidden{
+    display:none!important;
+    } 
+}	
+
+@media (min-width: 768px) { 
+  .desktop_hidden{
+    display:none!important;
+  }
+  .mobile_hidden{
+    display:block!important;
+    } 
+}	
+
+@media (min-width: 1024px) {
+  .desktop_hidden{
+    display:none!important;
+  }
+  .mobile_hidden{
+    display:block!important;
+    } 
+
+}	
+
+@media (min-width: 1280px) { 
+  .desktop_hidden{
+    display:none!important;
+  }
+  .mobile_hidden{
+    display:block!important;
+    } 
+
+}
+
+</style>
 <section style="max-width:635px">
     <div class="mx-auto w-full lg:mt-20 mt-0" >
-        <img src="<?php bloginfo('template_directory') ?>/img/thankyou.jpg" alt="" class="mx-auto lg:hidden">
-        <img src="<?php bloginfo('template_directory') ?>/img/thankyou2.jpg" alt="" class="mx-auto desktop_br lg:w-full">
+        <img src="<?php bloginfo('template_directory') ?>/img/thankyou.jpg" alt="" class="mx-auto desktop_hidden">
+        <img src="<?php bloginfo('template_directory') ?>/img/thankyou2.jpg" alt="" class="mx-auto mobile_hidden lg:w-full ">
         <div class="text-center my-20 lg:my-32" style="font-size:42px;">Thank you</div>
         <div class="">
             <div class="thank-2" >An answer will be given within 24hours</div>
