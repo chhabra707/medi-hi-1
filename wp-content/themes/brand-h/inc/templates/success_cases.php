@@ -1,59 +1,3 @@
-<style type="text/css">
-@media screen and (min-width:1024px){
-   .first-image{
-    height: 600px;
-    width: 100%;
-    background: #fff;
-    object-fit: contain;
-        position: relative;
-    top: 10px;
-    }
-    }
-    
-    @media screen and (max-width:480px){
-        .success-popup{
-  max-width: calc(100% - 15px ) !important;
-    transform: translate(-50.1%, -50%) !important;
-    height: 490px !important;
-    padding-top: 32px;
-        }
-    }
-    @media screen and (max-width:370px){
-        .success-popup {
-        padding-top: 33px;
-    padding-bottom: 3px;
-    height: 470px !important;
-        }
-    }
- .closeicon {
-    position: absolute;
-    top: -75px;
-    right: 14px;
-    text-align: center;
-    z-index: -1;
-}
-.closeicon span{
-    color: #fff;
-    font-size: 24px;
-    border: solid 1px #fff;
-    border-radius: 50%;
-    display: inline-block;
-    width: 52px;
-    height: 52px;
-    line-height: 52px;
-    cursor: pointer;
-
-}
-
-@media only screen and (max-width: 500px) {
-    .closeicon span{
-    width: 42px;
-    height: 42px;
-    line-height:42px;
-}
-}
-
-</style>
 <!-- Section 3-5 (start) -->
 <section class="items-center pt-20">
 <div class="flex justify-center flex-wrap mx-10" style="margin-top:70px;">
@@ -136,19 +80,18 @@
     
     </div> -->
 
-    <div id="successCase_popup_bg" class="fixed w-screen h-screen top-0 right-0 z-40 hidden" style="background-color: rgba(0, 0, 0, 0.5);"></div>
-    <div id="successCase_popup" class="success-popup himedi-modal w-full sm:w-1/2 md:w-2/3 fixed top-0 z-50 p-4 pt-16   hidden successChart_popup" style=" max-width: 535px; height: 70vh;top:50%; left: 50%; transform: translate(-50%, -50%);    padding-top: 30px;">
-        <span class="closeicon hover:bg-gray-500 rounded-full"><span>X</span></span>
-    <!-- PopUp Content goes here. -->
-            <img class="absolute top-0 left-0 w-full h-full z-40" src="<?php bloginfo('template_directory') ?>/img/static/chart2-min.png" alt="" style="pointer-events:none">
-           <div class="w-full h-full overflow-auto hide_scrollBar bg-white" style="height:100%"> 
-               <img class="first-image" src="<?php bloginfo('template_directory') ?>/img/case/case-01-min.jpg" alt="">
-               <img src="<?php bloginfo('template_directory') ?>/img/case/case-02-min.jpg" alt="">
-               <img src="<?php bloginfo('template_directory') ?>/img/case/case-03-min.jpg" alt="">
-               <img src="<?php bloginfo('template_directory') ?>/img/case/case-04-min.jpg" alt="">
-               <img src="<?php bloginfo('template_directory') ?>/img/case/case-05-min.jpg" alt="">
-               <img src="<?php bloginfo('template_directory') ?>/img/case/case-06-min.jpg" alt="">
-               <img src="<?php bloginfo('template_directory') ?>/img/case/case-07-min.jpg" alt="">
+    <div id="successCase_popup_bg" class="fixed w-screen h-screen top-0 right-0 z-40 hidden" style="background-color: rgba(0, 0, 0, 0.6);"></div>
+    <div id="successCase_popup" class=" w-full sm:w-1/2 md:w-2/3 fixed top-0 z-50 p-4 pt-16 overflow-hidden  hidden" style="max-width: 635px;height: 70vh;top:50%; left: 50%; transform: translate(-50%, -50%);">
+            <!-- PopUp Content goes here. -->
+            <img class="absolute top-0 left-0 w-full h-full z-40" src="<?php bloginfo('template_directory') ?>/img/static/chart2.png" alt="" style="pointer-events:none">
+           <div class="w-full h-full overflow-auto hide_scrollBar" style="height:100%"> 
+               <img src="<?php bloginfo('template_directory') ?>/img/case/case-01.jpg" alt="">
+               <img src="<?php bloginfo('template_directory') ?>/img/case/case-02.jpg" alt="">
+               <img src="<?php bloginfo('template_directory') ?>/img/case/case-03.jpg" alt="">
+               <img src="<?php bloginfo('template_directory') ?>/img/case/case-04.jpg" alt="">
+               <img src="<?php bloginfo('template_directory') ?>/img/case/case-05.jpg" alt="">
+               <img src="<?php bloginfo('template_directory') ?>/img/case/case-06.jpg" alt="">
+               <img src="<?php bloginfo('template_directory') ?>/img/case/case-07.jpg" alt="">
            </div>
     </div>
     <script>
@@ -172,11 +115,7 @@
         //** Events */
         successCaseCholeithiasisBtn.addEventListener('click', successCasePopUpHandeler);
         successCasePopUpBg.addEventListener('click', successCasePopUpHandeler);
-    
-        jQuery('.closeicon').click(function() {
-              successCasePopUpBg.classList.add("hidden");
-                successCasePopUp.classList.add("hidden");
-        });
     </script>
 </section>
 <!-- Section 3-5 (end) -->
+
